@@ -3,22 +3,37 @@
   <head>
     <meta charset="utf-8" />
     <title>Colección Euros GARÍN</title>
-    <link rel="stylesheet" href="/stylesheets/style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' href='/stylesheets/style.css'/>
+    <link rel='stylesheet'
+          type='text/css'
+          media='only screen and (min-width: 800px) and (min-device-width: 600px)'
+          href='/stylesheets/wide.css'/>
+    <link rel='stylesheet'
+          type='text/css'
+          media='only screen and (max-width: 480px)'
+          href='/stylesheets/smartphone.css'/>
   </head>
+
   <body>
-    <header>
-      <h1>Colección Euros GARÍN</h1>
-    </header>
-
-    <nav>
-      <a href="/">Home</a>
-      <a href="/monedas">Monedas</a>
-    </nav>
-
-    <section>
-      <div><%- body %></div>
-    </section>
-
-    <footer>Colección euros</footer>
+    <div id="page">
+      <header class="main" id="mainHeader">
+          <h1><span class="no-narrow">Colección</span> Euros <span class="no-narrow">Garín</span></h1>
+      </header>
+  
+      <nav class="main" id="mainNav" role="navigation">
+          <a href="/">Home</a>
+          <a href="/monedas">Monedas</a>
+      </nav>
+  
+      <section class="main" id="mainSection">  
+          <%- body %>
+      </section>
+  
+      <footer class="main" id="mainFooter">
+          <a href="https://catalogodemonedas.es/?q=catalogo">
+              Catálogo monedas Euro</a>
+      </footer>
+  </div>
   </body>
 </html>
