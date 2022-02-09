@@ -4,7 +4,13 @@
   "private": true,
   "scripts": {
     "start": "node ./bin/www",
-    "super": "supervisor ./bin/www"
+    "super": "supervisor ./bin/www",
+    "migrate": "sequelize db:migrate --url sqlite://$(pwd)/colec_euros.sqlite",
+    "seed": "sequelize db:seed:all --url sqlite://$(pwd)/colec_euros.sqlite",
+    "migrate_win": "sequelize db:migrate --url sqlite://%cd%/colec_euros.sqlite",
+    "seed_win": "sequelize db:seed:all --url sqlite://%cd%/colec_euros.sqlite",
+    "migrate_env": "sequelize db:migrate --url $DATABASE_URL",
+    "seed_env": "sequelize db:seed:all --url $DATABASE_URL"
   },
   "dependencies": {
     "cookie-parser": "~1.4.4",
@@ -14,7 +20,10 @@
     "express-partials": "^0.3.0",
     "http-errors": "~1.6.3",
     "morgan": "~1.9.1",
+    "sequelize": "^6.15.0",
+    "sequelize-cli": "^6.4.1",
     "serve-favicon": "^2.5.0",
+    "sqlite3": "^4.1.1",
     "supervisor": "^0.12.0"
   }
 }
