@@ -7,8 +7,8 @@ module.exports = (sequelize, DataTypes) => {
 
     class Paises extends Model {}
 
-    pais.init(
-        { pais: {
+    Paises.init(
+        { nombre: {
             type: DataTypes.STRING,
             allowNull: false,
             validate: {

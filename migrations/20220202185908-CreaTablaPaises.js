@@ -11,7 +11,7 @@ module.exports = {
             autoIncrement: true,
             unique: true
         },
-        pais: {
+        nombre: {
           type: Sequelize.STRING,
           allowNull: false,
           validate: {
