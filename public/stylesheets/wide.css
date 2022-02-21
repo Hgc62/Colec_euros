@@ -4,7 +4,7 @@ body {
 
 #page:after {
     color: white;
-    content: "Wide Layout";
+    content: "Pantalla de ordenador";
 }
 
 #mainNav {
@@ -21,4 +21,13 @@ body {
     overflow: auto;
 }
 
-
+#series_monedas {
+    display: flex;
+    flex-flow: column;
+  }
+  
+.series {
+    display: flex;
+    flex-flow: row;
+    padding: 8px;
+  }

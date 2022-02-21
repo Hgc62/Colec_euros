@@ -1,0 +1,24 @@
+<script>
+    function imgError(id) { 
+            
+        var ver_moneda = document.getElementById(id);
+        ver_moneda.style.display= 'none';
+    }
+</script>
+
+<% let MAX_CONME_AÑO = 3; %>
+<% let año_inicio = pais.año_inicio; %>
+<div id="monedas_conmemorativas">
+<% for (let año = año_inicio; año <= new Date().getFullYear(); año++){ %>
+
+    <% for (let i = 0; i < MAX_CONME_AÑO; i++) { %>
+        <div class="conme" id="<%= año %>-<%= i %>">
+        <img src="/images/monedas/<%= pais.nombre %>/2€-<%= año %>-<%= i %>.jpg" width="120" height="120" onerror="imgError('<%= año %>-<%= i %>')">
+        <h3 class="año_conm"><%= año %>-<%= i %></h3>
+        </div>  
+        
+    <% } %>
+
+<% } %>
+</div>
+

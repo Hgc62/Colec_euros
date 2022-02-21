@@ -8,7 +8,7 @@ body {
 }
 
 #page:after {
-    content: "Smartphone Layout";
+    content: "Pantalla de móvil";
 }
 
 .no-narrow {

@@ -1,0 +1,14 @@
+<% let monedas = ["1c", "2c", "5c", "10c", "20c", "50c", "1€", "2€"]; %>
+<% let num_series = pais.num_series; %>
+<div id="series_monedas">
+    <% for (var index = 0; index < num_series; index++) { %>
+        <div class = "series">
+        <% var i = 0; %>
+        <% while (i < monedas.length) { %>      
+            <img src="/images/monedas/<%= pais.nombre %>/<%= monedas[i] %>-<%= index+1 %>.jpg"   width="120" height="120"  class="monedas">
+            <% i+=1; %>
+        <% } %>
+        </div>
+        <% i = 0; %>
+    <% } %>
+</div>

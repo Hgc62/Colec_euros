@@ -1,0 +1,11 @@
+<div id=banderas>
+    <% for (var i in paises) { %>
+        <% var pais = paises[i]; %>
+        <div class="bandera_pais">
+            <a href="/monedas/<%= pais.id %>">
+                <img src="/images/banderas/<%= pais.nombre %>.png"  alt="Icono bandera"><br>     
+            </a>
+            <h3 class="nombre_pais"><%= pais.nombre %></h3>
+        </div>
+    <% } %>
+</div>
