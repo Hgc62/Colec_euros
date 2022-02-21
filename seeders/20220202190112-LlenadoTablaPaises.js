@@ -5,7 +5,7 @@ module.exports = {
     return queryInterface.bulkInsert("Paises", [
       {
         nombre: "España",
-        num_series: "2",
+        num_series: "3",
         año_inicio: "1999",
         createdAt: new Date(),
         updatedAt: new Date(),
@@ -26,21 +26,21 @@ module.exports = {
       },
       {
         nombre: "Belgica",
-        num_series: "2",
+        num_series: "4",
         año_inicio: "1999",
         createdAt: new Date(),
         updatedAt: new Date(),
       },
       {
         nombre: "Finlandia",
-        num_series: "1",
+        num_series: "3",
         año_inicio: "1999",
         createdAt: new Date(),
         updatedAt: new Date(),
       },
       {
         nombre: "Francia",
-        num_series: "1",
+        num_series: "2",
         año_inicio: "1999",
         createdAt: new Date(),
         updatedAt: new Date(),
@@ -161,6 +161,13 @@ module.exports = {
         nombre: "Vaticano",
         num_series: "5",
         año_inicio: "2002",
+        createdAt: new Date(),
+        updatedAt: new Date(),
+      },
+      {
+        nombre: "Croacia",
+        num_series: "1",
+        año_inicio: "2022",
         createdAt: new Date(),
         updatedAt: new Date(),
       }
