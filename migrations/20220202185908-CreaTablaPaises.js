@@ -14,6 +14,7 @@ module.exports = {
         nombre: {
           type: Sequelize.STRING,
           allowNull: false,
+          unique: { msg: "Pais ya existe"},
           validate: {
               isAlphanumeric: { args: true, msg: "pais: caracteres no válidos"}
           }

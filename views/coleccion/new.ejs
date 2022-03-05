@@ -1,0 +1,16 @@
+<% if (!tipo) { %>
+    <h1>AÑADIR MONEDA</h1>
+<% } else {%> 
+    <h1>AÑADIR MONEDA CONMEMORATIVA</h1>
+<% } %>
+
+<div class="formulario"></div>
+    <form method="post" action="/coleccion">
+        <% if (tipo) { %>
+            <input type="hidden" name="tipo" value="<%= tipo %>"/>
+        <% } %>  
+
+        <% include _form.ejs %>
+
+    </form>
+</div>

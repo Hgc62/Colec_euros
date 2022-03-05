@@ -1,0 +1,23 @@
+<h1>Resultado consulta</h1>
+<table id="tabla_monedas">
+    <% for (var i in coleccion) { %>
+        <% var monedas = coleccion[i]; %>
+        <tr>
+            <% if (tipo) { %>
+                <% const num_conme = monedas.moneda.match(/.$/); %>
+                <td><img src="/images/monedas/<%= monedas.pais.nombre %>/2€-<%= monedas.año %>-<%= num_conme %>.jpg" width="50" height="50"></td>   
+            <% } %>
+            <td><%= monedas.coleccionista.nombre %></td>
+            <td><%= monedas.pais.nombre %></td>
+            <td><%= monedas.moneda %></td>
+            <td><%= monedas.ceca %></td>
+            <td><%= monedas.año %></td>
+            <td>
+               <!-- <a href="/coleccion/<%= monedas.id %>/edit" class="button">Editar</a> -->
+                <a href="/coleccion/<%= monedas.id %>?_method=DELETE"
+                    onClick="return confirm('Borrar: Moneda <%= monedas.moneda %> de <%=monedas.pais.nombre %> de <%=monedas.año %> ');"
+                    class="button">Eliminar</a>
+            </td>           
+        </tr>
+    <% } %>
+</table>

@@ -11,7 +11,7 @@
 <div id="monedas_conmemorativas">
 <% for (let año = año_inicio; año <= new Date().getFullYear(); año++){ %>
 
-    <% for (let i = 0; i < MAX_CONME_AÑO; i++) { %>
+    <% for (let i = 1; i <= MAX_CONME_AÑO; i++) { %>
         <div class="conme" id="<%= año %>-<%= i %>">
         <img src="/images/monedas/<%= pais.nombre %>/2€-<%= año %>-<%= i %>.jpg" width="120" height="120" onerror="imgError('<%= año %>-<%= i %>')">
         <h3 class="año_conm"><%= año %>-<%= i %></h3>

@@ -1,0 +1,57 @@
+<% let monedas = ["1c", "2c", "5c", "10c", "20c", "50c", "1€", "2€", "12€"]; %>
+<% let monedas_conme = ["2€ Com1", "2€ Com2", "2€ Com3"]; %>
+<% let ceca = ["A", "F", "G", "J", "D"]; %>
+
+        <p>Selecciona el usuario deseado:</p>  
+        <select name="coleccionista"> 
+            <option value=""></option>  
+            <% for (var i in usuarios) { %>
+                <% var usuario = usuarios[i]; %>
+                <% if  (usuario.nombre != "admin" && usuario.nombre != "Invitado"){ %>
+                    <option value="<%= usuario.nombre %>"><%= usuario.nombre %></option>
+                <% } %>
+            <% } %> 
+        </select>
+        <br>
+        <p>Selecciona el pais deseado:</p>
+        <select name="pais"> 
+            <option value=""></option> 
+            <% for (var i in paises) { %>
+                <% var pais = paises[i]; %>
+                <option value="<%= pais.nombre %>"><%= pais.nombre %></option>
+            <% } %> 
+        </select>
+        <br>
+        <p>Selecciona la CECA de Alemania:</p>
+        <select name="ceca"> 
+            <option value=""></option>   
+            <% for (var i in ceca) { %>
+                <option value="<%= ceca[i] %>"><%= ceca[i] %></option>
+            <% } %> 
+        </select>
+        <br>
+        
+        <% if (!tipo) { %>
+            <p>Selecciona el valor de la moneda:</p>
+            <select name="valor"> 
+                <option value=""></option>   
+                <% for (var i in monedas) { %>
+                    <option value="<%= monedas[i] %>"><%= monedas[i] %></option>
+                <% } %> 
+            </select>
+        <% } else {%> 
+            <p>Selecciona el valor de la moneda:</p>
+            <select name="valor"> 
+                <option value=""></option>   
+                <% for (var i in monedas_conme) { %>
+                    <option value="<%= monedas_conme[i] %>"><%= monedas_conme[i] %></option>
+                <% } %> 
+            </select>
+            <% } %>  
+        <br>
+        <p>Selecciona el año de la moneda:</p>
+        <input type="text" name="año">
+        <br>
+        <p>Pulsa cuando estén los datos para la consulta:</p>
+        <input type="submit" value="Enviar consulta">
+   
