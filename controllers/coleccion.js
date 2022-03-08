@@ -1,6 +1,8 @@
 const Sequelize = require("sequelize");
 const Op = Sequelize.Op;
 const {models} = require("../models");
+const paginate = require('../helpers/paginate').paginate;
+
 //const attHelper = require("../helpers/attachments");
 const req = require("express/lib/request");
 const res = require("express/lib/response");
@@ -40,6 +42,7 @@ exports.formulario = async (req, res, next) => {
     try {
         const paises = await models.Paises.findAll();
         const usuarios = await models.Usuario.findAll();
+        req.flash('info', 'Introduzca los datos para la consulta que desea realizar. No es obligatorio rellenar todos los datos');
         res.render('coleccion/formulario', {paises, usuarios, tipo});
     } catch (error) {
         next(error);
@@ -64,15 +67,17 @@ exports.show = async (req, res, next) => {
     if (pais === "Alemania") {
         if (ceca) options.where.ceca = ceca;
     }
+
+    if (!pais && ceca)  options.where.ceca = ceca;
     
-    if (!tipo) {  
-        if ((valor) && (valor === "12€")) {
-            options.where.moneda = {[Op.like]: '12€_%'}
-        } else if (valor){
-            options.where.moneda = valor;
-        }
+    if ((valor) && (valor === "12€")) {
+        options.where.moneda = {[Op.like]: '12€_%'}
+    } else if (valor){
+        options.where.moneda = valor;
+    }else if (tipo){
+        options.where.moneda = {[Op.like]: '2€_Com%'}
     } else {
-        options.where.moneda = {[Op.like]: '2€ Com%'}
+        options.where.moneda = {[Op.notLike]: '2€_Com%'}
     }
 
     if (año) options.where.año = año;
@@ -104,6 +109,16 @@ exports.show = async (req, res, next) => {
     }
 
     try {
+        const count =await models.Coleccion.count(options);
+
+        //Paginación
+        const items_per_page = 10;
+        const pageno = parseInt(req.query.pageno) || 1;
+        res.locals.paginate_control = paginate(count, items_per_page, pageno, req.url);
+
+        options.offset = items_per_page * (pageno - 1);
+        options.limit = items_per_page;
+
         const coleccion = await models.Coleccion.findAll(options);
         res.render('coleccion/show', {coleccion, tipo});
     } catch (error) {
@@ -118,6 +133,7 @@ exports.new = async (req, res, next) => {
     try {
         const paises = await models.Paises.findAll();
         const usuarios = await models.Usuario.findAll();
+        req.flash('info', 'Los campos no pueden estar vacíos, salvo el campo CECA si el pais no es Alemania.');
         res.render('coleccion/new', {paises, usuarios, tipo});
     } catch (error) {
         next(error);
@@ -193,12 +209,12 @@ exports.create = async (req, res, next) => {
                 });
 
                 const coleccion = await models.Coleccion.findAll(options);
-                        
+                req.flash('success', 'Moneda creada correctamente.');        
                 res.render('coleccion/show', {coleccion, tipo});
 
             } else {
                 //Mensaje flash de que la moneda ya existe
-                    console.log('La moneda ya existe');
+                req.flash('error', 'La moneda ya existe.');
                 if (tipo) {   
                     res.redirect('/coleccion/new?tipo=conmemorativa');
                 } else {
@@ -208,9 +224,15 @@ exports.create = async (req, res, next) => {
 
         } catch (error) {
             if (error instanceof Sequelize.ValidationError) {
-                console.log('Hay un error en el formato de los datos');
-                error.errors.forEach(({message}) => console.log(message));
+                req.flash('error', 'Hay errores de validación.');
+                error.errors.forEach(({message}) => req.flash('error', message));
+                if (tipo) {   
+                    res.redirect('/coleccion/new?tipo=conmemorativa');
+                } else {
+                    res.redirect('/coleccion/new');
+                }
             } else {
+                req.flash('error', 'Error al crear una nueva moneda.');
                 next(error)
             } 
                     
@@ -219,7 +241,7 @@ exports.create = async (req, res, next) => {
             
     } else {
         // ¿Mensaje flash de que no pueden ser campos vacíos salvo CECA si no es Alemania?
-        console.log('Los campos no pueden estar vacíos, salvo el campo CECA si elpais no es Alemania');
+        req.flash('error', 'Los campos no pueden estar vacíos, salvo el campo CECA si el pais no es Alemania.');
         if (tipo) {   
             res.redirect('/coleccion/new?tipo=conmemorativa');
         } else {
@@ -251,9 +273,10 @@ exports.destroy = async (req, res, next) => {
 
     try {
         await req.load.moneda.destroy();
+        req.flash('success', 'Moneda borrada correctamente.');
         res.redirect('/coleccion')
-        //res.render('monedas/show', {pais});
     } catch (error) {
+        req.flash('error', 'Error al borrar la moneda.' + error.message); 
         next(error);
     }
 };
