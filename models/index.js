@@ -31,6 +31,7 @@ const Usuario = require(path.join(__dirname, 'usuario'))(sequelize, Sequelize);
 
 // Session
 //sequelize.import(path.join(__dirname,'session'));
+const Session = require(path.join(__dirname, 'session'))(sequelize, Sequelize);
 
 
 //Relaciones con la tabla coleccion
