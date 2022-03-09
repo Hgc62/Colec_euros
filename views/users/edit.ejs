@@ -1,0 +1,11 @@
+
+<h1>
+    Edición de usuario:
+</h1>
+
+<form method="post" action="/users/<%= user.id %>?_method=PUT" enctype="multipart/form-data" >
+    <% include _form.ejs %>
+
+    <input type="submit" value="Guardar" onclick="return validPassword()">
+</form>
+

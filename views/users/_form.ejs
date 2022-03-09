@@ -1,0 +1,73 @@
+<script>
+    function forcePassword() {
+        var pw1 = document.getElementById('user_password').value;
+        var pw2 = document.getElementById('user_confirm_password').value;
+
+        if (!pw1 || !pw2) {
+            alert('Los campos password y confirmación deben de estar rellenos.');
+            return false;
+        }
+        return true;
+    }
+
+    function validPassword() {
+        var pw1 = document.getElementById('user_password').value;
+        var pw2 = document.getElementById('user_confirm_password').value;
+
+        if (pw1 !== pw2) {
+            alert('Los campos passwd y confirmacion no son iguales');
+            return false;
+        }
+
+        if (pw1 && pw1.length < 8) {
+            alert('Password debe tener al menos 8 caracteres.');
+            return false;
+        }
+
+        if (pw1 && !/\d/.test(pw1)) {
+            alert('Password debe contener al menos un número.');
+            return false;
+        }
+
+        if (pw1 && !/[A-Z]/.test(pw1)) {
+            alert('Password debe contener al menos una letra mayúscula.');
+            return false;
+        }
+
+        return true;
+    }
+</script>
+
+
+<ul>
+    <li>
+        <% if ( !user.id) { %>
+            <label for="preg" class="rem">Nombre usuario:</label>
+            <input type="text" id="username" name="username" value="<%= user.nombre %>" autocomplete="off"/>
+        <% } else { %>
+            Nombre usuario: <%= user.nombre %>
+        <% } %>
+    </li>
+    <li>
+        <% if (!user.id) { %>
+            <span class="text-danger">Introducir la nueva password dos veces.</span>
+        <% } else { %>
+            <span class="text-danger">Dejarlo en blanco no cambia la actual password.</span>
+        <% } %>
+        <ul>
+            <li>
+                <label for="user_password" class="rem">Password:</label>
+                <input type="password" id="user_password" name="password" autocomplete="off"/>
+            </li>
+
+            <li>
+                <label for="user_confirm_password" class="rem">Confirmación de Password:</label>
+                <input type="password" id="user_confirm_password" autocomplete="off"/>
+            </li>
+        </ul>
+    </li>
+</ul>
+
+<div>
+    <a href="/goback" class="button">Cancelar</a>
+</div>

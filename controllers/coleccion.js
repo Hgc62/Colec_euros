@@ -275,6 +275,7 @@ exports.destroy = async (req, res, next) => {
         await req.load.moneda.destroy();
         req.flash('success', 'Moneda borrada correctamente.');
         res.redirect('/coleccion')
+        //res.redirect('/goback')
     } catch (error) {
         req.flash('error', 'Error al borrar la moneda.' + error.message); 
         next(error);

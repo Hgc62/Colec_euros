@@ -3,6 +3,38 @@ var router = express.Router();
 
 const monedasController = require('../controllers/monedas');
 const coleccionController = require('../controllers/coleccion');
+const userController = require('../controllers/user');
+
+// History: Restoration routes.
+
+// Redirection to the saved restoration route.
+function redirectBack(req, res, next) {
+  const url = req.session.backURL || "/";
+  delete req.session.backURL;
+  res.redirect(url);
+}
+
+router.get('/goback', redirectBack);
+
+// Save the route that will be the current restoration route.
+function saveBack(req, res, next) {
+  req.session.backURL = req.url;
+  next();
+}
+
+// Restoration routes are GET routes that do not end in:
+//   /new, /edit, /play, /check, /login or /:id.
+router.get(
+  [
+      '/',
+      '/monedas',
+      //'/coleccion/formulario',
+      '/coleccion',
+      '/users',
+      //'/monedas/:paisId(\\d+)'
+  ],
+  saveBack);
+
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
@@ -11,6 +43,9 @@ router.get('/', function(req, res, next) {
 
 // Autoload para usar :paisId
 router.param('paisId', monedasController.load);
+
+// Autoload para usar :userId
+router.param('userId', userController.load);
 
 // Autoload para usar :monedaId
 router.param('monedaId', coleccionController.load);
@@ -46,5 +81,59 @@ router.put('/coleccion/conmemorativas/:monedaId(\\d+)',        coleccionControll
 router.delete('/coleccion/conmemorativas/:monedaId(\\d+)',     coleccionController.destroy_conme);
 */
 
+//Rutas para el recurso users
+
+router.get('/users',
+    //sessionController.loginRequired,
+    userController.index);
+router.get('/users/:userId(\\d+)',
+    //sessionController.loginRequired,
+    userController.show);
+
+//if (!!process.env.QUIZ_OPEN_REGISTER) {
+    router.get('/users/new',
+        userController.new);
+    router.post('/users',
+        //upload.single('photo'),
+      userController.create);
+//} else {
+    //router.get('/users/new',
+        //sessionController.loginRequired,
+        //sessionController.adminRequired,
+        //userController.new);
+    //router.post('/users',
+        //sessionController.loginRequired,
+        //sessionController.adminRequired,
+        //upload.single('photo'),
+      //userController.create);
+//}
+
+router.get('/users/:userId(\\d+)/edit',
+    //sessionController.loginRequired,
+    //userController.isLocalRequired,
+    //sessionController.adminOrMyselfRequired,
+    userController.edit);
+router.put('/users/:userId(\\d+)',
+    //sessionController.loginRequired,
+    //userController.isLocalRequired,
+    //sessionController.adminOrMyselfRequired,
+    //upload.single('photo'),
+    userController.update);
+router.delete('/users/:userId(\\d+)',
+    //sessionController.loginRequired,
+    //sessionController.adminOrMyselfRequired,
+    userController.destroy);
+
+/*
+router.put('/users/:userId(\\d+)/token',
+    sessionController.loginRequired,
+    sessionController.adminOrMyselfRequired,
+    userController.createToken);   // generar un nuevo token
+
+
+router.get('/users/:userId(\\d+)/quizzes',
+    sessionController.loginRequired,
+    quizController.index);
+*/
 
 module.exports = router;
