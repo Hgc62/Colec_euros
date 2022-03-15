@@ -12,6 +12,11 @@ module.exports = function (sequelize, DataTypes) {
         verifyPassword(password) {
             return crypt.encryptPassword(password, this.salt) === this.password;
         }
+
+        get displayName() { 
+                return `${this.nombre}`;
+            }
+        
     }
 
     Usuario.init({
@@ -36,7 +41,7 @@ module.exports = function (sequelize, DataTypes) {
             salt: {
                 type: DataTypes.STRING
             },
-            esAdmin: {
+            isAdmin: {
                 type: DataTypes.BOOLEAN,
                 allowNull: false,
                 defaultValue: false

@@ -18,6 +18,16 @@
   <body>
     <div id="page">
       <header class="main" id="mainHeader">
+
+        <div class="right">
+            <% if (!locals.loginUser) { %>
+                <a href="/login">Login</a>
+            <% } else { %>
+                <a href="/users/<%= loginUser.id %>"><%= loginUser.displayName %></a>
+                <a href="/login?_method=DELETE">Logout</a>
+            <% } %>
+        </div>
+
           <h1><span class="no-narrow">Colección</span> Euros <span class="no-narrow">Garín</span></h1>
       </header>
   

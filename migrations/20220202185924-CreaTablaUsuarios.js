@@ -27,7 +27,7 @@ module.exports = {
         salt: {
             type: Sequelize.STRING
         },
-        esAdmin: {
+        isAdmin: {
             type: Sequelize.BOOLEAN,
             defaultValue: false
         },

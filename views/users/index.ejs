@@ -8,7 +8,7 @@
 
             <td>
                 <a href="/users/<%= users[i].id %>" ><%= users[i].nombre %></a>
-                <%= users[i].esAdmin ? "(administrador)" : "" %>
+                <%= users[i].isAdmin ? "(administrador)" : "" %>
             </td>
 
             <td>
@@ -24,6 +24,6 @@
 
 <a href="/users/new" class="button">Crear nuevo usuario</a>
 
-<!-- <% if (locals.loginUser && locals.loginUser.esAdmin) { %> 
+<!-- <% if (locals.loginUser && locals.loginUser.isAdmin) { %> 
     <a href="/users/new" class="button">Create new user</a>
  <% } %> -->
