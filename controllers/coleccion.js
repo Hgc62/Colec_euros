@@ -25,6 +25,20 @@ exports.load = async (req, res, next, monedaId) => {
     }
 };
 
+// MW que permite acciones solo si el usuario logeado es administrador o es el dueño de la moneda.
+exports.adminOrColeccionistaRequired = (req, res, next) => {
+
+    const isAdmin = !!req.loginUser.isAdmin;
+    const isColeccionista = req.load.moneda.coleccionistaId === req.loginUser.id;
+
+    if (isAdmin || isColeccionista) {
+        next();
+    } else {
+        console.log('Operación prohibida: El usuario no es el dueño de la moneda o no es administrador.');
+        res.send(403);
+    }
+};
+
 // GET coleccion
 exports.index =async (req, res, next) => {
 
@@ -110,7 +124,9 @@ exports.show = async (req, res, next) => {
 
     try {
         const count =await models.Coleccion.count(options);
-
+        if (count === 0) {
+            req.flash("info", "No hay ningún resultado para la consulta.");
+        }
         //Paginación
         const items_per_page = 10;
         const pageno = parseInt(req.query.pageno) || 1;

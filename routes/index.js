@@ -74,12 +74,12 @@ router.get('/monedas/:paisId(\\d+)/series',         monedasController.show_serie
 router.get('/monedas/:paisId(\\d+)/conmemorativas', monedasController.show_conme);
 
 /* Rutas que muestran la colección de las series */
-router.get('/coleccion',                               coleccionController.index);
-router.get('/coleccion/formulario',                    coleccionController.formulario);
-router.get('/coleccion/show',                          coleccionController.show);
-router.get('/coleccion/new',                           coleccionController.new);
-router.post('/coleccion',                              coleccionController.create);
-router.delete('/coleccion/:monedaId(\\d+)',            coleccionController.destroy);
+router.get('/coleccion',                    sessionController.loginRequired, coleccionController.index);
+router.get('/coleccion/formulario',         sessionController.loginRequired, coleccionController.formulario);
+router.get('/coleccion/show',               sessionController.loginRequired, coleccionController.show);
+router.get('/coleccion/new',                sessionController.loginRequired, coleccionController.new);
+router.post('/coleccion',                   sessionController.loginRequired, coleccionController.create);
+router.delete('/coleccion/:monedaId(\\d+)', sessionController.loginRequired, coleccionController.adminOrColeccionistaRequired, coleccionController.destroy);
 /*
 router.get('/coleccion/series/:monedaId(\\d+)/edit',   coleccionController.edit_series);
 
@@ -101,18 +101,22 @@ router.delete('/coleccion/conmemorativas/:monedaId(\\d+)',     coleccionControll
 //Rutas para el recurso users
 
 router.get('/users',
-    //sessionController.loginRequired,
+    sessionController.loginRequired,
     userController.index);
 router.get('/users/:userId(\\d+)',
-    //sessionController.loginRequired,
+    sessionController.loginRequired,
     userController.show);
 
 //if (!!process.env.QUIZ_OPEN_REGISTER) {
-    router.get('/users/new',
-        userController.new);
-    router.post('/users',
-        //upload.single('photo'),
-      userController.create);
+router.get('/users/new',
+    sessionController.loginRequired,
+    sessionController.adminRequired,
+    userController.new);
+router.post('/users',
+    //upload.single('photo'),
+    sessionController.loginRequired,
+    sessionController.adminRequired,
+    userController.create);
 //} else {
     //router.get('/users/new',
         //sessionController.loginRequired,
@@ -126,19 +130,19 @@ router.get('/users/:userId(\\d+)',
 //}
 
 router.get('/users/:userId(\\d+)/edit',
-    //sessionController.loginRequired,
+    sessionController.loginRequired,
     //userController.isLocalRequired,
-    //sessionController.adminOrMyselfRequired,
+    sessionController.adminOrMyselfRequired,
     userController.edit);
 router.put('/users/:userId(\\d+)',
-    //sessionController.loginRequired,
+    sessionController.loginRequired,
     //userController.isLocalRequired,
-    //sessionController.adminOrMyselfRequired,
+    sessionController.adminOrMyselfRequired,
     //upload.single('photo'),
     userController.update);
 router.delete('/users/:userId(\\d+)',
-    //sessionController.loginRequired,
-    //sessionController.adminOrMyselfRequired,
+    sessionController.loginRequired,
+    sessionController.adminRequired,
     userController.destroy);
 
 /*

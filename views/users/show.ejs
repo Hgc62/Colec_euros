@@ -14,11 +14,16 @@
     </li>
 
     <p>
-        <a href="/users/<%= user.id %>/edit" class="button">Edit</a>
-
-        <a href="/users/<%= user.id %>?_method=DELETE"
-           onClick="return confirm('Delete user: <%= user.nombre %>');"
-           class="button">Delete</a>
+        <% if (locals.loginUser.displayName !== "Invitado") { %>
+            <% if (locals.loginUser && (locals.loginUser.isAdmin || locals.loginUser.id === user.id)) { %>
+                <a href="/users/<%= user.id %>/edit" class="button">Editar</a>
+            <% } %>
+        <% } %>
+        <% if (locals.loginUser && locals.loginUser.isAdmin) { %>
+            <a href="/users/<%= user.id %>?_method=DELETE"
+                onClick="return confirm('Delete user: <%= user.nombre %>');"
+                class="button">Delete</a>
+        <% } %>
     </p>
 
 <a href="/goback" class="button">Volver</a>

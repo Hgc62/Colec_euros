@@ -12,18 +12,24 @@
             </td>
 
             <td>
-                <a href="/users/<%= users[i].id %>/edit" class="button">Editar</a>
-                <a href="/users/<%= users[i].id %>?_method=DELETE"
-                   onClick="return confirm('Borrar usuario: <%= users[i].nombre %>');"
-                       class="button">Borrar</a>
+                <% if (locals.loginUser.displayName !== "Invitado") { %>
+                    <% if (locals.loginUser && (locals.loginUser.isAdmin || locals.loginUser.id === users[i].id)) { %>
+                        
+                        <a href="/users/<%= users[i].id %>/edit" class="button">Editar</a>
+                        
+                    <% } %>
+                <% } %>  
+                <% if (locals.loginUser && locals.loginUser.isAdmin) { %>
+                    <a href="/users/<%= users[i].id %>?_method=DELETE"
+                        onClick="return confirm('Borrar usuario: <%= users[i].nombre %>');"
+                        class="button">Borrar</a>
+                <% } %>
             </td>
 
         </tr>
     <% } %>
 </table>
 
-<a href="/users/new" class="button">Crear nuevo usuario</a>
-
-<!-- <% if (locals.loginUser && locals.loginUser.isAdmin) { %> 
-    <a href="/users/new" class="button">Create new user</a>
- <% } %> -->
+<% if (locals.loginUser && locals.loginUser.isAdmin) { %> 
+    <a href="/users/new" class="button">Crear nuevo usuario</a>
+ <% } %>

@@ -2,17 +2,7 @@
 <% let monedas_conme = ["2€ Com1", "2€ Com2", "2€ Com3"]; %>
 <% let ceca = ["A", "F", "G", "J", "D"]; %>
 
-        <p>Selecciona el usuario deseado:</p>  
-        <select name="coleccionista"> 
-            <option value=""></option>  
-            <% for (var i in usuarios) { %>
-                <% var usuario = usuarios[i]; %>
-                <% if  (usuario.nombre != "admin" && usuario.nombre != "Invitado"){ %>
-                    <option value="<%= usuario.nombre %>"><%= usuario.nombre %></option>
-                <% } %>
-            <% } %> 
-        </select>
-        <br>
+       
         <p>Selecciona el pais deseado:</p>
         <select name="pais"> 
             <option value=""></option> 

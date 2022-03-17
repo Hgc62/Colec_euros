@@ -12,6 +12,18 @@
             <input type="hidden" name="tipo" value="<%= tipo %>"/>
         <% } %>  
 
+        <p>Selecciona el usuario deseado:</p>  
+        <select name="coleccionista"> 
+            <option value=""></option>  
+            <% for (var i in usuarios) { %>
+                <% var usuario = usuarios[i]; %>
+                <% if  (usuario.nombre != "admin" && usuario.nombre != "Invitado"){ %>
+                    <option value="<%= usuario.nombre %>"><%= usuario.nombre %></option>
+                <% } %>
+            <% } %> 
+        </select>
+        <br>
+
         <% include _form.ejs %>
 
     </form>

@@ -10,6 +10,22 @@
             <input type="hidden" name="tipo" value="<%= tipo %>"/>
         <% } %>  
 
+        <% if (locals.loginUser.isAdmin) { %>
+            <p>Selecciona el usuario deseado:</p>  
+            <select name="coleccionista"> 
+                <option value=""></option>  
+                <% for (var i in usuarios) { %>
+                    <% var usuario = usuarios[i]; %>
+                    <% if  (usuario.nombre != "admin" && usuario.nombre != "Invitado"){ %>
+                        <option value="<%= usuario.nombre %>"><%= usuario.nombre %></option>
+                    <% } %>
+                <% } %> 
+            </select>
+            <br>
+        <% } else { %>
+            <input type="hidden" name="coleccionista" value="<%= locals.loginUser.displayName %>"/>
+        <% } %>
+
         <% include _form.ejs %>
 
     </form>

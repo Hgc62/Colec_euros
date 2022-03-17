@@ -35,7 +35,9 @@
           <a href="/">Home</a>
           <a href="/monedas">Monedas</a>
           <a href="/coleccion">Colección</a>
-          <a href="/users">Usuarios</a>
+          <% if (locals.loginUser) { %>
+            <a href="/users">Users</a>
+          <% } %>
       </nav>
   
       <section class="main" id="mainSection">

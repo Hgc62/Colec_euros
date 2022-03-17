@@ -1,5 +1,6 @@
 <h1>Resultado consulta</h1>
 <table id="tabla_monedas">
+
     <% for (var i in coleccion) { %>
         <% var monedas = coleccion[i]; %>
         <tr>
@@ -13,11 +14,13 @@
             <td><%= monedas.ceca %></td>
             <td><%= monedas.año %></td>
             <td>
+                <% if (locals.loginUser && (locals.loginUser.isAdmin || locals.loginUser.id === monedas.coleccionistaId)) { %>
                <!-- <a href="/coleccion/<%= monedas.id %>/edit" class="button">Editar</a> -->
-                <a href="/coleccion/<%= monedas.id %>?_method=DELETE"
-                    onClick="return confirm('Borrar: Moneda <%= monedas.moneda %> de <%=monedas.pais.nombre %> de <%=monedas.año %> ');"
-                    class="button">Eliminar</a>
-            </td>           
+                    <a href="/coleccion/<%= monedas.id %>?_method=DELETE"
+                        onClick="return confirm('Borrar: Moneda <%= monedas.moneda %> de <%=monedas.pais.nombre %> de <%=monedas.año %> ');"
+                        class="button">Eliminar</a>
+                <% } %>
+                </td>           
         </tr>
     <% } %>
 </table>

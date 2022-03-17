@@ -86,7 +86,7 @@ exports.loginRequired = function (req, res, next) {
     if (req.loginUser) {
         next();
     } else {
-        req.flash("info", "Login required: log in and retry.");
+        req.flash("info", "Se requiere estar logeado: Vuelve a intentarlo.");
         res.redirect('/login');
     }
 };
@@ -100,7 +100,7 @@ exports.adminRequired = (req, res, next) => {
     if (isAdmin) {
         next();
     } else {
-        console.log('Prohibited route: the logged in user is not an administrator.');
+        console.log('Es necesario ser administrador para realizar esta operación.');
         res.send(403);
     }
 };
@@ -116,7 +116,7 @@ exports.adminOrMyselfRequired = (req, res, next) => {
     if (isAdmin || isMyself) {
         next();
     } else {
-        console.log('Prohibited route: it is not the logged in user, nor an administrator.');
+        console.log('Es necesario ser administrador o ser el usuario autorizado para realizar esta operación.');
         res.send(403);
     }
 };

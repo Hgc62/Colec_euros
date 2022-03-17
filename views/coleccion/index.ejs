@@ -7,5 +7,7 @@
         <button id="conmemorativas" class="boton_datos" > CONMEMORATIVAS</button>    
     </a>
 </div>
-<a href="/coleccion/new" class="button">Añadir nueva moneda</a>
-<a href="/coleccion/new?tipo=conmemorativa" class="button">Añadir nueva conmemorativa</a>
+<% if (locals.loginUser.displayName !== "Invitado") { %>
+    <a href="/coleccion/new" class="button">Añadir nueva moneda</a>
+    <a href="/coleccion/new?tipo=conmemorativa" class="button">Añadir nueva conmemorativa</a>
+<% } %>

@@ -27,7 +27,7 @@ exports.load = async (req, res, next, userId) => {
     }
 };
 
-
+/*
 // MW that allows actions only if the user account is local.
 exports.isLocalRequired = (req, res, next) => {
 
@@ -38,7 +38,7 @@ exports.isLocalRequired = (req, res, next) => {
         res.send(403);
     }
 };
-
+*/
 
 // GET /users
 exports.index = async (req, res, next) => {
