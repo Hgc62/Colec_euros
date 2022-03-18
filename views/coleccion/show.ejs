@@ -1,4 +1,9 @@
-<h1>Resultado consulta</h1>
+<% if (mi_coleccion) { %>
+    <h1>MI COLECCIÓN: <br><%= mi_coleccion %></h1>
+<% } else { %>
+    <h1>RESULTADO CONSULTA</h1> 
+<% } %>
+
 <table id="tabla_monedas">
 
     <% for (var i in coleccion) { %>
@@ -8,7 +13,9 @@
                 <% const num_conme = monedas.moneda.match(/.$/); %>
                 <td><img src="/images/monedas/<%= monedas.pais.nombre %>/2€-<%= monedas.año %>-<%= num_conme %>.jpg" width="50" height="50"></td>   
             <% } %>
-            <td><%= monedas.coleccionista.nombre %></td>
+            <% if (!mi_coleccion) { %>
+                <td><%= monedas.coleccionista.nombre %></td>
+            <% } %>
             <td><%= monedas.pais.nombre %></td>
             <td><%= monedas.moneda %></td>
             <td><%= monedas.ceca %></td>

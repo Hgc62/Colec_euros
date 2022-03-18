@@ -1,16 +1,25 @@
-<% if (!tipo) { %>
+<% if (!tipo && !coleccionista) { %>
     <h1>CONSULTA DE MONEDAS EN LA COLECCIÓN</h1>
-<% } else {%> 
+<% } else if (!tipo && coleccionista) { %>
+    <h1>CONSULTA DE MONEDAS EN MI COLECCIÓN</h1>
+<% } else if ((tipo && !coleccionista)){ %>
     <h1>CONSULTA DE MONEDAS CONMEMORATIVAS</h1>
+<% } else {%> 
+    <h1>CONSULTA DE MIS MONEDAS CONMEMORATIVAS</h1>
 <% } %>  
 
 </div>
 
 <div class="formulario"></div>
     <form method="get" action="/coleccion/show">
+        <input type="hidden" name="mi_coleccion" value="<%= coleccionista %>"/>
         <% if (tipo) { %>
             <input type="hidden" name="tipo" value="<%= tipo %>"/>
         <% } %>  
+
+        <% if (coleccionista) {  %>
+            <input type="hidden" name="coleccionista" value="<%= coleccionista %>"/>
+        <% } else { %>
 
         <p>Selecciona el usuario deseado:</p>  
         <select name="coleccionista"> 
@@ -22,6 +31,7 @@
                 <% } %>
             <% } %> 
         </select>
+        <% } %> 
         <br>
 
         <% include _form.ejs %>

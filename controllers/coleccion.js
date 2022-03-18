@@ -41,9 +41,12 @@ exports.adminOrColeccionistaRequired = (req, res, next) => {
 
 // GET coleccion
 exports.index =async (req, res, next) => {
-
+    let coleccionista = '';
+    if (req.load && req.load.user) {
+        coleccionista = req.load.user || '';
+    }
     try {
-        res.render('coleccion/index.ejs');
+        res.render('coleccion/index', {coleccionista});
     } catch (error) {
         next(error);
     }
@@ -53,11 +56,12 @@ exports.index =async (req, res, next) => {
 exports.formulario = async (req, res, next) => {
     const {query} = req;
     const tipo = query.tipo || '';
+    const coleccionista = query.nombre || '';
     try {
         const paises = await models.Paises.findAll();
         const usuarios = await models.Usuario.findAll();
         req.flash('info', 'Introduzca los datos para la consulta que desea realizar. No es obligatorio rellenar todos los datos');
-        res.render('coleccion/formulario', {paises, usuarios, tipo});
+        res.render('coleccion/formulario', {paises, usuarios, tipo, coleccionista});
     } catch (error) {
         next(error);
     }
@@ -71,6 +75,7 @@ exports.show = async (req, res, next) => {
     };
 
     const {query} = req;
+    const mi_coleccion = query.mi_coleccion || '';
     const tipo = query.tipo || '';
     const coleccionista = query.coleccionista || '';
     const pais = query.pais || '';
@@ -136,7 +141,7 @@ exports.show = async (req, res, next) => {
         options.limit = items_per_page;
 
         const coleccion = await models.Coleccion.findAll(options);
-        res.render('coleccion/show', {coleccion, tipo});
+        res.render('coleccion/show', {coleccion, tipo, mi_coleccion});
     } catch (error) {
         next(error);
     }
@@ -173,6 +178,7 @@ exports.edit_series = async (req, res, next) => {
 
 // POST /coleccion    create
 exports.create = async (req, res, next) => {
+    const mi_coleccion = '';
         
     let {coleccionista, pais, ceca, valor, año, tipo} = req.body;
     //if ((coleccionista && pais && valor && año) && (pais === "Alemania" && ceca) ){
@@ -226,7 +232,7 @@ exports.create = async (req, res, next) => {
 
                 const coleccion = await models.Coleccion.findAll(options);
                 req.flash('success', 'Moneda creada correctamente.');        
-                res.render('coleccion/show', {coleccion, tipo});
+                res.render('coleccion/show', {coleccion, tipo, mi_coleccion});
 
             } else {
                 //Mensaje flash de que la moneda ya existe

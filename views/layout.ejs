@@ -35,7 +35,10 @@
           <a href="/">Home</a>
           <a href="/monedas">Monedas</a>
           <a href="/coleccion">Colección</a>
-          <% if (locals.loginUser) { %>
+          <% if ((locals.loginUser) && (locals.loginUser.displayName !== "Invitado" && locals.loginUser.displayName !== "admin")) { %>
+            <a href="/users/<%= locals.loginUser.id %>/coleccion">Mi colección</a>
+          <% } %>
+          <% if ((locals.loginUser) && (locals.loginUser.displayName !== "Invitado")) { %>
             <a href="/users">Users</a>
           <% } %>
       </nav>

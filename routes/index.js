@@ -48,6 +48,7 @@ router.get(
       //'/coleccion/formulario',
       '/coleccion',
       '/users',
+      '/users/:id(\\d+)/coleccion',
       //'/monedas/:paisId(\\d+)'
   ],
   saveBack);
@@ -144,6 +145,10 @@ router.delete('/users/:userId(\\d+)',
     sessionController.loginRequired,
     sessionController.adminRequired,
     userController.destroy);
+
+router.get('/users/:userId(\\d+)/coleccion',
+    sessionController.loginRequired,
+    coleccionController.index);
 
 /*
 router.put('/users/:userId(\\d+)/token',

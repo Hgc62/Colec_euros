@@ -376,6 +376,7 @@ exports.new = (req, res, next) => {
 exports.create = passport.authenticate(
     'local',
     {
+        successRedirect: '/',
         failureRedirect: '/login',
         successFlash: 'Bienvenido!',
         failureFlash: 'Ha fallado la autenticación. Vuelve a intentarlo.'
