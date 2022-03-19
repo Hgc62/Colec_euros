@@ -8,6 +8,46 @@ const req = require("express/lib/request");
 const res = require("express/lib/response");
 const { where } = require("sequelize");
 
+function calcular_valor (coleccion) {
+    let valor = 0;
+    for (var i in coleccion) { 
+        var monedas = coleccion[i];
+        switch (monedas.moneda) {
+            case "1c":
+                valor += 0.01;
+                break;
+            case "2c":
+                valor += 0.02;
+                break;
+            case "5c":
+                valor += 0.05;
+                break;
+            case "10c":
+                valor += 0.1;
+                break;    
+            case "20c":
+                valor += 0.2;
+                break;
+            case "50c":
+                valor += 0.5;
+                break;
+            case "1€":
+                valor += 1;
+                break;
+            case "12€_1":
+            case "12€_2":
+                valor += 12;
+                break;
+            case "2€":   
+            case "2€ Com1": 
+            case "2€ Com2":
+            case "2€ Com3":
+                valor += 2;
+                break;       
+        }
+    }
+    return (valor.toFixed(2));
+};
 
 // Autoload la moneda de la coleccion asociad a :monedaId
 exports.load = async (req, res, next, monedaId) => {
@@ -128,6 +168,8 @@ exports.show = async (req, res, next) => {
     }
 
     try {
+        const consulta_completa = await models.Coleccion.findAll(options);
+        const valor = calcular_valor (consulta_completa);
         const count =await models.Coleccion.count(options);
         if (count === 0) {
             req.flash("info", "No hay ningún resultado para la consulta.");
@@ -141,7 +183,7 @@ exports.show = async (req, res, next) => {
         options.limit = items_per_page;
 
         const coleccion = await models.Coleccion.findAll(options);
-        res.render('coleccion/show', {coleccion, tipo, mi_coleccion});
+        res.render('coleccion/show', {coleccion, tipo, mi_coleccion, count, valor});
     } catch (error) {
         next(error);
     }
