@@ -12,7 +12,7 @@ module.exports = (sequelize, DataTypes) => {
           ceca: {
             type: DataTypes.STRING(1),
             validate: {
-                isIn: [['A', 'F', 'G', 'J', 'D', '']],
+                isIn: [['A', 'F', 'G', 'J', 'D', '', 'null']],
             }
           },
           año: {

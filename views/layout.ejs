@@ -41,7 +41,11 @@
           <% if ((locals.loginUser) && (locals.loginUser.displayName !== "Invitado")) { %>
             <a href="/users">Users</a>
           <% } %>
-      </nav>
+          
+          <% if (locals.loginUser && locals.loginUser.isAdmin) { %>
+            <a href="/coleccion/seeders">Seeders</a>
+          <% } %>
+        </nav>
   
       <section class="main" id="mainSection">
 

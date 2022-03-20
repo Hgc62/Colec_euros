@@ -16,7 +16,7 @@ module.exports = {
           //primaryKey: true,
           //unique: "compositeKey",
           validate: {
-              isIn: [['A', 'F', 'G', 'J', 'D','']],
+              isIn: [['A', 'F', 'G', 'J', 'D','', 'null']],
           }
         },
         año: {

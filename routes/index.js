@@ -81,6 +81,7 @@ router.get('/coleccion/show',               sessionController.loginRequired, col
 router.get('/coleccion/new',                sessionController.loginRequired, coleccionController.new);
 router.post('/coleccion',                   sessionController.loginRequired, coleccionController.create);
 router.delete('/coleccion/:monedaId(\\d+)', sessionController.loginRequired, coleccionController.adminOrColeccionistaRequired, coleccionController.destroy);
+router.get('/coleccion/seeders',            sessionController.loginRequired, sessionController.adminRequired, coleccionController.seeders);
 /*
 router.get('/coleccion/series/:monedaId(\\d+)/edit',   coleccionController.edit_series);
 

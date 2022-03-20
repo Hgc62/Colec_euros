@@ -2,11 +2,107 @@ const Sequelize = require("sequelize");
 const Op = Sequelize.Op;
 const {models} = require("../models");
 const paginate = require('../helpers/paginate').paginate;
+const fs = require("fs");
 
 //const attHelper = require("../helpers/attachments");
 const req = require("express/lib/request");
 const res = require("express/lib/response");
 const { where } = require("sequelize");
+
+//Promisificar writeFile
+function writeFileP(file, data) {
+    return new Promise(
+        (resolve, reject) => fs.writeFile(
+            file,
+            data,
+            (err) => err ? reject(err) : resolve()
+        )
+    )
+};
+
+
+function construir_seeder(coleccion) {
+    let fecha = new Date();
+    let dia = fecha.getDate();
+    dia = dia > 9 ? dia : '0' + dia;
+    let mes = fecha.getMonth()+1;
+    mes = mes > 9 ? mes : '0' + mes;
+    let año = fecha.getFullYear();
+    let hora = fecha.getHours();
+    hora = hora > 9 ? hora : '0' + hora;
+    let minuto = fecha.getMinutes();
+    minuto = minuto > 9 ? minuto :'0' + minuto;
+    let segundo = fecha.getSeconds();
+    segundo = segundo > 9 ? segundo :'0' + segundo;
+    let fecha_actualizacion = `${año}${mes}${dia}${hora}${minuto}${segundo}`
+
+    const NOMBRE_FICHERO = `./seeders/${fecha_actualizacion}-LlenadoTablaColeccion.js`;
+    const FECHA = `// Seeders creado en la fecha:  ${dia}-${mes}-${año} ${hora}:${minuto}:${segundo}\n`;
+    const CABECERA = `                  "use strict";
+                    module.exports = {
+                    up: (queryInterface, Sequelize) => {
+                        return queryInterface.bulkInsert("Coleccion", [\n`;
+
+    const FIN = `                   ]);
+                },
+
+                down: (queryInterface, Sequelize) => {
+                    return queryInterface.bulkDelete("Coleccion", null, {});
+                },
+            };`;
+
+    let buffer = FECHA;   
+    buffer += CABECERA;        
+/*
+    fs.writeFile(
+        NOMBRE_FICHERO,
+        CABECERA,
+        function (err) {
+            if (err) throw err;
+            console.log('Cabecera añadida');
+        }
+    );
+*/
+    for (var i in coleccion) {
+        var monedas = coleccion[i];
+        let datos =
+                    `                   {
+                    coleccionistaId: ${monedas.coleccionistaId},
+                    paisId: "${monedas.paisId}",
+                    ceca: "${monedas.ceca}",
+                    año: ${monedas.año},
+                    moneda: "${monedas.moneda}",
+                    createdAt: new Date(),
+                    updatedAt: new Date(),
+                    },\n`;
+        buffer += datos;
+/*                    
+        fs.appendFile(
+            NOMBRE_FICHERO,
+            datos,
+            function (err) {
+                if (err) throw err;
+                console.log('Dato añadido');
+            }
+        );
+*/
+    }
+
+    buffer += FIN;
+/*
+    fs.writeFile(
+        NOMBRE_FICHERO,
+        buffer,
+        function (err) {
+            if (err) throw err;
+            console.log('Seeders creado');
+        }
+    );
+*/
+    return ([NOMBRE_FICHERO, buffer]);
+}
+
+
 
 function calcular_valor (coleccion) {
     let valor = 0;
@@ -273,8 +369,9 @@ exports.create = async (req, res, next) => {
                 });
 
                 const coleccion = await models.Coleccion.findAll(options);
+                const count = 0;
                 req.flash('success', 'Moneda creada correctamente.');        
-                res.render('coleccion/show', {coleccion, tipo, mi_coleccion});
+                res.render('coleccion/show', {coleccion, tipo, mi_coleccion, count, valor});
 
             } else {
                 //Mensaje flash de que la moneda ya existe
@@ -338,11 +435,23 @@ exports.destroy = async (req, res, next) => {
     try {
         await req.load.moneda.destroy();
         req.flash('success', 'Moneda borrada correctamente.');
-        res.redirect('/coleccion')
+        res.redirect('/coleccion');
         //res.redirect('/goback')
     } catch (error) {
         req.flash('error', 'Error al borrar la moneda.' + error.message); 
-        next(error);
+        next(error); 
     }
 };
 
+// GET /coleccion/seeders
+exports.seeders = async (req, res, next) => {
+    try {
+        const coleccion = await models.Coleccion.findAll();
+        const [NOMBRE_FICHERO, buffer]  = construir_seeder(coleccion);
+        await writeFileP(NOMBRE_FICHERO, buffer);
+        req.flash('success', 'Seeders creado.');
+        res.redirect('/');
+    } catch (error) {
+        next(error);
+    }
+};
