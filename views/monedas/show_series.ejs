@@ -4,7 +4,7 @@
     <div class = "series">
     <% var j = 0; %>
     <% while (j < monedas.length) { %>      
-        <img src="/images/monedas/Reverso/<%= monedas[j] %>.jpg"   width="120" height="120"  class="monedas">
+        <img src="/images/monedas/Reverso/<%= monedas[j] %>.jpg" class="monedas">
         <% j+=1; %>
     <% } %>
     </div>
@@ -12,11 +12,12 @@
         <div class = "series">
         <% var i = 0; %>
         <% while (i < monedas.length) { %>      
-            <img src="/images/monedas/<%= pais.nombre %>/<%= monedas[i] %>-<%= index+1 %>.jpg"   width="120" height="120"  class="monedas">
+            <img src="/images/monedas/<%= pais.nombre %>/<%= monedas[i] %>-<%= index+1 %>.jpg" class="monedas">
             <% i+=1; %>
         <% } %>
         </div>
         <% i = 0; %>
     <% } %>
 </div>
+<br>
 <a href="/goback" class="button">Volver</a>

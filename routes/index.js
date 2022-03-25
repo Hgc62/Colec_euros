@@ -45,11 +45,11 @@ router.get(
   [
       '/',
       '/monedas',
-      //'/coleccion/formulario',
+      '/coleccion/tabla',
       '/coleccion',
       '/users',
       '/users/:id(\\d+)/coleccion',
-      //'/monedas/:paisId(\\d+)'
+      '/monedas/:paisId(\\d+)'
   ],
   saveBack);
 
@@ -82,85 +82,17 @@ router.get('/coleccion/new',                sessionController.loginRequired, col
 router.post('/coleccion',                   sessionController.loginRequired, coleccionController.create);
 router.delete('/coleccion/:monedaId(\\d+)', sessionController.loginRequired, coleccionController.adminOrColeccionistaRequired, coleccionController.destroy);
 router.get('/coleccion/seeders',            sessionController.loginRequired, sessionController.adminRequired, coleccionController.seeders);
-/*
-router.get('/coleccion/series/:monedaId(\\d+)/edit',   coleccionController.edit_series);
-
-router.put('/coleccion/series/:monedaId(\\d+)',        coleccionController.update_series);
-*/
-
-/* Rutas que muestran la colección de las conmemorativas */
-//router.get('coleccion/conmemorativas/formulario',              coleccionController.formulario_conme);
-
-/*
-router.get('/coleccion/conmemorativas/show)',                  coleccionController.show_conme);
-router.get('/coleccion/conmemorativas/new',                    coleccionController.new_conme);
-router.get('/coleccion/conmemorativas/:monedaId(\\d+)/edit',   coleccionController.edit_conme);
-router.post('/coleccion/conmemorativas',                       coleccionController.create_conme);
-router.put('/coleccion/conmemorativas/:monedaId(\\d+)',        coleccionController.update_conme);
-router.delete('/coleccion/conmemorativas/:monedaId(\\d+)',     coleccionController.destroy_conme);
-*/
+router.get('/coleccion/tabla',              sessionController.loginRequired, coleccionController.tabla);
+router.get('/coleccion/tabla/show',         coleccionController.tabla_show);
 
 //Rutas para el recurso users
-
-router.get('/users',
-    sessionController.loginRequired,
-    userController.index);
-router.get('/users/:userId(\\d+)',
-    sessionController.loginRequired,
-    userController.show);
-
-//if (!!process.env.QUIZ_OPEN_REGISTER) {
-router.get('/users/new',
-    sessionController.loginRequired,
-    sessionController.adminRequired,
-    userController.new);
-router.post('/users',
-    //upload.single('photo'),
-    sessionController.loginRequired,
-    sessionController.adminRequired,
-    userController.create);
-//} else {
-    //router.get('/users/new',
-        //sessionController.loginRequired,
-        //sessionController.adminRequired,
-        //userController.new);
-    //router.post('/users',
-        //sessionController.loginRequired,
-        //sessionController.adminRequired,
-        //upload.single('photo'),
-      //userController.create);
-//}
-
-router.get('/users/:userId(\\d+)/edit',
-    sessionController.loginRequired,
-    //userController.isLocalRequired,
-    sessionController.adminOrMyselfRequired,
-    userController.edit);
-router.put('/users/:userId(\\d+)',
-    sessionController.loginRequired,
-    //userController.isLocalRequired,
-    sessionController.adminOrMyselfRequired,
-    //upload.single('photo'),
-    userController.update);
-router.delete('/users/:userId(\\d+)',
-    sessionController.loginRequired,
-    sessionController.adminRequired,
-    userController.destroy);
-
-router.get('/users/:userId(\\d+)/coleccion',
-    sessionController.loginRequired,
-    coleccionController.index);
-
-/*
-router.put('/users/:userId(\\d+)/token',
-    sessionController.loginRequired,
-    sessionController.adminOrMyselfRequired,
-    userController.createToken);   // generar un nuevo token
-
-
-router.get('/users/:userId(\\d+)/quizzes',
-    sessionController.loginRequired,
-    quizController.index);
-*/
+router.get('/users', sessionController.loginRequired, userController.index);
+router.get('/users/:userId(\\d+)', sessionController.loginRequired, userController.show);
+router.get('/users/new', sessionController.loginRequired, sessionController.adminRequired, userController.new);
+router.post('/users', sessionController.loginRequired, sessionController.adminRequired, userController.create);
+router.get('/users/:userId(\\d+)/edit', sessionController.loginRequired, sessionController.adminOrMyselfRequired, userController.edit);
+router.put('/users/:userId(\\d+)', sessionController.loginRequired, sessionController.adminOrMyselfRequired, userController.update);
+router.delete('/users/:userId(\\d+)', sessionController.loginRequired, sessionController.adminRequired, userController.destroy);
+router.get('/users/:userId(\\d+)/coleccion', sessionController.loginRequired, coleccionController.index);
 
 module.exports = router;

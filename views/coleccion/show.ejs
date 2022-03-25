@@ -1,10 +1,10 @@
 <% if (mi_coleccion) { %>
-    <h1>MI COLECCIÓN: <br><%= mi_coleccion %></h1>
+    <h1>MI COLECCIÓN: <%= mi_coleccion %></h1>
 <% } else { %>
     <h1>RESULTADO CONSULTA</h1> 
 <% } %>
 
-<table id="tabla_monedas">
+<table id="tabla_consultas">
 
     <% for (var i in coleccion) { %>
         <% var monedas = coleccion[i]; %>
@@ -25,12 +25,13 @@
                <!-- <a href="/coleccion/<%= monedas.id %>/edit" class="button">Editar</a> -->
                     <a href="/coleccion/<%= monedas.id %>?_method=DELETE"
                         onClick="return confirm('Borrar: Moneda <%= monedas.moneda %> de <%=monedas.pais.nombre %> de <%=monedas.año %> ');"
-                        class="button">Eliminar</a>
+                        class="button_tabla">Eliminar</a>
                 <% } %>
                 </td>           
         </tr>
     <% } %>
 </table>
+<br>
 <a href="/goback" class="button">Volver</a>
 <br>
 <% if (count) { %>

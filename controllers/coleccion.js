@@ -20,6 +20,38 @@ function writeFileP(file, data) {
     )
 };
 
+let tipo_monedas = ["1c", "2c", "5c", "10c", "20c", "50c", "1€", "2€", "2€ Com1", "2€ Com2", "2€ Com3", "12€_1", "12€_2"];
+let cecas_alemania = ["A", "F", "G", "J", "D"];
+
+function tabla_coleccion(coleccion, pais, año_inicio) {
+    //Crear tabla vacia
+    let tabla = {};
+    for (let año = año_inicio; año <= new Date().getFullYear(); año++) {
+        if (pais === "Alemania") {
+            cecas_alemania.forEach(ceca => {  
+                tabla["_"+año.toString()+ceca] = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+            });  
+        } else {
+            tabla["_"+año.toString()] = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+        }     
+    };
+
+    //Rellenar la tabla
+    for (const i in coleccion) {
+        let moneda = coleccion[i];
+        const año = moneda.año;
+        const ceca= moneda.ceca || '';
+        const tipo = moneda.moneda;
+        let i_moneda = tipo_monedas.indexOf(tipo);
+        if (ceca) {
+            tabla["_"+año.toString()+ceca][i_moneda] += 1;
+        } else {
+            tabla["_"+año.toString()][i_moneda] += 1;
+        }       
+    };
+
+    return (tabla);
+};
 
 function construir_seeder(coleccion) {
     let fecha = new Date();
@@ -451,6 +483,72 @@ exports.seeders = async (req, res, next) => {
         await writeFileP(NOMBRE_FICHERO, buffer);
         req.flash('success', 'Seeders creado.');
         res.redirect('/');
+    } catch (error) {
+        next(error);
+    }
+};
+
+// GET coleccion/tabla
+exports.tabla =async (req, res, next) => {
+    
+    try {
+        const paises = await models.Paises.findAll();
+        const usuarios = await models.Usuario.findAll();
+        req.flash('info', 'Introduzca los datos para la consulta que desea realizar.El campo "pais"es obligatorio');
+        res.render('coleccion/form_tabla', {paises, usuarios});
+    } catch (error) {
+        next(error);
+    }
+};
+
+// GET coleccion/tabla/show
+exports.tabla_show =async (req, res, next) => {
+    let options = {
+        where: {},
+        include: []
+    };
+    const {query} = req;
+    const coleccionista = query.coleccionista || '';
+    const pais = query.pais || '';
+
+    // Es necesario indicar un pais.
+    if (!pais) {
+        req.flash('error', 'Es necesario indicar un pais.');
+        return res.redirect('/coleccion/tabla');;
+    }
+
+    if (coleccionista) {
+        options.include.push({
+        model: models.Usuario,
+        as: "coleccionista",
+        where: {nombre: coleccionista}
+        });
+    } else {
+        options.include.push({
+        model: models.Usuario,
+        as: "coleccionista"
+        });   
+    }
+
+    if (pais) {
+        options.include.push({
+        model: models.Paises,
+        as: "pais",
+        where: {nombre: pais}
+        });
+    } else {
+        options.include.push({
+        model: models.Paises,
+        as: "pais"
+        });   
+    }
+
+    try {
+        const datos_pais = await models.Paises.findOne({where:{nombre: pais}});
+        const año_inicio = datos_pais.año_inicio;
+        const coleccion = await models.Coleccion.findAll(options);
+        const tabla = tabla_coleccion(coleccion, pais, año_inicio);
+        res.render('coleccion/tabla', {tabla, pais, año_inicio});
     } catch (error) {
         next(error);
     }

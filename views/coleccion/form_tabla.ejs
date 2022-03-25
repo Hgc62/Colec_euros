@@ -1,0 +1,28 @@
+<h1> TABLA COLECCIÓN PAÍS</h1>
+<div class="formulario">
+    <form method="get" action="/coleccion/tabla/show">
+       <p>Selecciona el usuario deseado:</p>  
+        <select name="coleccionista"> 
+            <option value=""></option>  
+            <% for (var i in usuarios) { %>
+                <% var usuario = usuarios[i]; %>
+                <% if  (usuario.nombre != "admin" && usuario.nombre != "Invitado"){ %>
+                    <option value="<%= usuario.nombre %>"><%= usuario.nombre %></option>
+                <% } %>
+            <% } %> 
+        </select> 
+        <br>
+        <p>Selecciona el país deseado:</p>
+        <select name="pais"> 
+            <option value=""></option> 
+            <% for (var i in paises) { %>
+                <% var pais = paises[i]; %>
+                <option value="<%= pais.nombre %>"><%= pais.nombre %></option>
+            <% } %> 
+        </select>
+        <p>Pulsa cuando estén los datos para la consulta:</p>
+        <input class="boton_enviar" type="submit" value="Enviar consulta">
+        <br>
+        <a href="/" class="button">Cancelar</a>
+    </form>
+</div>

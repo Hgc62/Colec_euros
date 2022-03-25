@@ -1,14 +1,18 @@
-<div>
+<div class="bandera_unica">
     <img src="/images/banderas/<%= pais.nombre %>.png"  alt="Icono bandera"><br>
         <h2 id="nombre_pais"><%= pais.nombre%> </h2>
 </div>
 
 <div class="botones_eleccion">
     <a href="/monedas/<%= pais.id %>/series">
-        <button id="monedas_curso" class="boton_datos" > COLECCIÓN EUROS </button>    
+        <button  class="boton_datos" > COLECCIÓN EUROS </button>    
     </a>
     <a href="/monedas/<%= pais.id %>/conmemorativas">
-        <button id="conmemorativas" class="boton_datos" > CONMEMORATIVAS</button>    
+        <button class="boton_datos" > CONMEMORATIVAS</button>    
     </a>
 </div>
-<a href="/goback" class="button">Volver</a>
+<br>
+<a href="/monedas" class="button">Volver</a>
+<br>
+<br>
+<br>

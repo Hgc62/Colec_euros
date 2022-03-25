@@ -35,7 +35,7 @@ module.exports = {
           //unique: "compositeKey",
           unique: "compositeKey",
           validate: {
-              isIn: [['1c', '2c', '5c', '10c', '20c', '50c', '1€', '2€', '12€', '2€ Com1', '2€ Com2', '2€ Com3']]
+              isIn: [['1c', '2c', '5c', '10c', '20c', '50c', '1€', '2€', '12€_1', '12€_2', '2€ Com1', '2€ Com2', '2€ Com3']]
           }
         },
         coleccionistaId: {

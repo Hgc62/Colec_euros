@@ -3,9 +3,11 @@
         <% var pais = paises[i]; %>
         <div class="bandera_pais">
             <a href="/monedas/<%= pais.id %>">
-                <img src="/images/banderas/<%= pais.nombre %>.png"  alt="Icono bandera"><br>     
+                <img src="/images/banderas/<%= pais.nombre %>.png"  alt="Icono bandera" id="img_banderas"><br>     
             </a>
             <h3 class="nombre_pais"><%= pais.nombre %></h3>
         </div>
     <% } %>
 </div>
+<br>
+<a href="/" class="button">Volver</a>

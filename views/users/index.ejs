@@ -3,33 +3,49 @@
 </h1>
 
 <table id="usersIndex">
-    <% for (var i in users) { %>
+    <thead>
         <tr>
-
-            <td>
-                <a href="/users/<%= users[i].id %>" ><%= users[i].nombre %></a>
-                <%= users[i].isAdmin ? "(administrador)" : "" %>
-            </td>
-
-            <td>
-                <% if (locals.loginUser.displayName !== "Invitado") { %>
-                    <% if (locals.loginUser && (locals.loginUser.isAdmin || locals.loginUser.id === users[i].id)) { %>
-                        
-                        <a href="/users/<%= users[i].id %>/edit" class="button">Editar</a>
-                        
-                    <% } %>
-                <% } %>  
-                <% if (locals.loginUser && locals.loginUser.isAdmin) { %>
-                    <a href="/users/<%= users[i].id %>?_method=DELETE"
-                        onClick="return confirm('Borrar usuario: <%= users[i].nombre %>');"
-                        class="button">Borrar</a>
-                <% } %>
-            </td>
-
+            <th>Nombre</th>
+            <th>Tipo</th>
+            <th>Permiso editar</th>
+            <th>Permiso eliminar</th>
         </tr>
-    <% } %>
-</table>
+    </thead>
+    <tbody>
+        <% for (var i in users) { %>
+            <tr>
+                <td><a class="enlace" href="/users/<%= users[i].id %>" ><%= users[i].nombre %></a></td>
+                <td>
+                    <% if (users[i].isAdmin) {%>
+                        Administrador
+                    <% } else if(users[i].nombre !== "Invitado") { %>   
+                        Coleccionista
+                    <% } else { %>   
+                        Solo consulta
+                    <% } %>
+                </td>
 
+                <td>
+                    <% if (locals.loginUser.displayName !== "Invitado") { %>
+                        <% if (locals.loginUser && (locals.loginUser.isAdmin || locals.loginUser.id === users[i].id)) { %>
+                            
+                            <a href="/users/<%= users[i].id %>/edit" class="button_tabla">Editar</a>
+                            
+                        <% } %>
+                    <% } %>  
+                </td>
+                <td>
+                    <% if (locals.loginUser && locals.loginUser.isAdmin) { %>
+                        <a href="/users/<%= users[i].id %>?_method=DELETE"
+                            onClick="return confirm('Borrar usuario: <%= users[i].nombre %>');"
+                            class="button_tabla">Eliminar</a>
+                    <% } %>
+                </td>
+            </tr>
+        <% } %>
+    </tbody>
+</table>
+<br>
 <% if (locals.loginUser && locals.loginUser.isAdmin) { %> 
     <a href="/users/new" class="button">Crear nuevo usuario</a>
  <% } %>
