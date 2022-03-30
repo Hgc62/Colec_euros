@@ -8,6 +8,7 @@ const fs = require("fs");
 const req = require("express/lib/request");
 const res = require("express/lib/response");
 const { where } = require("sequelize");
+const { KeyObject } = require("crypto");
 
 //Promisificar writeFile
 function writeFileP(file, data) {
@@ -26,7 +27,8 @@ let cecas_alemania = ["A", "F", "G", "J", "D"];
 function tabla_coleccion(coleccion, pais, año_inicio) {
     //Crear tabla vacia
     let tabla = {};
-    for (let año = año_inicio; año <= new Date().getFullYear(); año++) {
+    const año_max = coleccion[0].año >= new Date().getFullYear() ?  coleccion[0].año : new Date().getFullYear();
+    for (let año = año_inicio; año <= año_max; año++) {
         if (pais === "Alemania") {
             cecas_alemania.forEach(ceca => {  
                 tabla["_"+año.toString()+ceca] = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
@@ -352,7 +354,7 @@ exports.create = async (req, res, next) => {
         
     let {coleccionista, pais, ceca, valor, año, tipo} = req.body;
     //if ((coleccionista && pais && valor && año) && (pais === "Alemania" && ceca) ){
-    if (pais === "Alemania" ? (coleccionista && pais && valor && año && ceca) : (coleccionista && pais && valor && año)  ){
+    if (pais === "Alemania" ? (coleccionista && pais && valor && año && ceca) : (coleccionista && pais && valor && año)){
         
         let options = {
             where: {},
@@ -505,6 +507,9 @@ exports.tabla =async (req, res, next) => {
 exports.tabla_show =async (req, res, next) => {
     let options = {
         where: {},
+        order: [
+            ['año', 'DESC']
+          ],
         include: []
     };
     const {query} = req;
@@ -548,7 +553,9 @@ exports.tabla_show =async (req, res, next) => {
         const año_inicio = datos_pais.año_inicio;
         const coleccion = await models.Coleccion.findAll(options);
         const tabla = tabla_coleccion(coleccion, pais, año_inicio);
-        res.render('coleccion/tabla', {tabla, pais, año_inicio});
+        const valor = calcular_valor (coleccion);
+        const count =await models.Coleccion.count(options);
+        res.render('coleccion/tabla', {tabla, pais, año_inicio,count, valor});
     } catch (error) {
         next(error);
     }

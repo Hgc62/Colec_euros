@@ -22,7 +22,9 @@
         </tr>
     </thead>
     <tbody>
-        <% for (let año = año_inicio; año <= new Date().getFullYear(); año++) { %>
+        <% for (const _año in tabla) { %>  
+                   
+            <% const año = parseInt(_año.match(/[0-9]+/)); %>
             <% if (pais === "España") { %>
                 <tr>
                     <th><%= año %></th>
@@ -59,3 +61,10 @@
 </table>
 <br>
 <a href="/goback" class="button">Volver</a>
+<br>
+<% if (count && (locals.loginUser.displayName !== "Invitado")) { %>
+    <div>
+        <h3>Número de monedas = <%= count %></h3>
+        <h3>Valor de las monedas = <%= valor %>€</h3>
+    </div>
+<% } %>

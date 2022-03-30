@@ -34,7 +34,7 @@
 <br>
 <a href="/goback" class="button">Volver</a>
 <br>
-<% if (count) { %>
+<% if (count && (locals.loginUser.displayName !== "Invitado")) { %>
     <div>
         <h3>Número de monedas = <%= count %></h3>
         <h3>Valor de las monedas = <%= valor %>€</h3>

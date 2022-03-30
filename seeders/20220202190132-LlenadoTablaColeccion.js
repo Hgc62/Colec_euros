@@ -6,7 +6,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 1999,
         moneda: "2€",
         createdAt: new Date(),
@@ -15,7 +15,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 1999,
         moneda: "1€",
         createdAt: new Date(),
@@ -24,7 +24,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 1999,
         moneda: "50c",
         createdAt: new Date(),
@@ -33,7 +33,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 1999,
         moneda: "20c",
         createdAt: new Date(),
@@ -42,7 +42,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 1999,
         moneda: "10c",
         createdAt: new Date(),
@@ -51,7 +51,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 1999,
         moneda: "5c",
         createdAt: new Date(),
@@ -60,7 +60,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 1999,
         moneda: "2c",
         createdAt: new Date(),
@@ -69,7 +69,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 1999,
         moneda: "1c",
         createdAt: new Date(),
@@ -78,7 +78,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2000,
         moneda: "2€",
         createdAt: new Date(),
@@ -87,7 +87,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2000,
         moneda: "1€",
         createdAt: new Date(),
@@ -96,7 +96,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2000,
         moneda: "50c",
         createdAt: new Date(),
@@ -105,7 +105,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2000,
         moneda: "20c",
         createdAt: new Date(),
@@ -114,7 +114,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2000,
         moneda: "10c",
         createdAt: new Date(),
@@ -123,7 +123,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2000,
         moneda: "5c",
         createdAt: new Date(),
@@ -132,7 +132,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2000,
         moneda: "2c",
         createdAt: new Date(),
@@ -141,7 +141,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2000,
         moneda: "1c",
         createdAt: new Date(),
@@ -150,7 +150,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2001,
         moneda: "2€",
         createdAt: new Date(),
@@ -159,7 +159,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2001,
         moneda: "1€",
         createdAt: new Date(),
@@ -168,7 +168,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2001,
         moneda: "50c",
         createdAt: new Date(),
@@ -177,7 +177,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2001,
         moneda: "20c",
         createdAt: new Date(),
@@ -186,7 +186,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2001,
         moneda: "10c",
         createdAt: new Date(),
@@ -195,7 +195,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2001,
         moneda: "5c",
         createdAt: new Date(),
@@ -204,7 +204,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2001,
         moneda: "2c",
         createdAt: new Date(),
@@ -213,7 +213,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2001,
         moneda: "1c",
         createdAt: new Date(),
@@ -222,7 +222,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "2€",
         createdAt: new Date(),
@@ -231,7 +231,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "1€",
         createdAt: new Date(),
@@ -240,7 +240,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "50c",
         createdAt: new Date(),
@@ -249,7 +249,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "20c",
         createdAt: new Date(),
@@ -258,7 +258,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "10c",
         createdAt: new Date(),
@@ -267,7 +267,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "1c",
         createdAt: new Date(),
@@ -276,7 +276,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "12€_1",
         createdAt: new Date(),
@@ -285,7 +285,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2003,
         moneda: "2€",
         createdAt: new Date(),
@@ -294,7 +294,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2003,
         moneda: "1€",
         createdAt: new Date(),
@@ -303,7 +303,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2003,
         moneda: "50c",
         createdAt: new Date(),
@@ -312,7 +312,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2003,
         moneda: "20c",
         createdAt: new Date(),
@@ -321,7 +321,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2003,
         moneda: "10c",
         createdAt: new Date(),
@@ -330,7 +330,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2003,
         moneda: "5c",
         createdAt: new Date(),
@@ -339,7 +339,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2003,
         moneda: "2c",
         createdAt: new Date(),
@@ -348,7 +348,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2003,
         moneda: "1c",
         createdAt: new Date(),
@@ -357,7 +357,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2003,
         moneda: "12€_1",
         createdAt: new Date(),
@@ -366,7 +366,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2004,
         moneda: "2€",
         createdAt: new Date(),
@@ -375,7 +375,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2004,
         moneda: "1€",
         createdAt: new Date(),
@@ -384,7 +384,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2004,
         moneda: "50c",
         createdAt: new Date(),
@@ -393,7 +393,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2004,
         moneda: "20c",
         createdAt: new Date(),
@@ -402,7 +402,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2004,
         moneda: "10c",
         createdAt: new Date(),
@@ -411,7 +411,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2004,
         moneda: "5c",
         createdAt: new Date(),
@@ -420,7 +420,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2004,
         moneda: "2c",
         createdAt: new Date(),
@@ -429,7 +429,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2004,
         moneda: "1c",
         createdAt: new Date(),
@@ -438,7 +438,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2004,
         moneda: "12€_1",
         createdAt: new Date(),
@@ -447,7 +447,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2004,
         moneda: "12€_2",
         createdAt: new Date(),
@@ -456,7 +456,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2005,
         moneda: "2€",
         createdAt: new Date(),
@@ -465,7 +465,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2005,
         moneda: "1€",
         createdAt: new Date(),
@@ -474,7 +474,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2005,
         moneda: "20c",
         createdAt: new Date(),
@@ -483,7 +483,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2005,
         moneda: "10c",
         createdAt: new Date(),
@@ -492,7 +492,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2005,
         moneda: "5c",
         createdAt: new Date(),
@@ -501,7 +501,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2005,
         moneda: "2c",
         createdAt: new Date(),
@@ -510,7 +510,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2005,
         moneda: "1c",
         createdAt: new Date(),
@@ -519,7 +519,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2005,
         moneda: "12€_1",
         createdAt: new Date(),
@@ -528,7 +528,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2005,
         moneda: "2€ Com1",
         createdAt: new Date(),
@@ -537,7 +537,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2006,
         moneda: "2€",
         createdAt: new Date(),
@@ -546,7 +546,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2006,
         moneda: "1€",
         createdAt: new Date(),
@@ -555,7 +555,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2006,
         moneda: "50c",
         createdAt: new Date(),
@@ -564,7 +564,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2006,
         moneda: "20c",
         createdAt: new Date(),
@@ -573,7 +573,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2006,
         moneda: "10c",
         createdAt: new Date(),
@@ -582,7 +582,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2006,
         moneda: "5c",
         createdAt: new Date(),
@@ -591,7 +591,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2006,
         moneda: "2c",
         createdAt: new Date(),
@@ -600,7 +600,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2006,
         moneda: "1c",
         createdAt: new Date(),
@@ -609,7 +609,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2007,
         moneda: "2€",
         createdAt: new Date(),
@@ -618,7 +618,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2007,
         moneda: "1€",
         createdAt: new Date(),
@@ -627,7 +627,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2007,
         moneda: "50c",
         createdAt: new Date(),
@@ -636,7 +636,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2007,
         moneda: "20c",
         createdAt: new Date(),
@@ -645,7 +645,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2007,
         moneda: "10c",
         createdAt: new Date(),
@@ -654,7 +654,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2007,
         moneda: "5c",
         createdAt: new Date(),
@@ -663,7 +663,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2007,
         moneda: "2c",
         createdAt: new Date(),
@@ -672,7 +672,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2007,
         moneda: "1c",
         createdAt: new Date(),
@@ -681,7 +681,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2007,
         moneda: "2€ Com1",
         createdAt: new Date(),
@@ -690,7 +690,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2008,
         moneda: "2€",
         createdAt: new Date(),
@@ -699,7 +699,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2008,
         moneda: "1€",
         createdAt: new Date(),
@@ -708,7 +708,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2008,
         moneda: "50c",
         createdAt: new Date(),
@@ -717,7 +717,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2008,
         moneda: "20c",
         createdAt: new Date(),
@@ -726,7 +726,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2008,
         moneda: "10c",
         createdAt: new Date(),
@@ -735,7 +735,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2008,
         moneda: "5c",
         createdAt: new Date(),
@@ -744,7 +744,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2008,
         moneda: "2c",
         createdAt: new Date(),
@@ -753,7 +753,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2008,
         moneda: "1c",
         createdAt: new Date(),
@@ -762,7 +762,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2008,
         moneda: "12€_1",
         createdAt: new Date(),
@@ -771,7 +771,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2009,
         moneda: "2€",
         createdAt: new Date(),
@@ -780,7 +780,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2009,
         moneda: "1€",
         createdAt: new Date(),
@@ -789,7 +789,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2009,
         moneda: "20c",
         createdAt: new Date(),
@@ -798,7 +798,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2009,
         moneda: "10c",
         createdAt: new Date(),
@@ -807,7 +807,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2009,
         moneda: "5c",
         createdAt: new Date(),
@@ -816,7 +816,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2009,
         moneda: "2c",
         createdAt: new Date(),
@@ -825,7 +825,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2009,
         moneda: "1c",
         createdAt: new Date(),
@@ -834,7 +834,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2009,
         moneda: "2€ Com1",
         createdAt: new Date(),
@@ -843,7 +843,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2010,
         moneda: "2€",
         createdAt: new Date(),
@@ -852,7 +852,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2010,
         moneda: "1€",
         createdAt: new Date(),
@@ -861,7 +861,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2010,
         moneda: "10c",
         createdAt: new Date(),
@@ -870,7 +870,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2010,
         moneda: "5c",
         createdAt: new Date(),
@@ -879,7 +879,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2010,
         moneda: "2c",
         createdAt: new Date(),
@@ -888,7 +888,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2010,
         moneda: "1c",
         createdAt: new Date(),
@@ -897,7 +897,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2010,
         moneda: "2€ Com1",
         createdAt: new Date(),
@@ -906,7 +906,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2011,
         moneda: "2€",
         createdAt: new Date(),
@@ -915,7 +915,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2011,
         moneda: "1€",
         createdAt: new Date(),
@@ -924,7 +924,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2011,
         moneda: "50c",
         createdAt: new Date(),
@@ -933,7 +933,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2011,
         moneda: "10c",
         createdAt: new Date(),
@@ -942,7 +942,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2011,
         moneda: "5c",
         createdAt: new Date(),
@@ -951,7 +951,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2011,
         moneda: "2c",
         createdAt: new Date(),
@@ -960,7 +960,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2011,
         moneda: "1c",
         createdAt: new Date(),
@@ -969,7 +969,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2011,
         moneda: "2€ Com1",
         createdAt: new Date(),
@@ -978,7 +978,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2012,
         moneda: "2€",
         createdAt: new Date(),
@@ -987,7 +987,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2012,
         moneda: "1€",
         createdAt: new Date(),
@@ -996,7 +996,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2012,
         moneda: "50c",
         createdAt: new Date(),
@@ -1005,7 +1005,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2012,
         moneda: "20c",
         createdAt: new Date(),
@@ -1014,7 +1014,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2012,
         moneda: "5c",
         createdAt: new Date(),
@@ -1023,7 +1023,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2012,
         moneda: "2c",
         createdAt: new Date(),
@@ -1032,7 +1032,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2012,
         moneda: "1c",
         createdAt: new Date(),
@@ -1041,7 +1041,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2012,
         moneda: "2€ Com1",
         createdAt: new Date(),
@@ -1050,7 +1050,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2012,
         moneda: "2€ Com2",
         createdAt: new Date(),
@@ -1059,7 +1059,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2013,
         moneda: "2€",
         createdAt: new Date(),
@@ -1068,7 +1068,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2013,
         moneda: "1€",
         createdAt: new Date(),
@@ -1077,7 +1077,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2013,
         moneda: "50c",
         createdAt: new Date(),
@@ -1086,7 +1086,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2013,
         moneda: "5c",
         createdAt: new Date(),
@@ -1095,7 +1095,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2013,
         moneda: "2c",
         createdAt: new Date(),
@@ -1104,7 +1104,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2013,
         moneda: "1c",
         createdAt: new Date(),
@@ -1113,7 +1113,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2013,
         moneda: "2€ Com1",
         createdAt: new Date(),
@@ -1122,7 +1122,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2014,
         moneda: "2€",
         createdAt: new Date(),
@@ -1131,7 +1131,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2014,
         moneda: "1€",
         createdAt: new Date(),
@@ -1140,7 +1140,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2014,
         moneda: "50c",
         createdAt: new Date(),
@@ -1149,7 +1149,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2014,
         moneda: "20c",
         createdAt: new Date(),
@@ -1158,7 +1158,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2014,
         moneda: "10c",
         createdAt: new Date(),
@@ -1167,7 +1167,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2014,
         moneda: "5c",
         createdAt: new Date(),
@@ -1176,7 +1176,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2014,
         moneda: "2c",
         createdAt: new Date(),
@@ -1185,7 +1185,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2014,
         moneda: "1c",
         createdAt: new Date(),
@@ -1194,7 +1194,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2014,
         moneda: "2€ Com1",
         createdAt: new Date(),
@@ -1203,7 +1203,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2014,
         moneda: "2€ Com2",
         createdAt: new Date(),
@@ -1212,7 +1212,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2015,
         moneda: "2€",
         createdAt: new Date(),
@@ -1221,7 +1221,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2015,
         moneda: "1€",
         createdAt: new Date(),
@@ -1230,7 +1230,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2015,
         moneda: "50c",
         createdAt: new Date(),
@@ -1239,7 +1239,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2015,
         moneda: "20c",
         createdAt: new Date(),
@@ -1248,7 +1248,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2015,
         moneda: "5c",
         createdAt: new Date(),
@@ -1257,7 +1257,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2015,
         moneda: "2c",
         createdAt: new Date(),
@@ -1266,7 +1266,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2015,
         moneda: "1c",
         createdAt: new Date(),
@@ -1275,7 +1275,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2015,
         moneda: "2€ Com1",
         createdAt: new Date(),
@@ -1284,7 +1284,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2015,
         moneda: "2€ Com2",
         createdAt: new Date(),
@@ -1293,7 +1293,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2016,
         moneda: "1€",
         createdAt: new Date(),
@@ -1302,7 +1302,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2016,
         moneda: "50c",
         createdAt: new Date(),
@@ -1311,7 +1311,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2016,
         moneda: "20c",
         createdAt: new Date(),
@@ -1320,7 +1320,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2016,
         moneda: "10c",
         createdAt: new Date(),
@@ -1329,7 +1329,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2016,
         moneda: "5c",
         createdAt: new Date(),
@@ -1338,7 +1338,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2016,
         moneda: "2c",
         createdAt: new Date(),
@@ -1347,7 +1347,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2016,
         moneda: "1c",
         createdAt: new Date(),
@@ -1356,7 +1356,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2016,
         moneda: "2€ Com1",
         createdAt: new Date(),
@@ -1365,7 +1365,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2017,
         moneda: "1€",
         createdAt: new Date(),
@@ -1374,7 +1374,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2017,
         moneda: "50c",
         createdAt: new Date(),
@@ -1383,7 +1383,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2017,
         moneda: "20c",
         createdAt: new Date(),
@@ -1392,7 +1392,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2017,
         moneda: "10c",
         createdAt: new Date(),
@@ -1401,7 +1401,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2017,
         moneda: "5c",
         createdAt: new Date(),
@@ -1410,7 +1410,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2017,
         moneda: "2c",
         createdAt: new Date(),
@@ -1419,7 +1419,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2017,
         moneda: "1c",
         createdAt: new Date(),
@@ -1428,7 +1428,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2018,
         moneda: "1€",
         createdAt: new Date(),
@@ -1437,7 +1437,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2018,
         moneda: "50c",
         createdAt: new Date(),
@@ -1446,7 +1446,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2018,
         moneda: "20c",
         createdAt: new Date(),
@@ -1455,7 +1455,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2018,
         moneda: "10c",
         createdAt: new Date(),
@@ -1464,7 +1464,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2018,
         moneda: "5c",
         createdAt: new Date(),
@@ -1473,7 +1473,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2018,
         moneda: "2c",
         createdAt: new Date(),
@@ -1482,7 +1482,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2018,
         moneda: "1c",
         createdAt: new Date(),
@@ -1491,7 +1491,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2019,
         moneda: "1€",
         createdAt: new Date(),
@@ -1500,7 +1500,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2019,
         moneda: "50c",
         createdAt: new Date(),
@@ -1509,7 +1509,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2019,
         moneda: "20c",
         createdAt: new Date(),
@@ -1518,7 +1518,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2019,
         moneda: "10c",
         createdAt: new Date(),
@@ -1527,7 +1527,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2019,
         moneda: "5c",
         createdAt: new Date(),
@@ -1536,7 +1536,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2019,
         moneda: "2c",
         createdAt: new Date(),
@@ -1545,7 +1545,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2019,
         moneda: "1c",
         createdAt: new Date(),
@@ -1554,7 +1554,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2020,
         moneda: "20c",
         createdAt: new Date(),
@@ -1563,7 +1563,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2020,
         moneda: "10c",
         createdAt: new Date(),
@@ -1572,7 +1572,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2020,
         moneda: "2c",
         createdAt: new Date(),
@@ -2625,7 +2625,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "3",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "2€",
         createdAt: new Date(),
@@ -2634,7 +2634,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "3",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "1€",
         createdAt: new Date(),
@@ -2643,7 +2643,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "3",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "50c",
         createdAt: new Date(),
@@ -2652,7 +2652,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "3",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "20c",
         createdAt: new Date(),
@@ -2661,7 +2661,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "3",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "10c",
         createdAt: new Date(),
@@ -2670,7 +2670,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "3",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "5c",
         createdAt: new Date(),
@@ -2679,7 +2679,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "3",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "2c",
         createdAt: new Date(),
@@ -2688,7 +2688,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "3",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "1c",
         createdAt: new Date(),
@@ -2697,7 +2697,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "3",
-        ceca: null,
+        ceca:  "",
         año: 2003,
         moneda: "50c",
         createdAt: new Date(),
@@ -2706,7 +2706,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "3",
-        ceca: null,
+        ceca:  "",
         año: 2003,
         moneda: "20c",
         createdAt: new Date(),
@@ -2715,7 +2715,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "3",
-        ceca: null,
+        ceca:  "",
         año: 2003,
         moneda: "5c",
         createdAt: new Date(),
@@ -2724,7 +2724,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "3",
-        ceca: null,
+        ceca:  "",
         año: 2003,
         moneda: "2c",
         createdAt: new Date(),
@@ -2733,7 +2733,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "3",
-        ceca: null,
+        ceca:  "",
         año: 2004,
         moneda: "2€",
         createdAt: new Date(),
@@ -2742,7 +2742,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "3",
-        ceca: null,
+        ceca:  "",
         año: 2004,
         moneda: "50c",
         createdAt: new Date(),
@@ -2751,7 +2751,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "3",
-        ceca: null,
+        ceca:  "",
         año: 2004,
         moneda: "20c",
         createdAt: new Date(),
@@ -2760,7 +2760,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "3",
-        ceca: null,
+        ceca:  "",
         año: 2004,
         moneda: "1c",
         createdAt: new Date(),
@@ -2769,7 +2769,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "3",
-        ceca: null,
+        ceca:  "",
         año: 2005,
         moneda: "1€",
         createdAt: new Date(),
@@ -2778,7 +2778,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "3",
-        ceca: null,
+        ceca:  "",
         año: 2005,
         moneda: "5c",
         createdAt: new Date(),
@@ -2787,7 +2787,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "3",
-        ceca: null,
+        ceca:  "",
         año: 2006,
         moneda: "2€",
         createdAt: new Date(),
@@ -2796,7 +2796,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "3",
-        ceca: null,
+        ceca:  "",
         año: 2006,
         moneda: "1€",
         createdAt: new Date(),
@@ -2805,7 +2805,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "3",
-        ceca: null,
+        ceca:  "",
         año: 2007,
         moneda: "1€",
         createdAt: new Date(),
@@ -2814,7 +2814,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "3",
-        ceca: null,
+        ceca:  "",
         año: 2007,
         moneda: "50c",
         createdAt: new Date(),
@@ -2823,7 +2823,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "3",
-        ceca: null,
+        ceca:  "",
         año: 2007,
         moneda: "10c",
         createdAt: new Date(),
@@ -2832,7 +2832,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "3",
-        ceca: null,
+        ceca:  "",
         año: 2007,
         moneda: "5c",
         createdAt: new Date(),
@@ -2841,7 +2841,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "3",
-        ceca: null,
+        ceca:  "",
         año: 2007,
         moneda: "1c",
         createdAt: new Date(),
@@ -2850,7 +2850,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "3",
-        ceca: null,
+        ceca:  "",
         año: 2008,
         moneda: "1€",
         createdAt: new Date(),
@@ -2859,7 +2859,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "3",
-        ceca: null,
+        ceca:  "",
         año: 2008,
         moneda: "20c",
         createdAt: new Date(),
@@ -2868,7 +2868,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "3",
-        ceca: null,
+        ceca:  "",
         año: 2008,
         moneda: "10c",
         createdAt: new Date(),
@@ -2877,7 +2877,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "3",
-        ceca: null,
+        ceca:  "",
         año: 2008,
         moneda: "5c",
         createdAt: new Date(),
@@ -2886,7 +2886,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "3",
-        ceca: null,
+        ceca:  "",
         año: 2009,
         moneda: "1€",
         createdAt: new Date(),
@@ -2895,7 +2895,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "3",
-        ceca: null,
+        ceca:  "",
         año: 2009,
         moneda: "50c",
         createdAt: new Date(),
@@ -2904,7 +2904,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "3",
-        ceca: null,
+        ceca:  "",
         año: 2009,
         moneda: "20c",
         createdAt: new Date(),
@@ -2913,7 +2913,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "3",
-        ceca: null,
+        ceca:  "",
         año: 2009,
         moneda: "2c",
         createdAt: new Date(),
@@ -2922,7 +2922,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "3",
-        ceca: null,
+        ceca:  "",
         año: 2010,
         moneda: "2€",
         createdAt: new Date(),
@@ -2931,7 +2931,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "3",
-        ceca: null,
+        ceca:  "",
         año: 2010,
         moneda: "1€",
         createdAt: new Date(),
@@ -2940,7 +2940,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "3",
-        ceca: null,
+        ceca:  "",
         año: 2010,
         moneda: "50c",
         createdAt: new Date(),
@@ -2949,7 +2949,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "3",
-        ceca: null,
+        ceca:  "",
         año: 2010,
         moneda: "5c",
         createdAt: new Date(),
@@ -2958,7 +2958,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "3",
-        ceca: null,
+        ceca:  "",
         año: 2010,
         moneda: "1c",
         createdAt: new Date(),
@@ -2967,7 +2967,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "3",
-        ceca: null,
+        ceca:  "",
         año: 2011,
         moneda: "2€",
         createdAt: new Date(),
@@ -2976,7 +2976,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "3",
-        ceca: null,
+        ceca:  "",
         año: 2011,
         moneda: "1€",
         createdAt: new Date(),
@@ -2985,7 +2985,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "3",
-        ceca: null,
+        ceca:  "",
         año: 2011,
         moneda: "10c",
         createdAt: new Date(),
@@ -2994,7 +2994,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "3",
-        ceca: null,
+        ceca:  "",
         año: 2011,
         moneda: "5c",
         createdAt: new Date(),
@@ -3003,7 +3003,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "3",
-        ceca: null,
+        ceca:  "",
         año: 2011,
         moneda: "1c",
         createdAt: new Date(),
@@ -3012,7 +3012,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "3",
-        ceca: null,
+        ceca:  "",
         año: 2012,
         moneda: "2€",
         createdAt: new Date(),
@@ -3021,7 +3021,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "3",
-        ceca: null,
+        ceca:  "",
         año: 2012,
         moneda: "20c",
         createdAt: new Date(),
@@ -3030,7 +3030,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "3",
-        ceca: null,
+        ceca:  "",
         año: 2012,
         moneda: "1c",
         createdAt: new Date(),
@@ -3039,7 +3039,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "3",
-        ceca: null,
+        ceca:  "",
         año: 2012,
         moneda: "2€ Com1",
         createdAt: new Date(),
@@ -3048,7 +3048,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "3",
-        ceca: null,
+        ceca:  "",
         año: 2013,
         moneda: "2€",
         createdAt: new Date(),
@@ -3057,7 +3057,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "3",
-        ceca: null,
+        ceca:  "",
         año: 2013,
         moneda: "2c",
         createdAt: new Date(),
@@ -3066,7 +3066,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "3",
-        ceca: null,
+        ceca:  "",
         año: 2014,
         moneda: "2€",
         createdAt: new Date(),
@@ -3075,7 +3075,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "3",
-        ceca: null,
+        ceca:  "",
         año: 2014,
         moneda: "5c",
         createdAt: new Date(),
@@ -3084,7 +3084,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "3",
-        ceca: null,
+        ceca:  "",
         año: 2014,
         moneda: "1c",
         createdAt: new Date(),
@@ -3093,7 +3093,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "3",
-        ceca: null,
+        ceca:  "",
         año: 2015,
         moneda: "2€",
         createdAt: new Date(),
@@ -3102,7 +3102,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "3",
-        ceca: null,
+        ceca:  "",
         año: 2016,
         moneda: "1€",
         createdAt: new Date(),
@@ -3111,7 +3111,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "3",
-        ceca: null,
+        ceca:  "",
         año: 2016,
         moneda: "50c",
         createdAt: new Date(),
@@ -3120,7 +3120,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "3",
-        ceca: null,
+        ceca:  "",
         año: 2016,
         moneda: "20c",
         createdAt: new Date(),
@@ -3129,7 +3129,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "3",
-        ceca: null,
+        ceca:  "",
         año: 2016,
         moneda: "10c",
         createdAt: new Date(),
@@ -3138,7 +3138,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "3",
-        ceca: null,
+        ceca:  "",
         año: 2017,
         moneda: "2€",
         createdAt: new Date(),
@@ -3147,7 +3147,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "3",
-        ceca: null,
+        ceca:  "",
         año: 2018,
         moneda: "2c",
         createdAt: new Date(),
@@ -3156,7 +3156,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "3",
-        ceca: null,
+        ceca:  "",
         año: 2018,
         moneda: "1c",
         createdAt: new Date(),
@@ -3165,7 +3165,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "3",
-        ceca: null,
+        ceca:  "",
         año: 2018,
         moneda: "2€ Com1",
         createdAt: new Date(),
@@ -3174,7 +3174,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "3",
-        ceca: null,
+        ceca:  "",
         año: 2019,
         moneda: "1c",
         createdAt: new Date(),
@@ -3183,7 +3183,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "4",
-        ceca: null,
+        ceca:  "",
         año: 1999,
         moneda: "1€",
         createdAt: new Date(),
@@ -3192,7 +3192,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "4",
-        ceca: null,
+        ceca:  "",
         año: 1999,
         moneda: "50c",
         createdAt: new Date(),
@@ -3201,7 +3201,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "4",
-        ceca: null,
+        ceca:  "",
         año: 1999,
         moneda: "10c",
         createdAt: new Date(),
@@ -3210,7 +3210,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "4",
-        ceca: null,
+        ceca:  "",
         año: 1999,
         moneda: "5c",
         createdAt: new Date(),
@@ -3219,7 +3219,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "4",
-        ceca: null,
+        ceca:  "",
         año: 1999,
         moneda: "1c",
         createdAt: new Date(),
@@ -3228,7 +3228,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "4",
-        ceca: null,
+        ceca:  "",
         año: 2000,
         moneda: "2€",
         createdAt: new Date(),
@@ -3237,7 +3237,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "4",
-        ceca: null,
+        ceca:  "",
         año: 2000,
         moneda: "20c",
         createdAt: new Date(),
@@ -3246,7 +3246,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "4",
-        ceca: null,
+        ceca:  "",
         año: 2000,
         moneda: "2c",
         createdAt: new Date(),
@@ -3255,7 +3255,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "4",
-        ceca: null,
+        ceca:  "",
         año: 2001,
         moneda: "10c",
         createdAt: new Date(),
@@ -3264,7 +3264,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "4",
-        ceca: null,
+        ceca:  "",
         año: 2001,
         moneda: "1c",
         createdAt: new Date(),
@@ -3273,7 +3273,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "4",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "2€",
         createdAt: new Date(),
@@ -3282,7 +3282,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "4",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "1€",
         createdAt: new Date(),
@@ -3291,7 +3291,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "4",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "20c",
         createdAt: new Date(),
@@ -3300,7 +3300,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "4",
-        ceca: null,
+        ceca:  "",
         año: 2003,
         moneda: "2€",
         createdAt: new Date(),
@@ -3309,7 +3309,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "4",
-        ceca: null,
+        ceca:  "",
         año: 2003,
         moneda: "20c",
         createdAt: new Date(),
@@ -3318,7 +3318,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "4",
-        ceca: null,
+        ceca:  "",
         año: 2003,
         moneda: "5c",
         createdAt: new Date(),
@@ -3327,7 +3327,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "4",
-        ceca: null,
+        ceca:  "",
         año: 2004,
         moneda: "2€",
         createdAt: new Date(),
@@ -3336,7 +3336,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "4",
-        ceca: null,
+        ceca:  "",
         año: 2004,
         moneda: "1€",
         createdAt: new Date(),
@@ -3345,7 +3345,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "4",
-        ceca: null,
+        ceca:  "",
         año: 2004,
         moneda: "50c",
         createdAt: new Date(),
@@ -3354,7 +3354,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "4",
-        ceca: null,
+        ceca:  "",
         año: 2004,
         moneda: "20c",
         createdAt: new Date(),
@@ -3363,7 +3363,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "4",
-        ceca: null,
+        ceca:  "",
         año: 2004,
         moneda: "10c",
         createdAt: new Date(),
@@ -3372,7 +3372,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "4",
-        ceca: null,
+        ceca:  "",
         año: 2004,
         moneda: "5c",
         createdAt: new Date(),
@@ -3381,7 +3381,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "4",
-        ceca: null,
+        ceca:  "",
         año: 2004,
         moneda: "2c",
         createdAt: new Date(),
@@ -3390,7 +3390,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "4",
-        ceca: null,
+        ceca:  "",
         año: 2005,
         moneda: "2€",
         createdAt: new Date(),
@@ -3399,7 +3399,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "4",
-        ceca: null,
+        ceca:  "",
         año: 2005,
         moneda: "20c",
         createdAt: new Date(),
@@ -3408,7 +3408,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "4",
-        ceca: null,
+        ceca:  "",
         año: 2005,
         moneda: "10c",
         createdAt: new Date(),
@@ -3417,7 +3417,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "4",
-        ceca: null,
+        ceca:  "",
         año: 2005,
         moneda: "5c",
         createdAt: new Date(),
@@ -3426,7 +3426,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "4",
-        ceca: null,
+        ceca:  "",
         año: 2006,
         moneda: "2€",
         createdAt: new Date(),
@@ -3435,7 +3435,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "4",
-        ceca: null,
+        ceca:  "",
         año: 2006,
         moneda: "20c",
         createdAt: new Date(),
@@ -3444,7 +3444,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "4",
-        ceca: null,
+        ceca:  "",
         año: 2006,
         moneda: "2€ Com1",
         createdAt: new Date(),
@@ -3453,7 +3453,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "4",
-        ceca: null,
+        ceca:  "",
         año: 2007,
         moneda: "2€",
         createdAt: new Date(),
@@ -3462,7 +3462,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "4",
-        ceca: null,
+        ceca:  "",
         año: 2007,
         moneda: "20c",
         createdAt: new Date(),
@@ -3471,7 +3471,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "4",
-        ceca: null,
+        ceca:  "",
         año: 2007,
         moneda: "2c",
         createdAt: new Date(),
@@ -3480,7 +3480,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "4",
-        ceca: null,
+        ceca:  "",
         año: 2008,
         moneda: "2€",
         createdAt: new Date(),
@@ -3489,7 +3489,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "4",
-        ceca: null,
+        ceca:  "",
         año: 2008,
         moneda: "2€ Com1",
         createdAt: new Date(),
@@ -3498,7 +3498,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "4",
-        ceca: null,
+        ceca:  "",
         año: 2009,
         moneda: "2€",
         createdAt: new Date(),
@@ -3507,7 +3507,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "4",
-        ceca: null,
+        ceca:  "",
         año: 2009,
         moneda: "1€",
         createdAt: new Date(),
@@ -3516,7 +3516,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "4",
-        ceca: null,
+        ceca:  "",
         año: 2009,
         moneda: "50c",
         createdAt: new Date(),
@@ -3525,7 +3525,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "4",
-        ceca: null,
+        ceca:  "",
         año: 2009,
         moneda: "20c",
         createdAt: new Date(),
@@ -3534,7 +3534,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "4",
-        ceca: null,
+        ceca:  "",
         año: 2009,
         moneda: "2€ Com1",
         createdAt: new Date(),
@@ -3543,7 +3543,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "4",
-        ceca: null,
+        ceca:  "",
         año: 2010,
         moneda: "2€",
         createdAt: new Date(),
@@ -3552,7 +3552,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "4",
-        ceca: null,
+        ceca:  "",
         año: 2010,
         moneda: "20c",
         createdAt: new Date(),
@@ -3561,7 +3561,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "4",
-        ceca: null,
+        ceca:  "",
         año: 2010,
         moneda: "5c",
         createdAt: new Date(),
@@ -3570,7 +3570,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "4",
-        ceca: null,
+        ceca:  "",
         año: 2011,
         moneda: "2€",
         createdAt: new Date(),
@@ -3579,7 +3579,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "4",
-        ceca: null,
+        ceca:  "",
         año: 2011,
         moneda: "1€",
         createdAt: new Date(),
@@ -3588,7 +3588,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "4",
-        ceca: null,
+        ceca:  "",
         año: 2011,
         moneda: "50c",
         createdAt: new Date(),
@@ -3597,7 +3597,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "4",
-        ceca: null,
+        ceca:  "",
         año: 2011,
         moneda: "20c",
         createdAt: new Date(),
@@ -3606,7 +3606,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "4",
-        ceca: null,
+        ceca:  "",
         año: 2011,
         moneda: "10c",
         createdAt: new Date(),
@@ -3615,7 +3615,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "4",
-        ceca: null,
+        ceca:  "",
         año: 2012,
         moneda: "1€",
         createdAt: new Date(),
@@ -3624,7 +3624,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "4",
-        ceca: null,
+        ceca:  "",
         año: 2012,
         moneda: "50c",
         createdAt: new Date(),
@@ -3633,7 +3633,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "4",
-        ceca: null,
+        ceca:  "",
         año: 2012,
         moneda: "20c",
         createdAt: new Date(),
@@ -3642,7 +3642,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "4",
-        ceca: null,
+        ceca:  "",
         año: 2014,
         moneda: "50c",
         createdAt: new Date(),
@@ -3651,7 +3651,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "4",
-        ceca: null,
+        ceca:  "",
         año: 2014,
         moneda: "2€ Com1",
         createdAt: new Date(),
@@ -3660,7 +3660,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "4",
-        ceca: null,
+        ceca:  "",
         año: 2015,
         moneda: "10c",
         createdAt: new Date(),
@@ -3669,7 +3669,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "4",
-        ceca: null,
+        ceca:  "",
         año: 2015,
         moneda: "2c",
         createdAt: new Date(),
@@ -3678,7 +3678,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "5",
-        ceca: null,
+        ceca:  "",
         año: 1999,
         moneda: "2€",
         createdAt: new Date(),
@@ -3687,7 +3687,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "5",
-        ceca: null,
+        ceca:  "",
         año: 1999,
         moneda: "1€",
         createdAt: new Date(),
@@ -3696,7 +3696,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "5",
-        ceca: null,
+        ceca:  "",
         año: 1999,
         moneda: "50c",
         createdAt: new Date(),
@@ -3705,7 +3705,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "5",
-        ceca: null,
+        ceca:  "",
         año: 1999,
         moneda: "20c",
         createdAt: new Date(),
@@ -3714,7 +3714,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "5",
-        ceca: null,
+        ceca:  "",
         año: 1999,
         moneda: "10c",
         createdAt: new Date(),
@@ -3723,7 +3723,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "5",
-        ceca: null,
+        ceca:  "",
         año: 1999,
         moneda: "5c",
         createdAt: new Date(),
@@ -3732,7 +3732,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "5",
-        ceca: null,
+        ceca:  "",
         año: 1999,
         moneda: "1c",
         createdAt: new Date(),
@@ -3741,7 +3741,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "5",
-        ceca: null,
+        ceca:  "",
         año: 2000,
         moneda: "2€",
         createdAt: new Date(),
@@ -3750,7 +3750,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "5",
-        ceca: null,
+        ceca:  "",
         año: 2000,
         moneda: "1€",
         createdAt: new Date(),
@@ -3759,7 +3759,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "5",
-        ceca: null,
+        ceca:  "",
         año: 2000,
         moneda: "50c",
         createdAt: new Date(),
@@ -3768,7 +3768,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "5",
-        ceca: null,
+        ceca:  "",
         año: 2000,
         moneda: "10c",
         createdAt: new Date(),
@@ -3777,7 +3777,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "5",
-        ceca: null,
+        ceca:  "",
         año: 2000,
         moneda: "5c",
         createdAt: new Date(),
@@ -3786,7 +3786,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "5",
-        ceca: null,
+        ceca:  "",
         año: 2000,
         moneda: "2c",
         createdAt: new Date(),
@@ -3795,7 +3795,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "5",
-        ceca: null,
+        ceca:  "",
         año: 2001,
         moneda: "2€",
         createdAt: new Date(),
@@ -3804,7 +3804,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "5",
-        ceca: null,
+        ceca:  "",
         año: 2001,
         moneda: "1€",
         createdAt: new Date(),
@@ -3813,7 +3813,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "5",
-        ceca: null,
+        ceca:  "",
         año: 2001,
         moneda: "50c",
         createdAt: new Date(),
@@ -3822,7 +3822,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "5",
-        ceca: null,
+        ceca:  "",
         año: 2001,
         moneda: "20c",
         createdAt: new Date(),
@@ -3831,7 +3831,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "5",
-        ceca: null,
+        ceca:  "",
         año: 2001,
         moneda: "5c",
         createdAt: new Date(),
@@ -3840,7 +3840,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "5",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "1€",
         createdAt: new Date(),
@@ -3849,7 +3849,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "5",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "20c",
         createdAt: new Date(),
@@ -3858,7 +3858,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "5",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "5c",
         createdAt: new Date(),
@@ -3867,7 +3867,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "5",
-        ceca: null,
+        ceca:  "",
         año: 2003,
         moneda: "2€",
         createdAt: new Date(),
@@ -3876,7 +3876,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "5",
-        ceca: null,
+        ceca:  "",
         año: 2003,
         moneda: "1€",
         createdAt: new Date(),
@@ -3885,7 +3885,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "5",
-        ceca: null,
+        ceca:  "",
         año: 2003,
         moneda: "20c",
         createdAt: new Date(),
@@ -3894,7 +3894,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "5",
-        ceca: null,
+        ceca:  "",
         año: 2004,
         moneda: "2€",
         createdAt: new Date(),
@@ -3903,7 +3903,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "5",
-        ceca: null,
+        ceca:  "",
         año: 2004,
         moneda: "1€",
         createdAt: new Date(),
@@ -3912,7 +3912,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "5",
-        ceca: null,
+        ceca:  "",
         año: 2004,
         moneda: "50c",
         createdAt: new Date(),
@@ -3921,7 +3921,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "5",
-        ceca: null,
+        ceca:  "",
         año: 2004,
         moneda: "20c",
         createdAt: new Date(),
@@ -3930,7 +3930,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "5",
-        ceca: null,
+        ceca:  "",
         año: 2004,
         moneda: "10c",
         createdAt: new Date(),
@@ -3939,7 +3939,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "5",
-        ceca: null,
+        ceca:  "",
         año: 2005,
         moneda: "2€",
         createdAt: new Date(),
@@ -3948,7 +3948,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "5",
-        ceca: null,
+        ceca:  "",
         año: 2006,
         moneda: "2€",
         createdAt: new Date(),
@@ -3957,7 +3957,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "5",
-        ceca: null,
+        ceca:  "",
         año: 2006,
         moneda: "1€",
         createdAt: new Date(),
@@ -3966,7 +3966,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "5",
-        ceca: null,
+        ceca:  "",
         año: 2006,
         moneda: "50c",
         createdAt: new Date(),
@@ -3975,7 +3975,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "5",
-        ceca: null,
+        ceca:  "",
         año: 2006,
         moneda: "2c",
         createdAt: new Date(),
@@ -3984,7 +3984,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "5",
-        ceca: null,
+        ceca:  "",
         año: 2006,
         moneda: "1c",
         createdAt: new Date(),
@@ -3993,7 +3993,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "5",
-        ceca: null,
+        ceca:  "",
         año: 2007,
         moneda: "2€",
         createdAt: new Date(),
@@ -4002,7 +4002,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "5",
-        ceca: null,
+        ceca:  "",
         año: 2007,
         moneda: "1€",
         createdAt: new Date(),
@@ -4011,7 +4011,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "5",
-        ceca: null,
+        ceca:  "",
         año: 2008,
         moneda: "2€",
         createdAt: new Date(),
@@ -4020,7 +4020,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "5",
-        ceca: null,
+        ceca:  "",
         año: 2010,
         moneda: "20c",
         createdAt: new Date(),
@@ -4029,7 +4029,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "5",
-        ceca: null,
+        ceca:  "",
         año: 2010,
         moneda: "5c",
         createdAt: new Date(),
@@ -4038,7 +4038,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 1999,
         moneda: "2€",
         createdAt: new Date(),
@@ -4047,7 +4047,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 1999,
         moneda: "1€",
         createdAt: new Date(),
@@ -4056,7 +4056,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 1999,
         moneda: "50c",
         createdAt: new Date(),
@@ -4065,7 +4065,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 1999,
         moneda: "20c",
         createdAt: new Date(),
@@ -4074,7 +4074,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 1999,
         moneda: "10c",
         createdAt: new Date(),
@@ -4083,7 +4083,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 1999,
         moneda: "5c",
         createdAt: new Date(),
@@ -4092,7 +4092,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 1999,
         moneda: "2c",
         createdAt: new Date(),
@@ -4101,7 +4101,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 1999,
         moneda: "1c",
         createdAt: new Date(),
@@ -4110,7 +4110,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2000,
         moneda: "2€",
         createdAt: new Date(),
@@ -4119,7 +4119,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2000,
         moneda: "1€",
         createdAt: new Date(),
@@ -4128,7 +4128,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2000,
         moneda: "50c",
         createdAt: new Date(),
@@ -4137,7 +4137,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2000,
         moneda: "20c",
         createdAt: new Date(),
@@ -4146,7 +4146,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2000,
         moneda: "10c",
         createdAt: new Date(),
@@ -4155,7 +4155,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2000,
         moneda: "5c",
         createdAt: new Date(),
@@ -4164,7 +4164,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2000,
         moneda: "2c",
         createdAt: new Date(),
@@ -4173,7 +4173,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2000,
         moneda: "1c",
         createdAt: new Date(),
@@ -4182,7 +4182,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2001,
         moneda: "2€",
         createdAt: new Date(),
@@ -4191,7 +4191,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2001,
         moneda: "1€",
         createdAt: new Date(),
@@ -4200,7 +4200,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2001,
         moneda: "50c",
         createdAt: new Date(),
@@ -4209,7 +4209,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2001,
         moneda: "20c",
         createdAt: new Date(),
@@ -4218,7 +4218,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2001,
         moneda: "10c",
         createdAt: new Date(),
@@ -4227,7 +4227,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2001,
         moneda: "5c",
         createdAt: new Date(),
@@ -4236,7 +4236,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2001,
         moneda: "2c",
         createdAt: new Date(),
@@ -4245,7 +4245,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2001,
         moneda: "1c",
         createdAt: new Date(),
@@ -4254,7 +4254,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "2€",
         createdAt: new Date(),
@@ -4263,7 +4263,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "50c",
         createdAt: new Date(),
@@ -4272,7 +4272,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "20c",
         createdAt: new Date(),
@@ -4281,7 +4281,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "10c",
         createdAt: new Date(),
@@ -4290,7 +4290,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "5c",
         createdAt: new Date(),
@@ -4299,7 +4299,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2003,
         moneda: "10c",
         createdAt: new Date(),
@@ -4308,7 +4308,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2003,
         moneda: "5c",
         createdAt: new Date(),
@@ -4317,7 +4317,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2003,
         moneda: "2c",
         createdAt: new Date(),
@@ -4326,7 +4326,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2003,
         moneda: "1c",
         createdAt: new Date(),
@@ -4335,7 +4335,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2004,
         moneda: "2c",
         createdAt: new Date(),
@@ -4344,7 +4344,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2004,
         moneda: "1c",
         createdAt: new Date(),
@@ -4353,7 +4353,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2005,
         moneda: "10c",
         createdAt: new Date(),
@@ -4362,7 +4362,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2005,
         moneda: "5c",
         createdAt: new Date(),
@@ -4371,7 +4371,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2005,
         moneda: "2c",
         createdAt: new Date(),
@@ -4380,7 +4380,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2005,
         moneda: "1c",
         createdAt: new Date(),
@@ -4389,7 +4389,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2006,
         moneda: "10c",
         createdAt: new Date(),
@@ -4398,7 +4398,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2006,
         moneda: "5c",
         createdAt: new Date(),
@@ -4407,7 +4407,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2006,
         moneda: "2c",
         createdAt: new Date(),
@@ -4416,7 +4416,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2006,
         moneda: "1c",
         createdAt: new Date(),
@@ -4425,7 +4425,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2007,
         moneda: "20c",
         createdAt: new Date(),
@@ -4434,7 +4434,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2007,
         moneda: "10c",
         createdAt: new Date(),
@@ -4443,7 +4443,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2007,
         moneda: "5c",
         createdAt: new Date(),
@@ -4452,7 +4452,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2007,
         moneda: "2c",
         createdAt: new Date(),
@@ -4461,7 +4461,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2007,
         moneda: "1c",
         createdAt: new Date(),
@@ -4470,7 +4470,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2007,
         moneda: "2€ Com1",
         createdAt: new Date(),
@@ -4479,7 +4479,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2008,
         moneda: "20c",
         createdAt: new Date(),
@@ -4488,7 +4488,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2008,
         moneda: "10c",
         createdAt: new Date(),
@@ -4497,7 +4497,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2008,
         moneda: "5c",
         createdAt: new Date(),
@@ -4506,7 +4506,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2008,
         moneda: "2c",
         createdAt: new Date(),
@@ -4515,7 +4515,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2008,
         moneda: "1c",
         createdAt: new Date(),
@@ -4524,7 +4524,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2008,
         moneda: "2€ Com1",
         createdAt: new Date(),
@@ -4533,7 +4533,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2009,
         moneda: "20c",
         createdAt: new Date(),
@@ -4542,7 +4542,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2009,
         moneda: "10c",
         createdAt: new Date(),
@@ -4551,7 +4551,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2009,
         moneda: "5c",
         createdAt: new Date(),
@@ -4560,7 +4560,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2009,
         moneda: "2c",
         createdAt: new Date(),
@@ -4569,7 +4569,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2009,
         moneda: "1c",
         createdAt: new Date(),
@@ -4578,7 +4578,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2009,
         moneda: "2€ Com1",
         createdAt: new Date(),
@@ -4587,7 +4587,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2010,
         moneda: "20c",
         createdAt: new Date(),
@@ -4596,7 +4596,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2010,
         moneda: "10c",
         createdAt: new Date(),
@@ -4605,7 +4605,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2010,
         moneda: "5c",
         createdAt: new Date(),
@@ -4614,7 +4614,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2010,
         moneda: "2c",
         createdAt: new Date(),
@@ -4623,7 +4623,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2010,
         moneda: "1c",
         createdAt: new Date(),
@@ -4632,7 +4632,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2010,
         moneda: "2€ Com1",
         createdAt: new Date(),
@@ -4641,7 +4641,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2011,
         moneda: "2€",
         createdAt: new Date(),
@@ -4650,7 +4650,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2011,
         moneda: "20c",
         createdAt: new Date(),
@@ -4659,7 +4659,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2011,
         moneda: "10c",
         createdAt: new Date(),
@@ -4668,7 +4668,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2011,
         moneda: "5c",
         createdAt: new Date(),
@@ -4677,7 +4677,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2011,
         moneda: "2c",
         createdAt: new Date(),
@@ -4686,7 +4686,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2011,
         moneda: "1c",
         createdAt: new Date(),
@@ -4695,7 +4695,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2011,
         moneda: "2€ Com1",
         createdAt: new Date(),
@@ -4704,7 +4704,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2012,
         moneda: "2€",
         createdAt: new Date(),
@@ -4713,7 +4713,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2012,
         moneda: "10c",
         createdAt: new Date(),
@@ -4722,7 +4722,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2012,
         moneda: "5c",
         createdAt: new Date(),
@@ -4731,7 +4731,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2012,
         moneda: "2c",
         createdAt: new Date(),
@@ -4740,7 +4740,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2012,
         moneda: "1c",
         createdAt: new Date(),
@@ -4749,7 +4749,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2012,
         moneda: "2€ Com1",
         createdAt: new Date(),
@@ -4758,7 +4758,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2013,
         moneda: "2€",
         createdAt: new Date(),
@@ -4767,7 +4767,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2013,
         moneda: "20c",
         createdAt: new Date(),
@@ -4776,7 +4776,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2013,
         moneda: "10c",
         createdAt: new Date(),
@@ -4785,7 +4785,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2013,
         moneda: "5c",
         createdAt: new Date(),
@@ -4794,7 +4794,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2013,
         moneda: "2c",
         createdAt: new Date(),
@@ -4803,7 +4803,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2013,
         moneda: "1c",
         createdAt: new Date(),
@@ -4812,7 +4812,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2013,
         moneda: "2€ Com1",
         createdAt: new Date(),
@@ -4821,7 +4821,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2014,
         moneda: "2€",
         createdAt: new Date(),
@@ -4830,7 +4830,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2014,
         moneda: "20c",
         createdAt: new Date(),
@@ -4839,7 +4839,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2014,
         moneda: "2€ Com1",
         createdAt: new Date(),
@@ -4848,7 +4848,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2015,
         moneda: "2€",
         createdAt: new Date(),
@@ -4857,7 +4857,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2015,
         moneda: "20c",
         createdAt: new Date(),
@@ -4866,7 +4866,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2015,
         moneda: "10c",
         createdAt: new Date(),
@@ -4875,7 +4875,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2015,
         moneda: "5c",
         createdAt: new Date(),
@@ -4884,7 +4884,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2015,
         moneda: "2c",
         createdAt: new Date(),
@@ -4893,7 +4893,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2015,
         moneda: "2€ Com1",
         createdAt: new Date(),
@@ -4902,7 +4902,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2016,
         moneda: "2€",
         createdAt: new Date(),
@@ -4911,7 +4911,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2016,
         moneda: "10c",
         createdAt: new Date(),
@@ -4920,7 +4920,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2016,
         moneda: "2€ Com1",
         createdAt: new Date(),
@@ -4929,7 +4929,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2017,
         moneda: "2€",
         createdAt: new Date(),
@@ -4938,7 +4938,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2017,
         moneda: "10c",
         createdAt: new Date(),
@@ -4947,7 +4947,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2017,
         moneda: "2€ Com2",
         createdAt: new Date(),
@@ -4956,7 +4956,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2018,
         moneda: "2€",
         createdAt: new Date(),
@@ -4965,7 +4965,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2018,
         moneda: "20c",
         createdAt: new Date(),
@@ -4974,7 +4974,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2018,
         moneda: "1c",
         createdAt: new Date(),
@@ -4983,7 +4983,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "7",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "2€",
         createdAt: new Date(),
@@ -4992,7 +4992,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "7",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "1€",
         createdAt: new Date(),
@@ -5001,7 +5001,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "7",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "50c",
         createdAt: new Date(),
@@ -5010,7 +5010,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "7",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "20c",
         createdAt: new Date(),
@@ -5019,7 +5019,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "7",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "10c",
         createdAt: new Date(),
@@ -5028,7 +5028,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "7",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "5c",
         createdAt: new Date(),
@@ -5037,7 +5037,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "7",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "2c",
         createdAt: new Date(),
@@ -5046,7 +5046,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "7",
-        ceca: null,
+        ceca:  "",
         año: 2003,
         moneda: "1€",
         createdAt: new Date(),
@@ -5055,7 +5055,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "7",
-        ceca: null,
+        ceca:  "",
         año: 2004,
         moneda: "2€",
         createdAt: new Date(),
@@ -5064,7 +5064,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "7",
-        ceca: null,
+        ceca:  "",
         año: 2004,
         moneda: "1€",
         createdAt: new Date(),
@@ -5073,7 +5073,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "7",
-        ceca: null,
+        ceca:  "",
         año: 2005,
         moneda: "1€",
         createdAt: new Date(),
@@ -5082,7 +5082,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "7",
-        ceca: null,
+        ceca:  "",
         año: 2006,
         moneda: "1€",
         createdAt: new Date(),
@@ -5091,7 +5091,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "7",
-        ceca: null,
+        ceca:  "",
         año: 2006,
         moneda: "10c",
         createdAt: new Date(),
@@ -5100,7 +5100,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "7",
-        ceca: null,
+        ceca:  "",
         año: 2006,
         moneda: "5c",
         createdAt: new Date(),
@@ -5109,7 +5109,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "7",
-        ceca: null,
+        ceca:  "",
         año: 2006,
         moneda: "2c",
         createdAt: new Date(),
@@ -5118,7 +5118,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "7",
-        ceca: null,
+        ceca:  "",
         año: 2007,
         moneda: "1€",
         createdAt: new Date(),
@@ -5127,7 +5127,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "7",
-        ceca: null,
+        ceca:  "",
         año: 2008,
         moneda: "50c",
         createdAt: new Date(),
@@ -5136,7 +5136,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "7",
-        ceca: null,
+        ceca:  "",
         año: 2008,
         moneda: "20c",
         createdAt: new Date(),
@@ -5145,7 +5145,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "7",
-        ceca: null,
+        ceca:  "",
         año: 2008,
         moneda: "10c",
         createdAt: new Date(),
@@ -5154,7 +5154,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "7",
-        ceca: null,
+        ceca:  "",
         año: 2009,
         moneda: "1€",
         createdAt: new Date(),
@@ -5163,7 +5163,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "7",
-        ceca: null,
+        ceca:  "",
         año: 2009,
         moneda: "50c",
         createdAt: new Date(),
@@ -5172,7 +5172,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "7",
-        ceca: null,
+        ceca:  "",
         año: 2010,
         moneda: "20c",
         createdAt: new Date(),
@@ -5181,7 +5181,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "7",
-        ceca: null,
+        ceca:  "",
         año: 2014,
         moneda: "1c",
         createdAt: new Date(),
@@ -5190,7 +5190,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "7",
-        ceca: null,
+        ceca:  "",
         año: 2017,
         moneda: "2c",
         createdAt: new Date(),
@@ -5199,7 +5199,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "7",
-        ceca: null,
+        ceca:  "",
         año: 2018,
         moneda: "5c",
         createdAt: new Date(),
@@ -5208,7 +5208,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "8",
-        ceca: null,
+        ceca:  "",
         año: 1999,
         moneda: "2€",
         createdAt: new Date(),
@@ -5217,7 +5217,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "8",
-        ceca: null,
+        ceca:  "",
         año: 1999,
         moneda: "1€",
         createdAt: new Date(),
@@ -5226,7 +5226,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "8",
-        ceca: null,
+        ceca:  "",
         año: 1999,
         moneda: "50c",
         createdAt: new Date(),
@@ -5235,7 +5235,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "8",
-        ceca: null,
+        ceca:  "",
         año: 1999,
         moneda: "20c",
         createdAt: new Date(),
@@ -5244,7 +5244,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "8",
-        ceca: null,
+        ceca:  "",
         año: 1999,
         moneda: "10c",
         createdAt: new Date(),
@@ -5253,7 +5253,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "8",
-        ceca: null,
+        ceca:  "",
         año: 1999,
         moneda: "5c",
         createdAt: new Date(),
@@ -5262,7 +5262,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "8",
-        ceca: null,
+        ceca:  "",
         año: 1999,
         moneda: "2c",
         createdAt: new Date(),
@@ -5271,7 +5271,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "8",
-        ceca: null,
+        ceca:  "",
         año: 2000,
         moneda: "2€",
         createdAt: new Date(),
@@ -5280,7 +5280,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "8",
-        ceca: null,
+        ceca:  "",
         año: 2000,
         moneda: "1€",
         createdAt: new Date(),
@@ -5289,7 +5289,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "8",
-        ceca: null,
+        ceca:  "",
         año: 2000,
         moneda: "50c",
         createdAt: new Date(),
@@ -5298,7 +5298,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "8",
-        ceca: null,
+        ceca:  "",
         año: 2000,
         moneda: "20c",
         createdAt: new Date(),
@@ -5307,7 +5307,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "8",
-        ceca: null,
+        ceca:  "",
         año: 2000,
         moneda: "10c",
         createdAt: new Date(),
@@ -5316,7 +5316,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "8",
-        ceca: null,
+        ceca:  "",
         año: 2000,
         moneda: "5c",
         createdAt: new Date(),
@@ -5325,7 +5325,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "8",
-        ceca: null,
+        ceca:  "",
         año: 2000,
         moneda: "2c",
         createdAt: new Date(),
@@ -5334,7 +5334,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "8",
-        ceca: null,
+        ceca:  "",
         año: 2000,
         moneda: "1c",
         createdAt: new Date(),
@@ -5343,7 +5343,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "8",
-        ceca: null,
+        ceca:  "",
         año: 2001,
         moneda: "2€",
         createdAt: new Date(),
@@ -5352,7 +5352,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "8",
-        ceca: null,
+        ceca:  "",
         año: 2001,
         moneda: "1€",
         createdAt: new Date(),
@@ -5361,7 +5361,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "8",
-        ceca: null,
+        ceca:  "",
         año: 2001,
         moneda: "50c",
         createdAt: new Date(),
@@ -5370,7 +5370,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "8",
-        ceca: null,
+        ceca:  "",
         año: 2001,
         moneda: "20c",
         createdAt: new Date(),
@@ -5379,7 +5379,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "8",
-        ceca: null,
+        ceca:  "",
         año: 2001,
         moneda: "10c",
         createdAt: new Date(),
@@ -5388,7 +5388,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "8",
-        ceca: null,
+        ceca:  "",
         año: 2001,
         moneda: "5c",
         createdAt: new Date(),
@@ -5397,7 +5397,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "8",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "2€",
         createdAt: new Date(),
@@ -5406,7 +5406,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "8",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "1€",
         createdAt: new Date(),
@@ -5415,7 +5415,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "8",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "50c",
         createdAt: new Date(),
@@ -5424,7 +5424,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "8",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "20c",
         createdAt: new Date(),
@@ -5433,7 +5433,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "8",
-        ceca: null,
+        ceca:  "",
         año: 2003,
         moneda: "20c",
         createdAt: new Date(),
@@ -5442,7 +5442,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "8",
-        ceca: null,
+        ceca:  "",
         año: 2003,
         moneda: "2c",
         createdAt: new Date(),
@@ -5451,7 +5451,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "8",
-        ceca: null,
+        ceca:  "",
         año: 2004,
         moneda: "20c",
         createdAt: new Date(),
@@ -5460,7 +5460,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "8",
-        ceca: null,
+        ceca:  "",
         año: 2004,
         moneda: "2c",
         createdAt: new Date(),
@@ -5469,7 +5469,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "8",
-        ceca: null,
+        ceca:  "",
         año: 2005,
         moneda: "5c",
         createdAt: new Date(),
@@ -5478,7 +5478,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "8",
-        ceca: null,
+        ceca:  "",
         año: 2006,
         moneda: "5c",
         createdAt: new Date(),
@@ -5487,7 +5487,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "8",
-        ceca: null,
+        ceca:  "",
         año: 2007,
         moneda: "2€ Com1",
         createdAt: new Date(),
@@ -5496,7 +5496,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "8",
-        ceca: null,
+        ceca:  "",
         año: 2013,
         moneda: "5c",
         createdAt: new Date(),
@@ -5505,7 +5505,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "8",
-        ceca: null,
+        ceca:  "",
         año: 2014,
         moneda: "2€",
         createdAt: new Date(),
@@ -5514,7 +5514,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "8",
-        ceca: null,
+        ceca:  "",
         año: 2014,
         moneda: "50c",
         createdAt: new Date(),
@@ -5523,7 +5523,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "8",
-        ceca: null,
+        ceca:  "",
         año: 2014,
         moneda: "5c",
         createdAt: new Date(),
@@ -5532,7 +5532,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "8",
-        ceca: null,
+        ceca:  "",
         año: 2015,
         moneda: "5c",
         createdAt: new Date(),
@@ -5541,7 +5541,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "8",
-        ceca: null,
+        ceca:  "",
         año: 2015,
         moneda: "2€ Com1",
         createdAt: new Date(),
@@ -5550,7 +5550,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "8",
-        ceca: null,
+        ceca:  "",
         año: 2017,
         moneda: "10c",
         createdAt: new Date(),
@@ -5559,7 +5559,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "8",
-        ceca: null,
+        ceca:  "",
         año: 2017,
         moneda: "5c",
         createdAt: new Date(),
@@ -5568,7 +5568,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "9",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "2€",
         createdAt: new Date(),
@@ -5577,7 +5577,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "9",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "1€",
         createdAt: new Date(),
@@ -5586,7 +5586,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "9",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "50c",
         createdAt: new Date(),
@@ -5595,7 +5595,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "9",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "20c",
         createdAt: new Date(),
@@ -5604,7 +5604,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "9",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "10c",
         createdAt: new Date(),
@@ -5613,7 +5613,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "9",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "5c",
         createdAt: new Date(),
@@ -5622,7 +5622,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "9",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "2c",
         createdAt: new Date(),
@@ -5631,7 +5631,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "9",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "1c",
         createdAt: new Date(),
@@ -5640,7 +5640,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "9",
-        ceca: null,
+        ceca:  "",
         año: 2003,
         moneda: "50c",
         createdAt: new Date(),
@@ -5649,7 +5649,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "9",
-        ceca: null,
+        ceca:  "",
         año: 2003,
         moneda: "20c",
         createdAt: new Date(),
@@ -5658,7 +5658,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "9",
-        ceca: null,
+        ceca:  "",
         año: 2003,
         moneda: "10c",
         createdAt: new Date(),
@@ -5667,7 +5667,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "9",
-        ceca: null,
+        ceca:  "",
         año: 2003,
         moneda: "2c",
         createdAt: new Date(),
@@ -5676,7 +5676,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "9",
-        ceca: null,
+        ceca:  "",
         año: 2003,
         moneda: "1c",
         createdAt: new Date(),
@@ -5685,7 +5685,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "9",
-        ceca: null,
+        ceca:  "",
         año: 2004,
         moneda: "2€",
         createdAt: new Date(),
@@ -5694,7 +5694,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "9",
-        ceca: null,
+        ceca:  "",
         año: 2004,
         moneda: "50c",
         createdAt: new Date(),
@@ -5703,7 +5703,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "9",
-        ceca: null,
+        ceca:  "",
         año: 2004,
         moneda: "20c",
         createdAt: new Date(),
@@ -5712,7 +5712,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "9",
-        ceca: null,
+        ceca:  "",
         año: 2004,
         moneda: "1c",
         createdAt: new Date(),
@@ -5721,7 +5721,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "9",
-        ceca: null,
+        ceca:  "",
         año: 2005,
         moneda: "2€",
         createdAt: new Date(),
@@ -5730,7 +5730,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "9",
-        ceca: null,
+        ceca:  "",
         año: 2005,
         moneda: "1€",
         createdAt: new Date(),
@@ -5739,7 +5739,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "9",
-        ceca: null,
+        ceca:  "",
         año: 2005,
         moneda: "50c",
         createdAt: new Date(),
@@ -5748,7 +5748,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "9",
-        ceca: null,
+        ceca:  "",
         año: 2005,
         moneda: "20c",
         createdAt: new Date(),
@@ -5757,7 +5757,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "9",
-        ceca: null,
+        ceca:  "",
         año: 2005,
         moneda: "10c",
         createdAt: new Date(),
@@ -5766,7 +5766,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "9",
-        ceca: null,
+        ceca:  "",
         año: 2005,
         moneda: "5c",
         createdAt: new Date(),
@@ -5775,7 +5775,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "9",
-        ceca: null,
+        ceca:  "",
         año: 2005,
         moneda: "1c",
         createdAt: new Date(),
@@ -5784,7 +5784,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "9",
-        ceca: null,
+        ceca:  "",
         año: 2006,
         moneda: "2€",
         createdAt: new Date(),
@@ -5793,7 +5793,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "9",
-        ceca: null,
+        ceca:  "",
         año: 2006,
         moneda: "5c",
         createdAt: new Date(),
@@ -5802,7 +5802,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "9",
-        ceca: null,
+        ceca:  "",
         año: 2006,
         moneda: "1c",
         createdAt: new Date(),
@@ -5811,7 +5811,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "9",
-        ceca: null,
+        ceca:  "",
         año: 2007,
         moneda: "2€",
         createdAt: new Date(),
@@ -5820,7 +5820,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "9",
-        ceca: null,
+        ceca:  "",
         año: 2007,
         moneda: "50c",
         createdAt: new Date(),
@@ -5829,7 +5829,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "9",
-        ceca: null,
+        ceca:  "",
         año: 2007,
         moneda: "20c",
         createdAt: new Date(),
@@ -5838,7 +5838,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "9",
-        ceca: null,
+        ceca:  "",
         año: 2007,
         moneda: "10c",
         createdAt: new Date(),
@@ -5847,7 +5847,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "9",
-        ceca: null,
+        ceca:  "",
         año: 2007,
         moneda: "5c",
         createdAt: new Date(),
@@ -5856,7 +5856,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "9",
-        ceca: null,
+        ceca:  "",
         año: 2008,
         moneda: "20c",
         createdAt: new Date(),
@@ -5865,7 +5865,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "9",
-        ceca: null,
+        ceca:  "",
         año: 2008,
         moneda: "10c",
         createdAt: new Date(),
@@ -5874,7 +5874,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "9",
-        ceca: null,
+        ceca:  "",
         año: 2008,
         moneda: "1c",
         createdAt: new Date(),
@@ -5883,7 +5883,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "9",
-        ceca: null,
+        ceca:  "",
         año: 2009,
         moneda: "5c",
         createdAt: new Date(),
@@ -5892,7 +5892,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "9",
-        ceca: null,
+        ceca:  "",
         año: 2010,
         moneda: "2€",
         createdAt: new Date(),
@@ -5901,7 +5901,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "9",
-        ceca: null,
+        ceca:  "",
         año: 2011,
         moneda: "2€",
         createdAt: new Date(),
@@ -5910,7 +5910,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "9",
-        ceca: null,
+        ceca:  "",
         año: 2012,
         moneda: "2€",
         createdAt: new Date(),
@@ -5919,7 +5919,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "9",
-        ceca: null,
+        ceca:  "",
         año: 2012,
         moneda: "2€ Com1",
         createdAt: new Date(),
@@ -5928,7 +5928,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "9",
-        ceca: null,
+        ceca:  "",
         año: 2014,
         moneda: "1€",
         createdAt: new Date(),
@@ -5937,7 +5937,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "9",
-        ceca: null,
+        ceca:  "",
         año: 2014,
         moneda: "50c",
         createdAt: new Date(),
@@ -5946,7 +5946,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "9",
-        ceca: null,
+        ceca:  "",
         año: 2015,
         moneda: "50c",
         createdAt: new Date(),
@@ -5955,7 +5955,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "9",
-        ceca: null,
+        ceca:  "",
         año: 2016,
         moneda: "2€ Com1",
         createdAt: new Date(),
@@ -5964,7 +5964,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "9",
-        ceca: null,
+        ceca:  "",
         año: 2019,
         moneda: "2€ Com1",
         createdAt: new Date(),
@@ -5973,7 +5973,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "10",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "2€",
         createdAt: new Date(),
@@ -5982,7 +5982,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "10",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "1€",
         createdAt: new Date(),
@@ -5991,7 +5991,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "10",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "50c",
         createdAt: new Date(),
@@ -6000,7 +6000,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "10",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "20c",
         createdAt: new Date(),
@@ -6009,7 +6009,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "10",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "10c",
         createdAt: new Date(),
@@ -6018,7 +6018,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "10",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "5c",
         createdAt: new Date(),
@@ -6027,7 +6027,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "10",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "2c",
         createdAt: new Date(),
@@ -6036,7 +6036,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "10",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "1c",
         createdAt: new Date(),
@@ -6045,7 +6045,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "10",
-        ceca: null,
+        ceca:  "",
         año: 2003,
         moneda: "2€",
         createdAt: new Date(),
@@ -6054,7 +6054,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "10",
-        ceca: null,
+        ceca:  "",
         año: 2003,
         moneda: "1€",
         createdAt: new Date(),
@@ -6063,7 +6063,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "10",
-        ceca: null,
+        ceca:  "",
         año: 2003,
         moneda: "50c",
         createdAt: new Date(),
@@ -6072,7 +6072,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "10",
-        ceca: null,
+        ceca:  "",
         año: 2003,
         moneda: "20c",
         createdAt: new Date(),
@@ -6081,7 +6081,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "10",
-        ceca: null,
+        ceca:  "",
         año: 2003,
         moneda: "10c",
         createdAt: new Date(),
@@ -6090,7 +6090,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "10",
-        ceca: null,
+        ceca:  "",
         año: 2004,
         moneda: "2€",
         createdAt: new Date(),
@@ -6099,7 +6099,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "10",
-        ceca: null,
+        ceca:  "",
         año: 2004,
         moneda: "20c",
         createdAt: new Date(),
@@ -6108,7 +6108,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "10",
-        ceca: null,
+        ceca:  "",
         año: 2004,
         moneda: "2c",
         createdAt: new Date(),
@@ -6117,7 +6117,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "10",
-        ceca: null,
+        ceca:  "",
         año: 2004,
         moneda: "2€ Com1",
         createdAt: new Date(),
@@ -6126,7 +6126,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "10",
-        ceca: null,
+        ceca:  "",
         año: 2005,
         moneda: "2€",
         createdAt: new Date(),
@@ -6135,7 +6135,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "10",
-        ceca: null,
+        ceca:  "",
         año: 2005,
         moneda: "50c",
         createdAt: new Date(),
@@ -6144,7 +6144,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "10",
-        ceca: null,
+        ceca:  "",
         año: 2005,
         moneda: "10c",
         createdAt: new Date(),
@@ -6153,7 +6153,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "10",
-        ceca: null,
+        ceca:  "",
         año: 2005,
         moneda: "5c",
         createdAt: new Date(),
@@ -6162,7 +6162,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "10",
-        ceca: null,
+        ceca:  "",
         año: 2005,
         moneda: "2c",
         createdAt: new Date(),
@@ -6171,7 +6171,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "10",
-        ceca: null,
+        ceca:  "",
         año: 2005,
         moneda: "2€ Com1",
         createdAt: new Date(),
@@ -6180,7 +6180,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "10",
-        ceca: null,
+        ceca:  "",
         año: 2006,
         moneda: "2€",
         createdAt: new Date(),
@@ -6189,7 +6189,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "10",
-        ceca: null,
+        ceca:  "",
         año: 2006,
         moneda: "1€",
         createdAt: new Date(),
@@ -6198,7 +6198,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "10",
-        ceca: null,
+        ceca:  "",
         año: 2006,
         moneda: "20c",
         createdAt: new Date(),
@@ -6207,7 +6207,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "10",
-        ceca: null,
+        ceca:  "",
         año: 2006,
         moneda: "10c",
         createdAt: new Date(),
@@ -6216,7 +6216,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "10",
-        ceca: null,
+        ceca:  "",
         año: 2006,
         moneda: "5c",
         createdAt: new Date(),
@@ -6225,7 +6225,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "10",
-        ceca: null,
+        ceca:  "",
         año: 2006,
         moneda: "2c",
         createdAt: new Date(),
@@ -6234,7 +6234,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "10",
-        ceca: null,
+        ceca:  "",
         año: 2006,
         moneda: "2€ Com1",
         createdAt: new Date(),
@@ -6243,7 +6243,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "10",
-        ceca: null,
+        ceca:  "",
         año: 2007,
         moneda: "1€",
         createdAt: new Date(),
@@ -6252,7 +6252,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "10",
-        ceca: null,
+        ceca:  "",
         año: 2007,
         moneda: "10c",
         createdAt: new Date(),
@@ -6261,7 +6261,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "10",
-        ceca: null,
+        ceca:  "",
         año: 2007,
         moneda: "5c",
         createdAt: new Date(),
@@ -6270,7 +6270,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "10",
-        ceca: null,
+        ceca:  "",
         año: 2007,
         moneda: "1c",
         createdAt: new Date(),
@@ -6279,7 +6279,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "10",
-        ceca: null,
+        ceca:  "",
         año: 2008,
         moneda: "2€",
         createdAt: new Date(),
@@ -6288,7 +6288,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "10",
-        ceca: null,
+        ceca:  "",
         año: 2008,
         moneda: "1€",
         createdAt: new Date(),
@@ -6297,7 +6297,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "10",
-        ceca: null,
+        ceca:  "",
         año: 2008,
         moneda: "20c",
         createdAt: new Date(),
@@ -6306,7 +6306,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "10",
-        ceca: null,
+        ceca:  "",
         año: 2008,
         moneda: "10c",
         createdAt: new Date(),
@@ -6315,7 +6315,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "10",
-        ceca: null,
+        ceca:  "",
         año: 2008,
         moneda: "5c",
         createdAt: new Date(),
@@ -6324,7 +6324,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "10",
-        ceca: null,
+        ceca:  "",
         año: 2008,
         moneda: "1c",
         createdAt: new Date(),
@@ -6333,7 +6333,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "10",
-        ceca: null,
+        ceca:  "",
         año: 2009,
         moneda: "2€",
         createdAt: new Date(),
@@ -6342,7 +6342,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "10",
-        ceca: null,
+        ceca:  "",
         año: 2009,
         moneda: "1€",
         createdAt: new Date(),
@@ -6351,7 +6351,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "10",
-        ceca: null,
+        ceca:  "",
         año: 2009,
         moneda: "10c",
         createdAt: new Date(),
@@ -6360,7 +6360,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "10",
-        ceca: null,
+        ceca:  "",
         año: 2009,
         moneda: "2c",
         createdAt: new Date(),
@@ -6369,7 +6369,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "10",
-        ceca: null,
+        ceca:  "",
         año: 2010,
         moneda: "1€",
         createdAt: new Date(),
@@ -6378,7 +6378,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "10",
-        ceca: null,
+        ceca:  "",
         año: 2010,
         moneda: "5c",
         createdAt: new Date(),
@@ -6387,7 +6387,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "10",
-        ceca: null,
+        ceca:  "",
         año: 2010,
         moneda: "2c",
         createdAt: new Date(),
@@ -6396,7 +6396,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "10",
-        ceca: null,
+        ceca:  "",
         año: 2011,
         moneda: "2€",
         createdAt: new Date(),
@@ -6405,7 +6405,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "10",
-        ceca: null,
+        ceca:  "",
         año: 2011,
         moneda: "1€",
         createdAt: new Date(),
@@ -6414,7 +6414,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "10",
-        ceca: null,
+        ceca:  "",
         año: 2011,
         moneda: "20c",
         createdAt: new Date(),
@@ -6423,7 +6423,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "10",
-        ceca: null,
+        ceca:  "",
         año: 2011,
         moneda: "10c",
         createdAt: new Date(),
@@ -6432,7 +6432,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "10",
-        ceca: null,
+        ceca:  "",
         año: 2011,
         moneda: "1c",
         createdAt: new Date(),
@@ -6441,7 +6441,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "10",
-        ceca: null,
+        ceca:  "",
         año: 2012,
         moneda: "10c",
         createdAt: new Date(),
@@ -6450,7 +6450,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "10",
-        ceca: null,
+        ceca:  "",
         año: 2012,
         moneda: "5c",
         createdAt: new Date(),
@@ -6459,7 +6459,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "10",
-        ceca: null,
+        ceca:  "",
         año: 2012,
         moneda: "2c",
         createdAt: new Date(),
@@ -6468,7 +6468,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "10",
-        ceca: null,
+        ceca:  "",
         año: 2012,
         moneda: "1c",
         createdAt: new Date(),
@@ -6477,7 +6477,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "10",
-        ceca: null,
+        ceca:  "",
         año: 2012,
         moneda: "2€ Com1",
         createdAt: new Date(),
@@ -6486,7 +6486,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "10",
-        ceca: null,
+        ceca:  "",
         año: 2013,
         moneda: "2€",
         createdAt: new Date(),
@@ -6495,7 +6495,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "10",
-        ceca: null,
+        ceca:  "",
         año: 2013,
         moneda: "5c",
         createdAt: new Date(),
@@ -6504,7 +6504,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "10",
-        ceca: null,
+        ceca:  "",
         año: 2013,
         moneda: "2c",
         createdAt: new Date(),
@@ -6513,7 +6513,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "10",
-        ceca: null,
+        ceca:  "",
         año: 2013,
         moneda: "1c",
         createdAt: new Date(),
@@ -6522,7 +6522,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "10",
-        ceca: null,
+        ceca:  "",
         año: 2014,
         moneda: "2c",
         createdAt: new Date(),
@@ -6531,7 +6531,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "10",
-        ceca: null,
+        ceca:  "",
         año: 2014,
         moneda: "1c",
         createdAt: new Date(),
@@ -6540,7 +6540,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "10",
-        ceca: null,
+        ceca:  "",
         año: 2015,
         moneda: "50c",
         createdAt: new Date(),
@@ -6549,7 +6549,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "10",
-        ceca: null,
+        ceca:  "",
         año: 2015,
         moneda: "5c",
         createdAt: new Date(),
@@ -6558,7 +6558,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "10",
-        ceca: null,
+        ceca:  "",
         año: 2015,
         moneda: "2c",
         createdAt: new Date(),
@@ -6567,7 +6567,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "10",
-        ceca: null,
+        ceca:  "",
         año: 2015,
         moneda: "1c",
         createdAt: new Date(),
@@ -6576,7 +6576,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "10",
-        ceca: null,
+        ceca:  "",
         año: 2016,
         moneda: "5c",
         createdAt: new Date(),
@@ -6585,7 +6585,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "10",
-        ceca: null,
+        ceca:  "",
         año: 2016,
         moneda: "2c",
         createdAt: new Date(),
@@ -6594,7 +6594,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "10",
-        ceca: null,
+        ceca:  "",
         año: 2016,
         moneda: "1c",
         createdAt: new Date(),
@@ -6603,7 +6603,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "10",
-        ceca: null,
+        ceca:  "",
         año: 2016,
         moneda: "2€ Com1",
         createdAt: new Date(),
@@ -6612,7 +6612,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "10",
-        ceca: null,
+        ceca:  "",
         año: 2017,
         moneda: "5c",
         createdAt: new Date(),
@@ -6621,7 +6621,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "10",
-        ceca: null,
+        ceca:  "",
         año: 2017,
         moneda: "2c",
         createdAt: new Date(),
@@ -6630,7 +6630,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "10",
-        ceca: null,
+        ceca:  "",
         año: 2017,
         moneda: "1c",
         createdAt: new Date(),
@@ -6639,7 +6639,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "10",
-        ceca: null,
+        ceca:  "",
         año: 2017,
         moneda: "2€ Com1",
         createdAt: new Date(),
@@ -6648,7 +6648,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "10",
-        ceca: null,
+        ceca:  "",
         año: 2018,
         moneda: "5c",
         createdAt: new Date(),
@@ -6657,7 +6657,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "11",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "2€",
         createdAt: new Date(),
@@ -6666,7 +6666,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "11",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "1€",
         createdAt: new Date(),
@@ -6675,7 +6675,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "11",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "50c",
         createdAt: new Date(),
@@ -6684,7 +6684,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "11",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "20c",
         createdAt: new Date(),
@@ -6693,7 +6693,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "11",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "10c",
         createdAt: new Date(),
@@ -6702,7 +6702,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "11",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "5c",
         createdAt: new Date(),
@@ -6711,7 +6711,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "11",
-        ceca: null,
+        ceca:  "",
         año: 2003,
         moneda: "2c",
         createdAt: new Date(),
@@ -6720,7 +6720,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "11",
-        ceca: null,
+        ceca:  "",
         año: 2004,
         moneda: "2€",
         createdAt: new Date(),
@@ -6729,7 +6729,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "11",
-        ceca: null,
+        ceca:  "",
         año: 2004,
         moneda: "1€",
         createdAt: new Date(),
@@ -6738,7 +6738,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "11",
-        ceca: null,
+        ceca:  "",
         año: 2004,
         moneda: "50c",
         createdAt: new Date(),
@@ -6747,7 +6747,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "11",
-        ceca: null,
+        ceca:  "",
         año: 2004,
         moneda: "20c",
         createdAt: new Date(),
@@ -6756,7 +6756,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "11",
-        ceca: null,
+        ceca:  "",
         año: 2004,
         moneda: "10c",
         createdAt: new Date(),
@@ -6765,7 +6765,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "11",
-        ceca: null,
+        ceca:  "",
         año: 2004,
         moneda: "5c",
         createdAt: new Date(),
@@ -6774,7 +6774,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "11",
-        ceca: null,
+        ceca:  "",
         año: 2005,
         moneda: "2€",
         createdAt: new Date(),
@@ -6783,7 +6783,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "11",
-        ceca: null,
+        ceca:  "",
         año: 2005,
         moneda: "50c",
         createdAt: new Date(),
@@ -6792,7 +6792,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "11",
-        ceca: null,
+        ceca:  "",
         año: 2005,
         moneda: "20c",
         createdAt: new Date(),
@@ -6801,7 +6801,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "11",
-        ceca: null,
+        ceca:  "",
         año: 2006,
         moneda: "1€",
         createdAt: new Date(),
@@ -6810,7 +6810,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "11",
-        ceca: null,
+        ceca:  "",
         año: 2006,
         moneda: "50c",
         createdAt: new Date(),
@@ -6819,7 +6819,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "11",
-        ceca: null,
+        ceca:  "",
         año: 2007,
         moneda: "20c",
         createdAt: new Date(),
@@ -6828,7 +6828,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "11",
-        ceca: null,
+        ceca:  "",
         año: 2007,
         moneda: "2€ Com1",
         createdAt: new Date(),
@@ -6837,7 +6837,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "11",
-        ceca: null,
+        ceca:  "",
         año: 2008,
         moneda: "2€",
         createdAt: new Date(),
@@ -6846,7 +6846,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "11",
-        ceca: null,
+        ceca:  "",
         año: 2008,
         moneda: "20c",
         createdAt: new Date(),
@@ -6855,7 +6855,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "11",
-        ceca: null,
+        ceca:  "",
         año: 2008,
         moneda: "5c",
         createdAt: new Date(),
@@ -6864,7 +6864,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "11",
-        ceca: null,
+        ceca:  "",
         año: 2009,
         moneda: "20c",
         createdAt: new Date(),
@@ -6873,7 +6873,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "11",
-        ceca: null,
+        ceca:  "",
         año: 2009,
         moneda: "5c",
         createdAt: new Date(),
@@ -6882,7 +6882,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "11",
-        ceca: null,
+        ceca:  "",
         año: 2010,
         moneda: "20c",
         createdAt: new Date(),
@@ -6891,7 +6891,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "11",
-        ceca: null,
+        ceca:  "",
         año: 2012,
         moneda: "1€",
         createdAt: new Date(),
@@ -6900,7 +6900,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "11",
-        ceca: null,
+        ceca:  "",
         año: 2012,
         moneda: "50c",
         createdAt: new Date(),
@@ -6909,7 +6909,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "11",
-        ceca: null,
+        ceca:  "",
         año: 2012,
         moneda: "10c",
         createdAt: new Date(),
@@ -6918,7 +6918,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "11",
-        ceca: null,
+        ceca:  "",
         año: 2013,
         moneda: "50c",
         createdAt: new Date(),
@@ -6927,7 +6927,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "11",
-        ceca: null,
+        ceca:  "",
         año: 2013,
         moneda: "1c",
         createdAt: new Date(),
@@ -6936,7 +6936,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "11",
-        ceca: null,
+        ceca:  "",
         año: 2014,
         moneda: "20c",
         createdAt: new Date(),
@@ -6945,7 +6945,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "11",
-        ceca: null,
+        ceca:  "",
         año: 2016,
         moneda: "50c",
         createdAt: new Date(),
@@ -6954,7 +6954,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "12",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "2€",
         createdAt: new Date(),
@@ -6963,7 +6963,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "12",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "1€",
         createdAt: new Date(),
@@ -6972,7 +6972,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "12",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "50c",
         createdAt: new Date(),
@@ -6981,7 +6981,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "12",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "20c",
         createdAt: new Date(),
@@ -6990,7 +6990,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "12",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "10c",
         createdAt: new Date(),
@@ -6999,7 +6999,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "12",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "5c",
         createdAt: new Date(),
@@ -7008,7 +7008,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "12",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "2c",
         createdAt: new Date(),
@@ -7017,7 +7017,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "12",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "1c",
         createdAt: new Date(),
@@ -7026,7 +7026,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "12",
-        ceca: null,
+        ceca:  "",
         año: 2003,
         moneda: "2€",
         createdAt: new Date(),
@@ -7035,7 +7035,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "12",
-        ceca: null,
+        ceca:  "",
         año: 2003,
         moneda: "1€",
         createdAt: new Date(),
@@ -7044,7 +7044,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "12",
-        ceca: null,
+        ceca:  "",
         año: 2003,
         moneda: "50c",
         createdAt: new Date(),
@@ -7053,7 +7053,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "12",
-        ceca: null,
+        ceca:  "",
         año: 2003,
         moneda: "20c",
         createdAt: new Date(),
@@ -7062,7 +7062,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "12",
-        ceca: null,
+        ceca:  "",
         año: 2004,
         moneda: "2€",
         createdAt: new Date(),
@@ -7071,7 +7071,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "12",
-        ceca: null,
+        ceca:  "",
         año: 2004,
         moneda: "1€",
         createdAt: new Date(),
@@ -7080,7 +7080,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "12",
-        ceca: null,
+        ceca:  "",
         año: 2004,
         moneda: "5c",
         createdAt: new Date(),
@@ -7089,7 +7089,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "12",
-        ceca: null,
+        ceca:  "",
         año: 2004,
         moneda: "1c",
         createdAt: new Date(),
@@ -7098,7 +7098,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "12",
-        ceca: null,
+        ceca:  "",
         año: 2005,
         moneda: "1€",
         createdAt: new Date(),
@@ -7107,7 +7107,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "12",
-        ceca: null,
+        ceca:  "",
         año: 2005,
         moneda: "20c",
         createdAt: new Date(),
@@ -7116,7 +7116,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "12",
-        ceca: null,
+        ceca:  "",
         año: 2005,
         moneda: "5c",
         createdAt: new Date(),
@@ -7125,7 +7125,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "12",
-        ceca: null,
+        ceca:  "",
         año: 2006,
         moneda: "1€",
         createdAt: new Date(),
@@ -7134,7 +7134,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "12",
-        ceca: null,
+        ceca:  "",
         año: 2006,
         moneda: "20c",
         createdAt: new Date(),
@@ -7143,7 +7143,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "12",
-        ceca: null,
+        ceca:  "",
         año: 2006,
         moneda: "5c",
         createdAt: new Date(),
@@ -7152,7 +7152,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "12",
-        ceca: null,
+        ceca:  "",
         año: 2006,
         moneda: "1c",
         createdAt: new Date(),
@@ -7161,7 +7161,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "12",
-        ceca: null,
+        ceca:  "",
         año: 2007,
         moneda: "1€",
         createdAt: new Date(),
@@ -7170,7 +7170,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "12",
-        ceca: null,
+        ceca:  "",
         año: 2007,
         moneda: "5c",
         createdAt: new Date(),
@@ -7179,7 +7179,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "12",
-        ceca: null,
+        ceca:  "",
         año: 2007,
         moneda: "1c",
         createdAt: new Date(),
@@ -7188,7 +7188,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "12",
-        ceca: null,
+        ceca:  "",
         año: 2007,
         moneda: "2€ Com1",
         createdAt: new Date(),
@@ -7197,7 +7197,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "12",
-        ceca: null,
+        ceca:  "",
         año: 2008,
         moneda: "50c",
         createdAt: new Date(),
@@ -7206,7 +7206,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "12",
-        ceca: null,
+        ceca:  "",
         año: 2008,
         moneda: "5c",
         createdAt: new Date(),
@@ -7215,7 +7215,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "12",
-        ceca: null,
+        ceca:  "",
         año: 2009,
         moneda: "1€",
         createdAt: new Date(),
@@ -7224,7 +7224,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "12",
-        ceca: null,
+        ceca:  "",
         año: 2009,
         moneda: "50c",
         createdAt: new Date(),
@@ -7233,7 +7233,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "12",
-        ceca: null,
+        ceca:  "",
         año: 2009,
         moneda: "20c",
         createdAt: new Date(),
@@ -7242,7 +7242,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "12",
-        ceca: null,
+        ceca:  "",
         año: 2009,
         moneda: "10c",
         createdAt: new Date(),
@@ -7251,7 +7251,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "12",
-        ceca: null,
+        ceca:  "",
         año: 2010,
         moneda: "1€",
         createdAt: new Date(),
@@ -7260,7 +7260,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "12",
-        ceca: null,
+        ceca:  "",
         año: 2010,
         moneda: "50c",
         createdAt: new Date(),
@@ -7269,7 +7269,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "12",
-        ceca: null,
+        ceca:  "",
         año: 2010,
         moneda: "20c",
         createdAt: new Date(),
@@ -7278,7 +7278,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "12",
-        ceca: null,
+        ceca:  "",
         año: 2010,
         moneda: "5c",
         createdAt: new Date(),
@@ -7287,7 +7287,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "12",
-        ceca: null,
+        ceca:  "",
         año: 2010,
         moneda: "2c",
         createdAt: new Date(),
@@ -7296,7 +7296,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "12",
-        ceca: null,
+        ceca:  "",
         año: 2010,
         moneda: "1c",
         createdAt: new Date(),
@@ -7305,7 +7305,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "12",
-        ceca: null,
+        ceca:  "",
         año: 2011,
         moneda: "1€",
         createdAt: new Date(),
@@ -7314,7 +7314,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "12",
-        ceca: null,
+        ceca:  "",
         año: 2011,
         moneda: "20c",
         createdAt: new Date(),
@@ -7323,7 +7323,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "12",
-        ceca: null,
+        ceca:  "",
         año: 2012,
         moneda: "2c",
         createdAt: new Date(),
@@ -7332,7 +7332,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "12",
-        ceca: null,
+        ceca:  "",
         año: 2014,
         moneda: "1€",
         createdAt: new Date(),
@@ -7341,7 +7341,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "12",
-        ceca: null,
+        ceca:  "",
         año: 2015,
         moneda: "1€",
         createdAt: new Date(),
@@ -7350,7 +7350,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "12",
-        ceca: null,
+        ceca:  "",
         año: 2015,
         moneda: "50c",
         createdAt: new Date(),
@@ -7359,7 +7359,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "12",
-        ceca: null,
+        ceca:  "",
         año: 2015,
         moneda: "1c",
         createdAt: new Date(),
@@ -7368,7 +7368,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "12",
-        ceca: null,
+        ceca:  "",
         año: 2016,
         moneda: "1€",
         createdAt: new Date(),
@@ -7377,7 +7377,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "12",
-        ceca: null,
+        ceca:  "",
         año: 2016,
         moneda: "20c",
         createdAt: new Date(),
@@ -7386,7 +7386,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "12",
-        ceca: null,
+        ceca:  "",
         año: 2016,
         moneda: "10c",
         createdAt: new Date(),
@@ -7395,7 +7395,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "12",
-        ceca: null,
+        ceca:  "",
         año: 2017,
         moneda: "1€",
         createdAt: new Date(),
@@ -7404,7 +7404,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "12",
-        ceca: null,
+        ceca:  "",
         año: 2017,
         moneda: "50c",
         createdAt: new Date(),
@@ -7413,7 +7413,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "12",
-        ceca: null,
+        ceca:  "",
         año: 2017,
         moneda: "10c",
         createdAt: new Date(),
@@ -7422,7 +7422,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "12",
-        ceca: null,
+        ceca:  "",
         año: 2017,
         moneda: "5c",
         createdAt: new Date(),
@@ -7431,7 +7431,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "12",
-        ceca: null,
+        ceca:  "",
         año: 2018,
         moneda: "1€",
         createdAt: new Date(),
@@ -7440,7 +7440,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "12",
-        ceca: null,
+        ceca:  "",
         año: 2018,
         moneda: "20c",
         createdAt: new Date(),
@@ -7449,7 +7449,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "12",
-        ceca: null,
+        ceca:  "",
         año: 2018,
         moneda: "2€ Com1",
         createdAt: new Date(),
@@ -7458,7 +7458,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "13",
-        ceca: null,
+        ceca:  "",
         año: 2007,
         moneda: "20c",
         createdAt: new Date(),
@@ -7467,7 +7467,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "14",
-        ceca: null,
+        ceca:  "",
         año: 2008,
         moneda: "2€",
         createdAt: new Date(),
@@ -7476,7 +7476,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "14",
-        ceca: null,
+        ceca:  "",
         año: 2008,
         moneda: "1€",
         createdAt: new Date(),
@@ -7485,7 +7485,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "14",
-        ceca: null,
+        ceca:  "",
         año: 2008,
         moneda: "50c",
         createdAt: new Date(),
@@ -7494,7 +7494,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "14",
-        ceca: null,
+        ceca:  "",
         año: 2008,
         moneda: "20c",
         createdAt: new Date(),
@@ -7503,7 +7503,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "14",
-        ceca: null,
+        ceca:  "",
         año: 2008,
         moneda: "10c",
         createdAt: new Date(),
@@ -7512,7 +7512,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "14",
-        ceca: null,
+        ceca:  "",
         año: 2008,
         moneda: "5c",
         createdAt: new Date(),
@@ -7521,7 +7521,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "14",
-        ceca: null,
+        ceca:  "",
         año: 2013,
         moneda: "2€",
         createdAt: new Date(),
@@ -7530,7 +7530,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "14",
-        ceca: null,
+        ceca:  "",
         año: 2013,
         moneda: "50c",
         createdAt: new Date(),
@@ -7539,7 +7539,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "15",
-        ceca: null,
+        ceca:  "",
         año: 2014,
         moneda: "1€",
         createdAt: new Date(),
@@ -7548,7 +7548,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "15",
-        ceca: null,
+        ceca:  "",
         año: 2014,
         moneda: "20c",
         createdAt: new Date(),
@@ -7557,7 +7557,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "15",
-        ceca: null,
+        ceca:  "",
         año: 2014,
         moneda: "5c",
         createdAt: new Date(),
@@ -7566,7 +7566,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "15",
-        ceca: null,
+        ceca:  "",
         año: 2016,
         moneda: "1€",
         createdAt: new Date(),
@@ -7575,7 +7575,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "15",
-        ceca: null,
+        ceca:  "",
         año: 2017,
         moneda: "2€",
         createdAt: new Date(),
@@ -7584,7 +7584,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "15",
-        ceca: null,
+        ceca:  "",
         año: 2017,
         moneda: "50c",
         createdAt: new Date(),
@@ -7593,7 +7593,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "15",
-        ceca: null,
+        ceca:  "",
         año: 2017,
         moneda: "20c",
         createdAt: new Date(),
@@ -7602,7 +7602,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "15",
-        ceca: null,
+        ceca:  "",
         año: 2017,
         moneda: "10c",
         createdAt: new Date(),
@@ -7611,7 +7611,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "15",
-        ceca: null,
+        ceca:  "",
         año: 2017,
         moneda: "5c",
         createdAt: new Date(),
@@ -7620,7 +7620,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "15",
-        ceca: null,
+        ceca:  "",
         año: 2017,
         moneda: "1c",
         createdAt: new Date(),
@@ -7629,7 +7629,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "15",
-        ceca: null,
+        ceca:  "",
         año: 2018,
         moneda: "2€",
         createdAt: new Date(),
@@ -7638,7 +7638,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "15",
-        ceca: null,
+        ceca:  "",
         año: 2018,
         moneda: "50c",
         createdAt: new Date(),
@@ -7647,7 +7647,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "15",
-        ceca: null,
+        ceca:  "",
         año: 2018,
         moneda: "2c",
         createdAt: new Date(),
@@ -7656,7 +7656,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "16",
-        ceca: null,
+        ceca:  "",
         año: 2009,
         moneda: "2€",
         createdAt: new Date(),
@@ -7665,7 +7665,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "16",
-        ceca: null,
+        ceca:  "",
         año: 2009,
         moneda: "1€",
         createdAt: new Date(),
@@ -7674,7 +7674,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "16",
-        ceca: null,
+        ceca:  "",
         año: 2009,
         moneda: "50c",
         createdAt: new Date(),
@@ -7683,7 +7683,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "16",
-        ceca: null,
+        ceca:  "",
         año: 2009,
         moneda: "20c",
         createdAt: new Date(),
@@ -7692,7 +7692,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "16",
-        ceca: null,
+        ceca:  "",
         año: 2011,
         moneda: "2€",
         createdAt: new Date(),
@@ -7701,7 +7701,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "16",
-        ceca: null,
+        ceca:  "",
         año: 2015,
         moneda: "2€",
         createdAt: new Date(),
@@ -7710,7 +7710,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "17",
-        ceca: null,
+        ceca:  "",
         año: 2011,
         moneda: "2€",
         createdAt: new Date(),
@@ -7719,7 +7719,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "17",
-        ceca: null,
+        ceca:  "",
         año: 2011,
         moneda: "20c",
         createdAt: new Date(),
@@ -7728,7 +7728,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "18",
-        ceca: null,
+        ceca:  "",
         año: 2014,
         moneda: "2€",
         createdAt: new Date(),
@@ -7737,7 +7737,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "18",
-        ceca: null,
+        ceca:  "",
         año: 2014,
         moneda: "50c",
         createdAt: new Date(),
@@ -7746,7 +7746,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "18",
-        ceca: null,
+        ceca:  "",
         año: 2014,
         moneda: "20c",
         createdAt: new Date(),
@@ -7755,7 +7755,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "18",
-        ceca: null,
+        ceca:  "",
         año: 2014,
         moneda: "5c",
         createdAt: new Date(),
@@ -7764,7 +7764,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "19",
-        ceca: null,
+        ceca:  "",
         año: 2015,
         moneda: "2€",
         createdAt: new Date(),
@@ -7773,7 +7773,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "19",
-        ceca: null,
+        ceca:  "",
         año: 2015,
         moneda: "1€",
         createdAt: new Date(),
@@ -7782,7 +7782,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "19",
-        ceca: null,
+        ceca:  "",
         año: 2015,
         moneda: "20c",
         createdAt: new Date(),
@@ -7791,7 +7791,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "19",
-        ceca: null,
+        ceca:  "",
         año: 2015,
         moneda: "10c",
         createdAt: new Date(),
@@ -7800,7 +7800,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "20",
-        ceca: null,
+        ceca:  "",
         año: 2008,
         moneda: "2€",
         createdAt: new Date(),
@@ -7809,7 +7809,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "20",
-        ceca: null,
+        ceca:  "",
         año: 2008,
         moneda: "1€",
         createdAt: new Date(),
@@ -7818,7 +7818,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "20",
-        ceca: null,
+        ceca:  "",
         año: 2008,
         moneda: "50c",
         createdAt: new Date(),
@@ -7827,7 +7827,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "20",
-        ceca: null,
+        ceca:  "",
         año: 2008,
         moneda: "20c",
         createdAt: new Date(),
@@ -7836,7 +7836,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "20",
-        ceca: null,
+        ceca:  "",
         año: 2008,
         moneda: "10c",
         createdAt: new Date(),
@@ -7845,7 +7845,7 @@ module.exports = {
       {
         coleccionistaId: 2,
         paisId: "20",
-        ceca: null,
+        ceca:  "",
         año: 2009,
         moneda: "2€",
         createdAt: new Date(),
@@ -7854,7 +7854,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 1999,
         moneda: "2€",
         createdAt: new Date(),
@@ -7863,7 +7863,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 1999,
         moneda: "1€",
         createdAt: new Date(),
@@ -7872,7 +7872,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 1999,
         moneda: "50c",
         createdAt: new Date(),
@@ -7881,7 +7881,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 1999,
         moneda: "20c",
         createdAt: new Date(),
@@ -7890,7 +7890,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 1999,
         moneda: "10c",
         createdAt: new Date(),
@@ -7899,7 +7899,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 1999,
         moneda: "5c",
         createdAt: new Date(),
@@ -7908,7 +7908,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 1999,
         moneda: "2c",
         createdAt: new Date(),
@@ -7917,7 +7917,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 1999,
         moneda: "1c",
         createdAt: new Date(),
@@ -7926,7 +7926,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2000,
         moneda: "2€",
         createdAt: new Date(),
@@ -7935,7 +7935,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2000,
         moneda: "1€",
         createdAt: new Date(),
@@ -7944,7 +7944,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2000,
         moneda: "50c",
         createdAt: new Date(),
@@ -7953,7 +7953,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2000,
         moneda: "20c",
         createdAt: new Date(),
@@ -7962,7 +7962,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2000,
         moneda: "10c",
         createdAt: new Date(),
@@ -7971,7 +7971,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2000,
         moneda: "5c",
         createdAt: new Date(),
@@ -7980,7 +7980,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2000,
         moneda: "2c",
         createdAt: new Date(),
@@ -7989,7 +7989,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2000,
         moneda: "1c",
         createdAt: new Date(),
@@ -7998,7 +7998,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2001,
         moneda: "2€",
         createdAt: new Date(),
@@ -8007,7 +8007,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2001,
         moneda: "1€",
         createdAt: new Date(),
@@ -8016,7 +8016,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2001,
         moneda: "50c",
         createdAt: new Date(),
@@ -8025,7 +8025,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2001,
         moneda: "20c",
         createdAt: new Date(),
@@ -8034,7 +8034,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2001,
         moneda: "10c",
         createdAt: new Date(),
@@ -8043,7 +8043,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2001,
         moneda: "5c",
         createdAt: new Date(),
@@ -8052,7 +8052,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2001,
         moneda: "2c",
         createdAt: new Date(),
@@ -8061,7 +8061,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2001,
         moneda: "1c",
         createdAt: new Date(),
@@ -8070,7 +8070,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "2€",
         createdAt: new Date(),
@@ -8079,7 +8079,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "1€",
         createdAt: new Date(),
@@ -8088,7 +8088,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "50c",
         createdAt: new Date(),
@@ -8097,7 +8097,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "20c",
         createdAt: new Date(),
@@ -8106,7 +8106,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "10c",
         createdAt: new Date(),
@@ -8115,7 +8115,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "1c",
         createdAt: new Date(),
@@ -8124,7 +8124,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "12€_1",
         createdAt: new Date(),
@@ -8133,7 +8133,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2003,
         moneda: "2€",
         createdAt: new Date(),
@@ -8142,7 +8142,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2003,
         moneda: "1€",
         createdAt: new Date(),
@@ -8151,7 +8151,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2003,
         moneda: "50c",
         createdAt: new Date(),
@@ -8160,7 +8160,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2003,
         moneda: "20c",
         createdAt: new Date(),
@@ -8169,7 +8169,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2003,
         moneda: "10c",
         createdAt: new Date(),
@@ -8178,7 +8178,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2003,
         moneda: "5c",
         createdAt: new Date(),
@@ -8187,7 +8187,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2003,
         moneda: "1c",
         createdAt: new Date(),
@@ -8196,7 +8196,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2003,
         moneda: "12€_1",
         createdAt: new Date(),
@@ -8205,7 +8205,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2004,
         moneda: "2€",
         createdAt: new Date(),
@@ -8214,7 +8214,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2004,
         moneda: "1€",
         createdAt: new Date(),
@@ -8223,7 +8223,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2004,
         moneda: "10c",
         createdAt: new Date(),
@@ -8232,7 +8232,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2004,
         moneda: "5c",
         createdAt: new Date(),
@@ -8241,7 +8241,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2004,
         moneda: "2c",
         createdAt: new Date(),
@@ -8250,7 +8250,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2004,
         moneda: "1c",
         createdAt: new Date(),
@@ -8259,7 +8259,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2004,
         moneda: "12€_1",
         createdAt: new Date(),
@@ -8268,7 +8268,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2004,
         moneda: "12€_2",
         createdAt: new Date(),
@@ -8277,7 +8277,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2005,
         moneda: "2€",
         createdAt: new Date(),
@@ -8286,7 +8286,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2005,
         moneda: "1€",
         createdAt: new Date(),
@@ -8295,7 +8295,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2005,
         moneda: "10c",
         createdAt: new Date(),
@@ -8304,7 +8304,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2005,
         moneda: "5c",
         createdAt: new Date(),
@@ -8313,7 +8313,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2005,
         moneda: "2c",
         createdAt: new Date(),
@@ -8322,7 +8322,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2005,
         moneda: "1c",
         createdAt: new Date(),
@@ -8331,7 +8331,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2005,
         moneda: "12€_1",
         createdAt: new Date(),
@@ -8340,7 +8340,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2005,
         moneda: "2€ Com1",
         createdAt: new Date(),
@@ -8349,7 +8349,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2006,
         moneda: "1€",
         createdAt: new Date(),
@@ -8358,7 +8358,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2006,
         moneda: "50c",
         createdAt: new Date(),
@@ -8367,7 +8367,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2006,
         moneda: "20c",
         createdAt: new Date(),
@@ -8376,7 +8376,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2006,
         moneda: "10c",
         createdAt: new Date(),
@@ -8385,7 +8385,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2006,
         moneda: "5c",
         createdAt: new Date(),
@@ -8394,7 +8394,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2006,
         moneda: "2c",
         createdAt: new Date(),
@@ -8403,7 +8403,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2006,
         moneda: "1c",
         createdAt: new Date(),
@@ -8412,7 +8412,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2007,
         moneda: "2€",
         createdAt: new Date(),
@@ -8421,7 +8421,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2007,
         moneda: "1€",
         createdAt: new Date(),
@@ -8430,7 +8430,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2007,
         moneda: "20c",
         createdAt: new Date(),
@@ -8439,7 +8439,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2007,
         moneda: "10c",
         createdAt: new Date(),
@@ -8448,7 +8448,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2007,
         moneda: "5c",
         createdAt: new Date(),
@@ -8457,7 +8457,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2007,
         moneda: "2c",
         createdAt: new Date(),
@@ -8466,7 +8466,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2007,
         moneda: "1c",
         createdAt: new Date(),
@@ -8475,7 +8475,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2007,
         moneda: "2€ Com1",
         createdAt: new Date(),
@@ -8484,7 +8484,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2008,
         moneda: "2€",
         createdAt: new Date(),
@@ -8493,7 +8493,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2008,
         moneda: "1€",
         createdAt: new Date(),
@@ -8502,7 +8502,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2008,
         moneda: "50c",
         createdAt: new Date(),
@@ -8511,7 +8511,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2008,
         moneda: "20c",
         createdAt: new Date(),
@@ -8520,7 +8520,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2008,
         moneda: "10c",
         createdAt: new Date(),
@@ -8529,7 +8529,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2008,
         moneda: "5c",
         createdAt: new Date(),
@@ -8538,7 +8538,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2008,
         moneda: "2c",
         createdAt: new Date(),
@@ -8547,7 +8547,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2008,
         moneda: "1c",
         createdAt: new Date(),
@@ -8556,7 +8556,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2008,
         moneda: "12€_1",
         createdAt: new Date(),
@@ -8565,7 +8565,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2009,
         moneda: "2€",
         createdAt: new Date(),
@@ -8574,7 +8574,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2009,
         moneda: "1€",
         createdAt: new Date(),
@@ -8583,7 +8583,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2009,
         moneda: "20c",
         createdAt: new Date(),
@@ -8592,7 +8592,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2009,
         moneda: "10c",
         createdAt: new Date(),
@@ -8601,7 +8601,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2009,
         moneda: "5c",
         createdAt: new Date(),
@@ -8610,7 +8610,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2009,
         moneda: "2c",
         createdAt: new Date(),
@@ -8619,7 +8619,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2009,
         moneda: "1c",
         createdAt: new Date(),
@@ -8628,7 +8628,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2009,
         moneda: "2€ Com1",
         createdAt: new Date(),
@@ -8637,7 +8637,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2010,
         moneda: "2€",
         createdAt: new Date(),
@@ -8646,7 +8646,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2010,
         moneda: "1€",
         createdAt: new Date(),
@@ -8655,7 +8655,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2010,
         moneda: "10c",
         createdAt: new Date(),
@@ -8664,7 +8664,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2010,
         moneda: "5c",
         createdAt: new Date(),
@@ -8673,7 +8673,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2010,
         moneda: "2c",
         createdAt: new Date(),
@@ -8682,7 +8682,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2010,
         moneda: "1c",
         createdAt: new Date(),
@@ -8691,7 +8691,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2010,
         moneda: "2€ Com1",
         createdAt: new Date(),
@@ -8700,7 +8700,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2011,
         moneda: "2€",
         createdAt: new Date(),
@@ -8709,7 +8709,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2011,
         moneda: "1€",
         createdAt: new Date(),
@@ -8718,7 +8718,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2011,
         moneda: "50c",
         createdAt: new Date(),
@@ -8727,7 +8727,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2011,
         moneda: "5c",
         createdAt: new Date(),
@@ -8736,7 +8736,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2011,
         moneda: "2c",
         createdAt: new Date(),
@@ -8745,7 +8745,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2011,
         moneda: "1c",
         createdAt: new Date(),
@@ -8754,7 +8754,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2011,
         moneda: "2€ Com1",
         createdAt: new Date(),
@@ -8763,7 +8763,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2012,
         moneda: "2€",
         createdAt: new Date(),
@@ -8772,7 +8772,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2012,
         moneda: "1€",
         createdAt: new Date(),
@@ -8781,7 +8781,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2012,
         moneda: "20c",
         createdAt: new Date(),
@@ -8790,7 +8790,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2012,
         moneda: "5c",
         createdAt: new Date(),
@@ -8799,7 +8799,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2012,
         moneda: "2c",
         createdAt: new Date(),
@@ -8808,7 +8808,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2012,
         moneda: "1c",
         createdAt: new Date(),
@@ -8817,7 +8817,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2012,
         moneda: "2€ Com1",
         createdAt: new Date(),
@@ -8826,7 +8826,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2012,
         moneda: "2€ Com2",
         createdAt: new Date(),
@@ -8835,7 +8835,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2013,
         moneda: "1€",
         createdAt: new Date(),
@@ -8844,7 +8844,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2013,
         moneda: "5c",
         createdAt: new Date(),
@@ -8853,7 +8853,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2013,
         moneda: "2c",
         createdAt: new Date(),
@@ -8862,7 +8862,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2013,
         moneda: "1c",
         createdAt: new Date(),
@@ -8871,7 +8871,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2013,
         moneda: "2€ Com1",
         createdAt: new Date(),
@@ -8880,7 +8880,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2014,
         moneda: "2€",
         createdAt: new Date(),
@@ -8889,7 +8889,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2014,
         moneda: "1€",
         createdAt: new Date(),
@@ -8898,7 +8898,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2014,
         moneda: "50c",
         createdAt: new Date(),
@@ -8907,7 +8907,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2014,
         moneda: "20c",
         createdAt: new Date(),
@@ -8916,7 +8916,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2014,
         moneda: "10c",
         createdAt: new Date(),
@@ -8925,7 +8925,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2014,
         moneda: "5c",
         createdAt: new Date(),
@@ -8934,7 +8934,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2014,
         moneda: "2c",
         createdAt: new Date(),
@@ -8943,7 +8943,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2014,
         moneda: "1c",
         createdAt: new Date(),
@@ -8952,7 +8952,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2014,
         moneda: "2€ Com1",
         createdAt: new Date(),
@@ -8961,7 +8961,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2014,
         moneda: "2€ Com2",
         createdAt: new Date(),
@@ -8970,7 +8970,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2015,
         moneda: "2€",
         createdAt: new Date(),
@@ -8979,7 +8979,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2015,
         moneda: "1€",
         createdAt: new Date(),
@@ -8988,7 +8988,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2015,
         moneda: "50c",
         createdAt: new Date(),
@@ -8997,7 +8997,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2015,
         moneda: "5c",
         createdAt: new Date(),
@@ -9006,7 +9006,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2015,
         moneda: "2c",
         createdAt: new Date(),
@@ -9015,7 +9015,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2015,
         moneda: "1c",
         createdAt: new Date(),
@@ -9024,7 +9024,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2015,
         moneda: "2€ Com1",
         createdAt: new Date(),
@@ -9033,7 +9033,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2015,
         moneda: "2€ Com2",
         createdAt: new Date(),
@@ -9042,7 +9042,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2016,
         moneda: "1€",
         createdAt: new Date(),
@@ -9051,7 +9051,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2016,
         moneda: "50c",
         createdAt: new Date(),
@@ -9060,7 +9060,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2016,
         moneda: "20c",
         createdAt: new Date(),
@@ -9069,7 +9069,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2016,
         moneda: "10c",
         createdAt: new Date(),
@@ -9078,7 +9078,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2016,
         moneda: "5c",
         createdAt: new Date(),
@@ -9087,7 +9087,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2016,
         moneda: "2c",
         createdAt: new Date(),
@@ -9096,7 +9096,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2016,
         moneda: "1c",
         createdAt: new Date(),
@@ -9105,7 +9105,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2016,
         moneda: "2€ Com1",
         createdAt: new Date(),
@@ -9114,7 +9114,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2017,
         moneda: "1€",
         createdAt: new Date(),
@@ -9123,7 +9123,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2017,
         moneda: "50c",
         createdAt: new Date(),
@@ -9132,7 +9132,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2017,
         moneda: "20c",
         createdAt: new Date(),
@@ -9141,7 +9141,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2017,
         moneda: "10c",
         createdAt: new Date(),
@@ -9150,7 +9150,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2017,
         moneda: "5c",
         createdAt: new Date(),
@@ -9159,7 +9159,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2017,
         moneda: "2c",
         createdAt: new Date(),
@@ -9168,7 +9168,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2017,
         moneda: "1c",
         createdAt: new Date(),
@@ -9177,7 +9177,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2018,
         moneda: "1€",
         createdAt: new Date(),
@@ -9186,7 +9186,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2018,
         moneda: "50c",
         createdAt: new Date(),
@@ -9195,7 +9195,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2018,
         moneda: "20c",
         createdAt: new Date(),
@@ -9204,7 +9204,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2018,
         moneda: "10c",
         createdAt: new Date(),
@@ -9213,7 +9213,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2018,
         moneda: "5c",
         createdAt: new Date(),
@@ -9222,7 +9222,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2018,
         moneda: "2c",
         createdAt: new Date(),
@@ -9231,7 +9231,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2018,
         moneda: "1c",
         createdAt: new Date(),
@@ -9240,7 +9240,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2019,
         moneda: "1€",
         createdAt: new Date(),
@@ -9249,7 +9249,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2019,
         moneda: "50c",
         createdAt: new Date(),
@@ -9258,7 +9258,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2019,
         moneda: "20c",
         createdAt: new Date(),
@@ -9267,7 +9267,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2019,
         moneda: "5c",
         createdAt: new Date(),
@@ -9276,7 +9276,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2019,
         moneda: "2c",
         createdAt: new Date(),
@@ -9285,7 +9285,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2019,
         moneda: "1c",
         createdAt: new Date(),
@@ -9294,7 +9294,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2020,
         moneda: "20c",
         createdAt: new Date(),
@@ -9303,7 +9303,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2020,
         moneda: "10c",
         createdAt: new Date(),
@@ -10095,7 +10095,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "3",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "2€",
         createdAt: new Date(),
@@ -10104,7 +10104,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "3",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "1€",
         createdAt: new Date(),
@@ -10113,7 +10113,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "3",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "50c",
         createdAt: new Date(),
@@ -10122,7 +10122,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "3",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "20c",
         createdAt: new Date(),
@@ -10131,7 +10131,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "3",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "10c",
         createdAt: new Date(),
@@ -10140,7 +10140,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "3",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "5c",
         createdAt: new Date(),
@@ -10149,7 +10149,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "3",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "2c",
         createdAt: new Date(),
@@ -10158,7 +10158,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "3",
-        ceca: null,
+        ceca:  "",
         año: 2003,
         moneda: "20c",
         createdAt: new Date(),
@@ -10167,7 +10167,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "3",
-        ceca: null,
+        ceca:  "",
         año: 2004,
         moneda: "20c",
         createdAt: new Date(),
@@ -10176,7 +10176,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "3",
-        ceca: null,
+        ceca:  "",
         año: 2004,
         moneda: "1c",
         createdAt: new Date(),
@@ -10185,7 +10185,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "3",
-        ceca: null,
+        ceca:  "",
         año: 2005,
         moneda: "5c",
         createdAt: new Date(),
@@ -10194,7 +10194,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "3",
-        ceca: null,
+        ceca:  "",
         año: 2006,
         moneda: "2€",
         createdAt: new Date(),
@@ -10203,7 +10203,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "3",
-        ceca: null,
+        ceca:  "",
         año: 2006,
         moneda: "1€",
         createdAt: new Date(),
@@ -10212,7 +10212,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "3",
-        ceca: null,
+        ceca:  "",
         año: 2007,
         moneda: "1€",
         createdAt: new Date(),
@@ -10221,7 +10221,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "3",
-        ceca: null,
+        ceca:  "",
         año: 2007,
         moneda: "10c",
         createdAt: new Date(),
@@ -10230,7 +10230,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "3",
-        ceca: null,
+        ceca:  "",
         año: 2007,
         moneda: "1c",
         createdAt: new Date(),
@@ -10239,7 +10239,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "3",
-        ceca: null,
+        ceca:  "",
         año: 2008,
         moneda: "1€",
         createdAt: new Date(),
@@ -10248,7 +10248,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "3",
-        ceca: null,
+        ceca:  "",
         año: 2008,
         moneda: "20c",
         createdAt: new Date(),
@@ -10257,7 +10257,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "3",
-        ceca: null,
+        ceca:  "",
         año: 2008,
         moneda: "5c",
         createdAt: new Date(),
@@ -10266,7 +10266,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "3",
-        ceca: null,
+        ceca:  "",
         año: 2009,
         moneda: "1€",
         createdAt: new Date(),
@@ -10275,7 +10275,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "3",
-        ceca: null,
+        ceca:  "",
         año: 2009,
         moneda: "50c",
         createdAt: new Date(),
@@ -10284,7 +10284,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "3",
-        ceca: null,
+        ceca:  "",
         año: 2009,
         moneda: "20c",
         createdAt: new Date(),
@@ -10293,7 +10293,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "3",
-        ceca: null,
+        ceca:  "",
         año: 2010,
         moneda: "2c",
         createdAt: new Date(),
@@ -10302,7 +10302,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "3",
-        ceca: null,
+        ceca:  "",
         año: 2012,
         moneda: "2€",
         createdAt: new Date(),
@@ -10311,7 +10311,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "3",
-        ceca: null,
+        ceca:  "",
         año: 2012,
         moneda: "1c",
         createdAt: new Date(),
@@ -10320,7 +10320,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "3",
-        ceca: null,
+        ceca:  "",
         año: 2014,
         moneda: "5c",
         createdAt: new Date(),
@@ -10329,7 +10329,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "3",
-        ceca: null,
+        ceca:  "",
         año: 2014,
         moneda: "1c",
         createdAt: new Date(),
@@ -10338,7 +10338,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "3",
-        ceca: null,
+        ceca:  "",
         año: 2016,
         moneda: "50c",
         createdAt: new Date(),
@@ -10347,7 +10347,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "3",
-        ceca: null,
+        ceca:  "",
         año: 2018,
         moneda: "2c",
         createdAt: new Date(),
@@ -10356,7 +10356,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "3",
-        ceca: null,
+        ceca:  "",
         año: 2018,
         moneda: "1c",
         createdAt: new Date(),
@@ -10365,7 +10365,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "4",
-        ceca: null,
+        ceca:  "",
         año: 1999,
         moneda: "1€",
         createdAt: new Date(),
@@ -10374,7 +10374,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "4",
-        ceca: null,
+        ceca:  "",
         año: 1999,
         moneda: "50c",
         createdAt: new Date(),
@@ -10383,7 +10383,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "4",
-        ceca: null,
+        ceca:  "",
         año: 1999,
         moneda: "10c",
         createdAt: new Date(),
@@ -10392,7 +10392,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "4",
-        ceca: null,
+        ceca:  "",
         año: 1999,
         moneda: "5c",
         createdAt: new Date(),
@@ -10401,7 +10401,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "4",
-        ceca: null,
+        ceca:  "",
         año: 2000,
         moneda: "2€",
         createdAt: new Date(),
@@ -10410,7 +10410,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "4",
-        ceca: null,
+        ceca:  "",
         año: 2000,
         moneda: "20c",
         createdAt: new Date(),
@@ -10419,7 +10419,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "4",
-        ceca: null,
+        ceca:  "",
         año: 2000,
         moneda: "2c",
         createdAt: new Date(),
@@ -10428,7 +10428,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "4",
-        ceca: null,
+        ceca:  "",
         año: 2001,
         moneda: "10c",
         createdAt: new Date(),
@@ -10437,7 +10437,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "4",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "2€",
         createdAt: new Date(),
@@ -10446,7 +10446,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "4",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "1€",
         createdAt: new Date(),
@@ -10455,7 +10455,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "4",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "20c",
         createdAt: new Date(),
@@ -10464,7 +10464,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "4",
-        ceca: null,
+        ceca:  "",
         año: 2003,
         moneda: "2€",
         createdAt: new Date(),
@@ -10473,7 +10473,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "4",
-        ceca: null,
+        ceca:  "",
         año: 2003,
         moneda: "20c",
         createdAt: new Date(),
@@ -10482,7 +10482,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "4",
-        ceca: null,
+        ceca:  "",
         año: 2003,
         moneda: "5c",
         createdAt: new Date(),
@@ -10491,7 +10491,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "4",
-        ceca: null,
+        ceca:  "",
         año: 2004,
         moneda: "2€",
         createdAt: new Date(),
@@ -10500,7 +10500,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "4",
-        ceca: null,
+        ceca:  "",
         año: 2004,
         moneda: "1€",
         createdAt: new Date(),
@@ -10509,7 +10509,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "4",
-        ceca: null,
+        ceca:  "",
         año: 2004,
         moneda: "50c",
         createdAt: new Date(),
@@ -10518,7 +10518,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "4",
-        ceca: null,
+        ceca:  "",
         año: 2004,
         moneda: "20c",
         createdAt: new Date(),
@@ -10527,7 +10527,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "4",
-        ceca: null,
+        ceca:  "",
         año: 2004,
         moneda: "5c",
         createdAt: new Date(),
@@ -10536,7 +10536,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "4",
-        ceca: null,
+        ceca:  "",
         año: 2004,
         moneda: "2c",
         createdAt: new Date(),
@@ -10545,7 +10545,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "4",
-        ceca: null,
+        ceca:  "",
         año: 2005,
         moneda: "2€",
         createdAt: new Date(),
@@ -10554,7 +10554,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "4",
-        ceca: null,
+        ceca:  "",
         año: 2005,
         moneda: "5c",
         createdAt: new Date(),
@@ -10563,7 +10563,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "4",
-        ceca: null,
+        ceca:  "",
         año: 2006,
         moneda: "2€",
         createdAt: new Date(),
@@ -10572,7 +10572,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "4",
-        ceca: null,
+        ceca:  "",
         año: 2006,
         moneda: "20c",
         createdAt: new Date(),
@@ -10581,7 +10581,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "4",
-        ceca: null,
+        ceca:  "",
         año: 2006,
         moneda: "2€ Com1",
         createdAt: new Date(),
@@ -10590,7 +10590,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "4",
-        ceca: null,
+        ceca:  "",
         año: 2007,
         moneda: "2€",
         createdAt: new Date(),
@@ -10599,7 +10599,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "4",
-        ceca: null,
+        ceca:  "",
         año: 2007,
         moneda: "20c",
         createdAt: new Date(),
@@ -10608,7 +10608,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "4",
-        ceca: null,
+        ceca:  "",
         año: 2008,
         moneda: "2€",
         createdAt: new Date(),
@@ -10617,7 +10617,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "4",
-        ceca: null,
+        ceca:  "",
         año: 2009,
         moneda: "2€",
         createdAt: new Date(),
@@ -10626,7 +10626,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "4",
-        ceca: null,
+        ceca:  "",
         año: 2009,
         moneda: "50c",
         createdAt: new Date(),
@@ -10635,7 +10635,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "4",
-        ceca: null,
+        ceca:  "",
         año: 2009,
         moneda: "20c",
         createdAt: new Date(),
@@ -10644,7 +10644,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "4",
-        ceca: null,
+        ceca:  "",
         año: 2011,
         moneda: "2€",
         createdAt: new Date(),
@@ -10653,7 +10653,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "4",
-        ceca: null,
+        ceca:  "",
         año: 2011,
         moneda: "50c",
         createdAt: new Date(),
@@ -10662,7 +10662,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "4",
-        ceca: null,
+        ceca:  "",
         año: 2012,
         moneda: "10c",
         createdAt: new Date(),
@@ -10671,7 +10671,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "4",
-        ceca: null,
+        ceca:  "",
         año: 2014,
         moneda: "2€ Com1",
         createdAt: new Date(),
@@ -10680,7 +10680,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "5",
-        ceca: null,
+        ceca:  "",
         año: 1999,
         moneda: "2€",
         createdAt: new Date(),
@@ -10689,7 +10689,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "5",
-        ceca: null,
+        ceca:  "",
         año: 1999,
         moneda: "1€",
         createdAt: new Date(),
@@ -10698,7 +10698,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "5",
-        ceca: null,
+        ceca:  "",
         año: 1999,
         moneda: "50c",
         createdAt: new Date(),
@@ -10707,7 +10707,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "5",
-        ceca: null,
+        ceca:  "",
         año: 1999,
         moneda: "20c",
         createdAt: new Date(),
@@ -10716,7 +10716,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "5",
-        ceca: null,
+        ceca:  "",
         año: 1999,
         moneda: "10c",
         createdAt: new Date(),
@@ -10725,7 +10725,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "5",
-        ceca: null,
+        ceca:  "",
         año: 1999,
         moneda: "5c",
         createdAt: new Date(),
@@ -10734,7 +10734,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "5",
-        ceca: null,
+        ceca:  "",
         año: 1999,
         moneda: "1c",
         createdAt: new Date(),
@@ -10743,7 +10743,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "5",
-        ceca: null,
+        ceca:  "",
         año: 2000,
         moneda: "2€",
         createdAt: new Date(),
@@ -10752,7 +10752,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "5",
-        ceca: null,
+        ceca:  "",
         año: 2000,
         moneda: "1€",
         createdAt: new Date(),
@@ -10761,7 +10761,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "5",
-        ceca: null,
+        ceca:  "",
         año: 2000,
         moneda: "50c",
         createdAt: new Date(),
@@ -10770,7 +10770,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "5",
-        ceca: null,
+        ceca:  "",
         año: 2000,
         moneda: "10c",
         createdAt: new Date(),
@@ -10779,7 +10779,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "5",
-        ceca: null,
+        ceca:  "",
         año: 2000,
         moneda: "5c",
         createdAt: new Date(),
@@ -10788,7 +10788,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "5",
-        ceca: null,
+        ceca:  "",
         año: 2000,
         moneda: "2c",
         createdAt: new Date(),
@@ -10797,7 +10797,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "5",
-        ceca: null,
+        ceca:  "",
         año: 2001,
         moneda: "2€",
         createdAt: new Date(),
@@ -10806,7 +10806,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "5",
-        ceca: null,
+        ceca:  "",
         año: 2001,
         moneda: "1€",
         createdAt: new Date(),
@@ -10815,7 +10815,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "5",
-        ceca: null,
+        ceca:  "",
         año: 2001,
         moneda: "20c",
         createdAt: new Date(),
@@ -10824,7 +10824,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "5",
-        ceca: null,
+        ceca:  "",
         año: 2001,
         moneda: "5c",
         createdAt: new Date(),
@@ -10833,7 +10833,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "5",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "1€",
         createdAt: new Date(),
@@ -10842,7 +10842,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "5",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "20c",
         createdAt: new Date(),
@@ -10851,7 +10851,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "5",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "5c",
         createdAt: new Date(),
@@ -10860,7 +10860,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "5",
-        ceca: null,
+        ceca:  "",
         año: 2003,
         moneda: "2€",
         createdAt: new Date(),
@@ -10869,7 +10869,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "5",
-        ceca: null,
+        ceca:  "",
         año: 2004,
         moneda: "2€",
         createdAt: new Date(),
@@ -10878,7 +10878,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "5",
-        ceca: null,
+        ceca:  "",
         año: 2004,
         moneda: "1€",
         createdAt: new Date(),
@@ -10887,7 +10887,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "5",
-        ceca: null,
+        ceca:  "",
         año: 2005,
         moneda: "2€",
         createdAt: new Date(),
@@ -10896,7 +10896,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "5",
-        ceca: null,
+        ceca:  "",
         año: 2006,
         moneda: "50c",
         createdAt: new Date(),
@@ -10905,7 +10905,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "5",
-        ceca: null,
+        ceca:  "",
         año: 2007,
         moneda: "2€",
         createdAt: new Date(),
@@ -10914,7 +10914,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "5",
-        ceca: null,
+        ceca:  "",
         año: 2010,
         moneda: "20c",
         createdAt: new Date(),
@@ -10923,7 +10923,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 1999,
         moneda: "2€",
         createdAt: new Date(),
@@ -10932,7 +10932,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 1999,
         moneda: "1€",
         createdAt: new Date(),
@@ -10941,7 +10941,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 1999,
         moneda: "50c",
         createdAt: new Date(),
@@ -10950,7 +10950,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 1999,
         moneda: "20c",
         createdAt: new Date(),
@@ -10959,7 +10959,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 1999,
         moneda: "10c",
         createdAt: new Date(),
@@ -10968,7 +10968,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 1999,
         moneda: "5c",
         createdAt: new Date(),
@@ -10977,7 +10977,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 1999,
         moneda: "2c",
         createdAt: new Date(),
@@ -10986,7 +10986,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 1999,
         moneda: "1c",
         createdAt: new Date(),
@@ -10995,7 +10995,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2000,
         moneda: "2€",
         createdAt: new Date(),
@@ -11004,7 +11004,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2000,
         moneda: "1€",
         createdAt: new Date(),
@@ -11013,7 +11013,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2000,
         moneda: "50c",
         createdAt: new Date(),
@@ -11022,7 +11022,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2000,
         moneda: "20c",
         createdAt: new Date(),
@@ -11031,7 +11031,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2000,
         moneda: "10c",
         createdAt: new Date(),
@@ -11040,7 +11040,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2000,
         moneda: "5c",
         createdAt: new Date(),
@@ -11049,7 +11049,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2000,
         moneda: "2c",
         createdAt: new Date(),
@@ -11058,7 +11058,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2000,
         moneda: "1c",
         createdAt: new Date(),
@@ -11067,7 +11067,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2001,
         moneda: "2€",
         createdAt: new Date(),
@@ -11076,7 +11076,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2001,
         moneda: "1€",
         createdAt: new Date(),
@@ -11085,7 +11085,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2001,
         moneda: "50c",
         createdAt: new Date(),
@@ -11094,7 +11094,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2001,
         moneda: "20c",
         createdAt: new Date(),
@@ -11103,7 +11103,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2001,
         moneda: "10c",
         createdAt: new Date(),
@@ -11112,7 +11112,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2001,
         moneda: "5c",
         createdAt: new Date(),
@@ -11121,7 +11121,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2001,
         moneda: "2c",
         createdAt: new Date(),
@@ -11130,7 +11130,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "2€",
         createdAt: new Date(),
@@ -11139,7 +11139,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "50c",
         createdAt: new Date(),
@@ -11148,7 +11148,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "20c",
         createdAt: new Date(),
@@ -11157,7 +11157,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "10c",
         createdAt: new Date(),
@@ -11166,7 +11166,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2003,
         moneda: "10c",
         createdAt: new Date(),
@@ -11175,7 +11175,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2003,
         moneda: "5c",
         createdAt: new Date(),
@@ -11184,7 +11184,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2004,
         moneda: "2c",
         createdAt: new Date(),
@@ -11193,7 +11193,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2004,
         moneda: "1c",
         createdAt: new Date(),
@@ -11202,7 +11202,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2005,
         moneda: "10c",
         createdAt: new Date(),
@@ -11211,7 +11211,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2005,
         moneda: "2c",
         createdAt: new Date(),
@@ -11220,7 +11220,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2005,
         moneda: "1c",
         createdAt: new Date(),
@@ -11229,7 +11229,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2006,
         moneda: "10c",
         createdAt: new Date(),
@@ -11238,7 +11238,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2006,
         moneda: "5c",
         createdAt: new Date(),
@@ -11247,7 +11247,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2006,
         moneda: "2c",
         createdAt: new Date(),
@@ -11256,7 +11256,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2006,
         moneda: "1c",
         createdAt: new Date(),
@@ -11265,7 +11265,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2007,
         moneda: "20c",
         createdAt: new Date(),
@@ -11274,7 +11274,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2007,
         moneda: "10c",
         createdAt: new Date(),
@@ -11283,7 +11283,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2007,
         moneda: "5c",
         createdAt: new Date(),
@@ -11292,7 +11292,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2007,
         moneda: "1c",
         createdAt: new Date(),
@@ -11301,7 +11301,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2008,
         moneda: "20c",
         createdAt: new Date(),
@@ -11310,7 +11310,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2008,
         moneda: "10c",
         createdAt: new Date(),
@@ -11319,7 +11319,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2008,
         moneda: "5c",
         createdAt: new Date(),
@@ -11328,7 +11328,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2008,
         moneda: "2c",
         createdAt: new Date(),
@@ -11337,7 +11337,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2008,
         moneda: "1c",
         createdAt: new Date(),
@@ -11346,7 +11346,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2008,
         moneda: "2€ Com1",
         createdAt: new Date(),
@@ -11355,7 +11355,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2009,
         moneda: "20c",
         createdAt: new Date(),
@@ -11364,7 +11364,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2009,
         moneda: "10c",
         createdAt: new Date(),
@@ -11373,7 +11373,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2009,
         moneda: "5c",
         createdAt: new Date(),
@@ -11382,7 +11382,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2009,
         moneda: "2c",
         createdAt: new Date(),
@@ -11391,7 +11391,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2009,
         moneda: "1c",
         createdAt: new Date(),
@@ -11400,7 +11400,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2009,
         moneda: "2€ Com1",
         createdAt: new Date(),
@@ -11409,7 +11409,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2010,
         moneda: "20c",
         createdAt: new Date(),
@@ -11418,7 +11418,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2010,
         moneda: "10c",
         createdAt: new Date(),
@@ -11427,7 +11427,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2010,
         moneda: "5c",
         createdAt: new Date(),
@@ -11436,7 +11436,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2010,
         moneda: "1c",
         createdAt: new Date(),
@@ -11445,7 +11445,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2010,
         moneda: "2€ Com1",
         createdAt: new Date(),
@@ -11454,7 +11454,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2011,
         moneda: "2€",
         createdAt: new Date(),
@@ -11463,7 +11463,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2011,
         moneda: "20c",
         createdAt: new Date(),
@@ -11472,7 +11472,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2011,
         moneda: "10c",
         createdAt: new Date(),
@@ -11481,7 +11481,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2011,
         moneda: "5c",
         createdAt: new Date(),
@@ -11490,7 +11490,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2011,
         moneda: "1c",
         createdAt: new Date(),
@@ -11499,7 +11499,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2011,
         moneda: "2€ Com1",
         createdAt: new Date(),
@@ -11508,7 +11508,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2012,
         moneda: "2€",
         createdAt: new Date(),
@@ -11517,7 +11517,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2012,
         moneda: "10c",
         createdAt: new Date(),
@@ -11526,7 +11526,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2012,
         moneda: "5c",
         createdAt: new Date(),
@@ -11535,7 +11535,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2012,
         moneda: "2c",
         createdAt: new Date(),
@@ -11544,7 +11544,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2012,
         moneda: "2€ Com1",
         createdAt: new Date(),
@@ -11553,7 +11553,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2013,
         moneda: "20c",
         createdAt: new Date(),
@@ -11562,7 +11562,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2013,
         moneda: "10c",
         createdAt: new Date(),
@@ -11571,7 +11571,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2013,
         moneda: "5c",
         createdAt: new Date(),
@@ -11580,7 +11580,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2013,
         moneda: "1c",
         createdAt: new Date(),
@@ -11589,7 +11589,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2015,
         moneda: "2€",
         createdAt: new Date(),
@@ -11598,7 +11598,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2015,
         moneda: "5c",
         createdAt: new Date(),
@@ -11607,7 +11607,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2015,
         moneda: "2€ Com1",
         createdAt: new Date(),
@@ -11616,7 +11616,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2016,
         moneda: "2€",
         createdAt: new Date(),
@@ -11625,7 +11625,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2016,
         moneda: "10c",
         createdAt: new Date(),
@@ -11634,7 +11634,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2016,
         moneda: "2€ Com1",
         createdAt: new Date(),
@@ -11643,7 +11643,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2017,
         moneda: "2€",
         createdAt: new Date(),
@@ -11652,7 +11652,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2017,
         moneda: "10c",
         createdAt: new Date(),
@@ -11661,7 +11661,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "7",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "2€",
         createdAt: new Date(),
@@ -11670,7 +11670,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "7",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "1€",
         createdAt: new Date(),
@@ -11679,7 +11679,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "7",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "50c",
         createdAt: new Date(),
@@ -11688,7 +11688,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "7",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "20c",
         createdAt: new Date(),
@@ -11697,7 +11697,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "7",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "10c",
         createdAt: new Date(),
@@ -11706,7 +11706,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "7",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "5c",
         createdAt: new Date(),
@@ -11715,7 +11715,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "7",
-        ceca: null,
+        ceca:  "",
         año: 2003,
         moneda: "1€",
         createdAt: new Date(),
@@ -11724,7 +11724,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "7",
-        ceca: null,
+        ceca:  "",
         año: 2004,
         moneda: "2€",
         createdAt: new Date(),
@@ -11733,7 +11733,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "7",
-        ceca: null,
+        ceca:  "",
         año: 2004,
         moneda: "1€",
         createdAt: new Date(),
@@ -11742,7 +11742,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "7",
-        ceca: null,
+        ceca:  "",
         año: 2005,
         moneda: "1€",
         createdAt: new Date(),
@@ -11751,7 +11751,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "7",
-        ceca: null,
+        ceca:  "",
         año: 2006,
         moneda: "1€",
         createdAt: new Date(),
@@ -11760,7 +11760,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "7",
-        ceca: null,
+        ceca:  "",
         año: 2007,
         moneda: "1€",
         createdAt: new Date(),
@@ -11769,7 +11769,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "8",
-        ceca: null,
+        ceca:  "",
         año: 1999,
         moneda: "2€",
         createdAt: new Date(),
@@ -11778,7 +11778,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "8",
-        ceca: null,
+        ceca:  "",
         año: 1999,
         moneda: "1€",
         createdAt: new Date(),
@@ -11787,7 +11787,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "8",
-        ceca: null,
+        ceca:  "",
         año: 1999,
         moneda: "50c",
         createdAt: new Date(),
@@ -11796,7 +11796,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "8",
-        ceca: null,
+        ceca:  "",
         año: 1999,
         moneda: "20c",
         createdAt: new Date(),
@@ -11805,7 +11805,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "8",
-        ceca: null,
+        ceca:  "",
         año: 1999,
         moneda: "10c",
         createdAt: new Date(),
@@ -11814,7 +11814,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "8",
-        ceca: null,
+        ceca:  "",
         año: 1999,
         moneda: "5c",
         createdAt: new Date(),
@@ -11823,7 +11823,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "8",
-        ceca: null,
+        ceca:  "",
         año: 2000,
         moneda: "2€",
         createdAt: new Date(),
@@ -11832,7 +11832,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "8",
-        ceca: null,
+        ceca:  "",
         año: 2000,
         moneda: "1€",
         createdAt: new Date(),
@@ -11841,7 +11841,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "8",
-        ceca: null,
+        ceca:  "",
         año: 2000,
         moneda: "50c",
         createdAt: new Date(),
@@ -11850,7 +11850,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "8",
-        ceca: null,
+        ceca:  "",
         año: 2000,
         moneda: "20c",
         createdAt: new Date(),
@@ -11859,7 +11859,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "8",
-        ceca: null,
+        ceca:  "",
         año: 2000,
         moneda: "10c",
         createdAt: new Date(),
@@ -11868,7 +11868,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "8",
-        ceca: null,
+        ceca:  "",
         año: 2000,
         moneda: "5c",
         createdAt: new Date(),
@@ -11877,7 +11877,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "8",
-        ceca: null,
+        ceca:  "",
         año: 2000,
         moneda: "2c",
         createdAt: new Date(),
@@ -11886,7 +11886,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "8",
-        ceca: null,
+        ceca:  "",
         año: 2000,
         moneda: "1c",
         createdAt: new Date(),
@@ -11895,7 +11895,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "8",
-        ceca: null,
+        ceca:  "",
         año: 2001,
         moneda: "2€",
         createdAt: new Date(),
@@ -11904,7 +11904,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "8",
-        ceca: null,
+        ceca:  "",
         año: 2001,
         moneda: "1€",
         createdAt: new Date(),
@@ -11913,7 +11913,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "8",
-        ceca: null,
+        ceca:  "",
         año: 2001,
         moneda: "50c",
         createdAt: new Date(),
@@ -11922,7 +11922,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "8",
-        ceca: null,
+        ceca:  "",
         año: 2001,
         moneda: "20c",
         createdAt: new Date(),
@@ -11931,7 +11931,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "8",
-        ceca: null,
+        ceca:  "",
         año: 2001,
         moneda: "10c",
         createdAt: new Date(),
@@ -11940,7 +11940,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "8",
-        ceca: null,
+        ceca:  "",
         año: 2001,
         moneda: "5c",
         createdAt: new Date(),
@@ -11949,7 +11949,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "8",
-        ceca: null,
+        ceca:  "",
         año: 2001,
         moneda: "2c",
         createdAt: new Date(),
@@ -11958,7 +11958,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "8",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "2€",
         createdAt: new Date(),
@@ -11967,7 +11967,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "8",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "1€",
         createdAt: new Date(),
@@ -11976,7 +11976,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "8",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "50c",
         createdAt: new Date(),
@@ -11985,7 +11985,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "8",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "20c",
         createdAt: new Date(),
@@ -11994,7 +11994,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "8",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "2c",
         createdAt: new Date(),
@@ -12003,7 +12003,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "8",
-        ceca: null,
+        ceca:  "",
         año: 2003,
         moneda: "20c",
         createdAt: new Date(),
@@ -12012,7 +12012,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "8",
-        ceca: null,
+        ceca:  "",
         año: 2003,
         moneda: "2c",
         createdAt: new Date(),
@@ -12021,7 +12021,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "8",
-        ceca: null,
+        ceca:  "",
         año: 2004,
         moneda: "20c",
         createdAt: new Date(),
@@ -12030,7 +12030,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "8",
-        ceca: null,
+        ceca:  "",
         año: 2005,
         moneda: "5c",
         createdAt: new Date(),
@@ -12039,7 +12039,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "9",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "2€",
         createdAt: new Date(),
@@ -12048,7 +12048,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "9",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "1€",
         createdAt: new Date(),
@@ -12057,7 +12057,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "9",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "50c",
         createdAt: new Date(),
@@ -12066,7 +12066,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "9",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "20c",
         createdAt: new Date(),
@@ -12075,7 +12075,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "9",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "10c",
         createdAt: new Date(),
@@ -12084,7 +12084,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "9",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "5c",
         createdAt: new Date(),
@@ -12093,7 +12093,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "9",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "2c",
         createdAt: new Date(),
@@ -12102,7 +12102,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "9",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "1c",
         createdAt: new Date(),
@@ -12111,7 +12111,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "9",
-        ceca: null,
+        ceca:  "",
         año: 2003,
         moneda: "50c",
         createdAt: new Date(),
@@ -12120,7 +12120,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "9",
-        ceca: null,
+        ceca:  "",
         año: 2003,
         moneda: "20c",
         createdAt: new Date(),
@@ -12129,7 +12129,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "9",
-        ceca: null,
+        ceca:  "",
         año: 2003,
         moneda: "10c",
         createdAt: new Date(),
@@ -12138,7 +12138,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "9",
-        ceca: null,
+        ceca:  "",
         año: 2003,
         moneda: "2c",
         createdAt: new Date(),
@@ -12147,7 +12147,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "9",
-        ceca: null,
+        ceca:  "",
         año: 2004,
         moneda: "50c",
         createdAt: new Date(),
@@ -12156,7 +12156,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "9",
-        ceca: null,
+        ceca:  "",
         año: 2004,
         moneda: "20c",
         createdAt: new Date(),
@@ -12165,7 +12165,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "9",
-        ceca: null,
+        ceca:  "",
         año: 2005,
         moneda: "2€",
         createdAt: new Date(),
@@ -12174,7 +12174,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "9",
-        ceca: null,
+        ceca:  "",
         año: 2005,
         moneda: "50c",
         createdAt: new Date(),
@@ -12183,7 +12183,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "9",
-        ceca: null,
+        ceca:  "",
         año: 2005,
         moneda: "20c",
         createdAt: new Date(),
@@ -12192,7 +12192,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "9",
-        ceca: null,
+        ceca:  "",
         año: 2005,
         moneda: "5c",
         createdAt: new Date(),
@@ -12201,7 +12201,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "9",
-        ceca: null,
+        ceca:  "",
         año: 2006,
         moneda: "2€",
         createdAt: new Date(),
@@ -12210,7 +12210,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "9",
-        ceca: null,
+        ceca:  "",
         año: 2007,
         moneda: "2€",
         createdAt: new Date(),
@@ -12219,7 +12219,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "9",
-        ceca: null,
+        ceca:  "",
         año: 2007,
         moneda: "20c",
         createdAt: new Date(),
@@ -12228,7 +12228,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "9",
-        ceca: null,
+        ceca:  "",
         año: 2007,
         moneda: "10c",
         createdAt: new Date(),
@@ -12237,7 +12237,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "9",
-        ceca: null,
+        ceca:  "",
         año: 2007,
         moneda: "5c",
         createdAt: new Date(),
@@ -12246,7 +12246,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "9",
-        ceca: null,
+        ceca:  "",
         año: 2008,
         moneda: "20c",
         createdAt: new Date(),
@@ -12255,7 +12255,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "9",
-        ceca: null,
+        ceca:  "",
         año: 2008,
         moneda: "10c",
         createdAt: new Date(),
@@ -12264,7 +12264,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "10",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "2€",
         createdAt: new Date(),
@@ -12273,7 +12273,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "10",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "1€",
         createdAt: new Date(),
@@ -12282,7 +12282,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "10",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "50c",
         createdAt: new Date(),
@@ -12291,7 +12291,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "10",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "20c",
         createdAt: new Date(),
@@ -12300,7 +12300,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "10",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "10c",
         createdAt: new Date(),
@@ -12309,7 +12309,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "10",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "5c",
         createdAt: new Date(),
@@ -12318,7 +12318,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "10",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "2c",
         createdAt: new Date(),
@@ -12327,7 +12327,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "10",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "1c",
         createdAt: new Date(),
@@ -12336,7 +12336,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "10",
-        ceca: null,
+        ceca:  "",
         año: 2003,
         moneda: "2€",
         createdAt: new Date(),
@@ -12345,7 +12345,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "10",
-        ceca: null,
+        ceca:  "",
         año: 2003,
         moneda: "1€",
         createdAt: new Date(),
@@ -12354,7 +12354,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "10",
-        ceca: null,
+        ceca:  "",
         año: 2003,
         moneda: "50c",
         createdAt: new Date(),
@@ -12363,7 +12363,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "10",
-        ceca: null,
+        ceca:  "",
         año: 2003,
         moneda: "10c",
         createdAt: new Date(),
@@ -12372,7 +12372,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "10",
-        ceca: null,
+        ceca:  "",
         año: 2004,
         moneda: "2€ Com1",
         createdAt: new Date(),
@@ -12381,7 +12381,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "10",
-        ceca: null,
+        ceca:  "",
         año: 2005,
         moneda: "2€",
         createdAt: new Date(),
@@ -12390,7 +12390,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "10",
-        ceca: null,
+        ceca:  "",
         año: 2005,
         moneda: "50c",
         createdAt: new Date(),
@@ -12399,7 +12399,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "10",
-        ceca: null,
+        ceca:  "",
         año: 2005,
         moneda: "10c",
         createdAt: new Date(),
@@ -12408,7 +12408,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "10",
-        ceca: null,
+        ceca:  "",
         año: 2005,
         moneda: "5c",
         createdAt: new Date(),
@@ -12417,7 +12417,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "10",
-        ceca: null,
+        ceca:  "",
         año: 2006,
         moneda: "1€",
         createdAt: new Date(),
@@ -12426,7 +12426,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "10",
-        ceca: null,
+        ceca:  "",
         año: 2006,
         moneda: "10c",
         createdAt: new Date(),
@@ -12435,7 +12435,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "10",
-        ceca: null,
+        ceca:  "",
         año: 2006,
         moneda: "5c",
         createdAt: new Date(),
@@ -12444,7 +12444,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "10",
-        ceca: null,
+        ceca:  "",
         año: 2006,
         moneda: "2c",
         createdAt: new Date(),
@@ -12453,7 +12453,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "10",
-        ceca: null,
+        ceca:  "",
         año: 2006,
         moneda: "2€ Com1",
         createdAt: new Date(),
@@ -12462,7 +12462,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "10",
-        ceca: null,
+        ceca:  "",
         año: 2007,
         moneda: "1€",
         createdAt: new Date(),
@@ -12471,7 +12471,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "10",
-        ceca: null,
+        ceca:  "",
         año: 2007,
         moneda: "20c",
         createdAt: new Date(),
@@ -12480,7 +12480,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "10",
-        ceca: null,
+        ceca:  "",
         año: 2007,
         moneda: "10c",
         createdAt: new Date(),
@@ -12489,7 +12489,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "10",
-        ceca: null,
+        ceca:  "",
         año: 2007,
         moneda: "5c",
         createdAt: new Date(),
@@ -12498,7 +12498,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "10",
-        ceca: null,
+        ceca:  "",
         año: 2008,
         moneda: "1€",
         createdAt: new Date(),
@@ -12507,7 +12507,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "10",
-        ceca: null,
+        ceca:  "",
         año: 2008,
         moneda: "10c",
         createdAt: new Date(),
@@ -12516,7 +12516,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "10",
-        ceca: null,
+        ceca:  "",
         año: 2008,
         moneda: "5c",
         createdAt: new Date(),
@@ -12525,7 +12525,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "10",
-        ceca: null,
+        ceca:  "",
         año: 2009,
         moneda: "1€",
         createdAt: new Date(),
@@ -12534,7 +12534,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "10",
-        ceca: null,
+        ceca:  "",
         año: 2009,
         moneda: "2c",
         createdAt: new Date(),
@@ -12543,7 +12543,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "10",
-        ceca: null,
+        ceca:  "",
         año: 2010,
         moneda: "5c",
         createdAt: new Date(),
@@ -12552,7 +12552,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "10",
-        ceca: null,
+        ceca:  "",
         año: 2010,
         moneda: "2c",
         createdAt: new Date(),
@@ -12561,7 +12561,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "10",
-        ceca: null,
+        ceca:  "",
         año: 2011,
         moneda: "2€",
         createdAt: new Date(),
@@ -12570,7 +12570,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "10",
-        ceca: null,
+        ceca:  "",
         año: 2011,
         moneda: "10c",
         createdAt: new Date(),
@@ -12579,7 +12579,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "10",
-        ceca: null,
+        ceca:  "",
         año: 2011,
         moneda: "1c",
         createdAt: new Date(),
@@ -12588,7 +12588,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "10",
-        ceca: null,
+        ceca:  "",
         año: 2012,
         moneda: "5c",
         createdAt: new Date(),
@@ -12597,7 +12597,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "10",
-        ceca: null,
+        ceca:  "",
         año: 2012,
         moneda: "2c",
         createdAt: new Date(),
@@ -12606,7 +12606,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "10",
-        ceca: null,
+        ceca:  "",
         año: 2013,
         moneda: "2€",
         createdAt: new Date(),
@@ -12615,7 +12615,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "10",
-        ceca: null,
+        ceca:  "",
         año: 2013,
         moneda: "5c",
         createdAt: new Date(),
@@ -12624,7 +12624,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "10",
-        ceca: null,
+        ceca:  "",
         año: 2013,
         moneda: "2c",
         createdAt: new Date(),
@@ -12633,7 +12633,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "10",
-        ceca: null,
+        ceca:  "",
         año: 2013,
         moneda: "1c",
         createdAt: new Date(),
@@ -12642,7 +12642,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "10",
-        ceca: null,
+        ceca:  "",
         año: 2014,
         moneda: "2c",
         createdAt: new Date(),
@@ -12651,7 +12651,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "10",
-        ceca: null,
+        ceca:  "",
         año: 2014,
         moneda: "1c",
         createdAt: new Date(),
@@ -12660,7 +12660,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "10",
-        ceca: null,
+        ceca:  "",
         año: 2015,
         moneda: "50c",
         createdAt: new Date(),
@@ -12669,7 +12669,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "10",
-        ceca: null,
+        ceca:  "",
         año: 2015,
         moneda: "1c",
         createdAt: new Date(),
@@ -12678,7 +12678,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "10",
-        ceca: null,
+        ceca:  "",
         año: 2016,
         moneda: "2c",
         createdAt: new Date(),
@@ -12687,7 +12687,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "10",
-        ceca: null,
+        ceca:  "",
         año: 2017,
         moneda: "5c",
         createdAt: new Date(),
@@ -12696,7 +12696,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "10",
-        ceca: null,
+        ceca:  "",
         año: 2017,
         moneda: "2c",
         createdAt: new Date(),
@@ -12705,7 +12705,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "10",
-        ceca: null,
+        ceca:  "",
         año: 2017,
         moneda: "1c",
         createdAt: new Date(),
@@ -12714,7 +12714,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "10",
-        ceca: null,
+        ceca:  "",
         año: 2018,
         moneda: "5c",
         createdAt: new Date(),
@@ -12723,7 +12723,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "11",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "2€",
         createdAt: new Date(),
@@ -12732,7 +12732,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "11",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "1€",
         createdAt: new Date(),
@@ -12741,7 +12741,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "11",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "50c",
         createdAt: new Date(),
@@ -12750,7 +12750,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "11",
-        ceca: null,
+        ceca:  "",
         año: 2004,
         moneda: "2€",
         createdAt: new Date(),
@@ -12759,7 +12759,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "11",
-        ceca: null,
+        ceca:  "",
         año: 2004,
         moneda: "20c",
         createdAt: new Date(),
@@ -12768,7 +12768,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "11",
-        ceca: null,
+        ceca:  "",
         año: 2005,
         moneda: "2€",
         createdAt: new Date(),
@@ -12777,7 +12777,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "11",
-        ceca: null,
+        ceca:  "",
         año: 2005,
         moneda: "20c",
         createdAt: new Date(),
@@ -12786,7 +12786,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "11",
-        ceca: null,
+        ceca:  "",
         año: 2006,
         moneda: "50c",
         createdAt: new Date(),
@@ -12795,7 +12795,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "11",
-        ceca: null,
+        ceca:  "",
         año: 2009,
         moneda: "50c",
         createdAt: new Date(),
@@ -12804,7 +12804,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "11",
-        ceca: null,
+        ceca:  "",
         año: 2009,
         moneda: "5c",
         createdAt: new Date(),
@@ -12813,7 +12813,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "11",
-        ceca: null,
+        ceca:  "",
         año: 2010,
         moneda: "20c",
         createdAt: new Date(),
@@ -12822,7 +12822,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "11",
-        ceca: null,
+        ceca:  "",
         año: 2013,
         moneda: "2€",
         createdAt: new Date(),
@@ -12831,7 +12831,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "12",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "2€",
         createdAt: new Date(),
@@ -12840,7 +12840,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "12",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "1€",
         createdAt: new Date(),
@@ -12849,7 +12849,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "12",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "50c",
         createdAt: new Date(),
@@ -12858,7 +12858,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "12",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "20c",
         createdAt: new Date(),
@@ -12867,7 +12867,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "12",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "10c",
         createdAt: new Date(),
@@ -12876,7 +12876,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "12",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "5c",
         createdAt: new Date(),
@@ -12885,7 +12885,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "12",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "2c",
         createdAt: new Date(),
@@ -12894,7 +12894,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "12",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "1c",
         createdAt: new Date(),
@@ -12903,7 +12903,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "12",
-        ceca: null,
+        ceca:  "",
         año: 2003,
         moneda: "2€",
         createdAt: new Date(),
@@ -12912,7 +12912,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "12",
-        ceca: null,
+        ceca:  "",
         año: 2003,
         moneda: "1€",
         createdAt: new Date(),
@@ -12921,7 +12921,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "12",
-        ceca: null,
+        ceca:  "",
         año: 2003,
         moneda: "50c",
         createdAt: new Date(),
@@ -12930,7 +12930,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "12",
-        ceca: null,
+        ceca:  "",
         año: 2003,
         moneda: "20c",
         createdAt: new Date(),
@@ -12939,7 +12939,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "12",
-        ceca: null,
+        ceca:  "",
         año: 2004,
         moneda: "1€",
         createdAt: new Date(),
@@ -12948,7 +12948,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "12",
-        ceca: null,
+        ceca:  "",
         año: 2004,
         moneda: "5c",
         createdAt: new Date(),
@@ -12957,7 +12957,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "12",
-        ceca: null,
+        ceca:  "",
         año: 2004,
         moneda: "1c",
         createdAt: new Date(),
@@ -12966,7 +12966,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "12",
-        ceca: null,
+        ceca:  "",
         año: 2005,
         moneda: "1€",
         createdAt: new Date(),
@@ -12975,7 +12975,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "12",
-        ceca: null,
+        ceca:  "",
         año: 2005,
         moneda: "20c",
         createdAt: new Date(),
@@ -12984,7 +12984,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "12",
-        ceca: null,
+        ceca:  "",
         año: 2005,
         moneda: "5c",
         createdAt: new Date(),
@@ -12993,7 +12993,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "12",
-        ceca: null,
+        ceca:  "",
         año: 2006,
         moneda: "1€",
         createdAt: new Date(),
@@ -13002,7 +13002,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "12",
-        ceca: null,
+        ceca:  "",
         año: 2006,
         moneda: "20c",
         createdAt: new Date(),
@@ -13011,7 +13011,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "12",
-        ceca: null,
+        ceca:  "",
         año: 2007,
         moneda: "1€",
         createdAt: new Date(),
@@ -13020,7 +13020,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "12",
-        ceca: null,
+        ceca:  "",
         año: 2007,
         moneda: "5c",
         createdAt: new Date(),
@@ -13029,7 +13029,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "12",
-        ceca: null,
+        ceca:  "",
         año: 2007,
         moneda: "1c",
         createdAt: new Date(),
@@ -13038,7 +13038,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "12",
-        ceca: null,
+        ceca:  "",
         año: 2008,
         moneda: "2c",
         createdAt: new Date(),
@@ -13047,7 +13047,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "12",
-        ceca: null,
+        ceca:  "",
         año: 2008,
         moneda: "1c",
         createdAt: new Date(),
@@ -13056,7 +13056,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "12",
-        ceca: null,
+        ceca:  "",
         año: 2009,
         moneda: "1€",
         createdAt: new Date(),
@@ -13065,7 +13065,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "12",
-        ceca: null,
+        ceca:  "",
         año: 2009,
         moneda: "50c",
         createdAt: new Date(),
@@ -13074,7 +13074,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "12",
-        ceca: null,
+        ceca:  "",
         año: 2009,
         moneda: "20c",
         createdAt: new Date(),
@@ -13083,7 +13083,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "12",
-        ceca: null,
+        ceca:  "",
         año: 2009,
         moneda: "10c",
         createdAt: new Date(),
@@ -13092,7 +13092,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "12",
-        ceca: null,
+        ceca:  "",
         año: 2010,
         moneda: "1€",
         createdAt: new Date(),
@@ -13101,7 +13101,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "12",
-        ceca: null,
+        ceca:  "",
         año: 2010,
         moneda: "50c",
         createdAt: new Date(),
@@ -13110,7 +13110,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "12",
-        ceca: null,
+        ceca:  "",
         año: 2010,
         moneda: "20c",
         createdAt: new Date(),
@@ -13119,7 +13119,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "12",
-        ceca: null,
+        ceca:  "",
         año: 2011,
         moneda: "1€",
         createdAt: new Date(),
@@ -13128,7 +13128,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "12",
-        ceca: null,
+        ceca:  "",
         año: 2012,
         moneda: "2c",
         createdAt: new Date(),
@@ -13137,7 +13137,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "12",
-        ceca: null,
+        ceca:  "",
         año: 2014,
         moneda: "1€",
         createdAt: new Date(),
@@ -13146,7 +13146,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "12",
-        ceca: null,
+        ceca:  "",
         año: 2014,
         moneda: "1c",
         createdAt: new Date(),
@@ -13155,7 +13155,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "12",
-        ceca: null,
+        ceca:  "",
         año: 2015,
         moneda: "1€",
         createdAt: new Date(),
@@ -13164,7 +13164,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "12",
-        ceca: null,
+        ceca:  "",
         año: 2015,
         moneda: "50c",
         createdAt: new Date(),
@@ -13173,7 +13173,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "12",
-        ceca: null,
+        ceca:  "",
         año: 2015,
         moneda: "20c",
         createdAt: new Date(),
@@ -13182,7 +13182,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "12",
-        ceca: null,
+        ceca:  "",
         año: 2015,
         moneda: "1c",
         createdAt: new Date(),
@@ -13191,7 +13191,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "12",
-        ceca: null,
+        ceca:  "",
         año: 2016,
         moneda: "1€",
         createdAt: new Date(),
@@ -13200,7 +13200,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "12",
-        ceca: null,
+        ceca:  "",
         año: 2016,
         moneda: "10c",
         createdAt: new Date(),
@@ -13209,7 +13209,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "12",
-        ceca: null,
+        ceca:  "",
         año: 2017,
         moneda: "1€",
         createdAt: new Date(),
@@ -13218,7 +13218,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "12",
-        ceca: null,
+        ceca:  "",
         año: 2017,
         moneda: "50c",
         createdAt: new Date(),
@@ -13227,7 +13227,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "12",
-        ceca: null,
+        ceca:  "",
         año: 2017,
         moneda: "10c",
         createdAt: new Date(),
@@ -13236,7 +13236,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "12",
-        ceca: null,
+        ceca:  "",
         año: 2017,
         moneda: "5c",
         createdAt: new Date(),
@@ -13245,7 +13245,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "12",
-        ceca: null,
+        ceca:  "",
         año: 2018,
         moneda: "1€",
         createdAt: new Date(),
@@ -13254,7 +13254,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "12",
-        ceca: null,
+        ceca:  "",
         año: 2018,
         moneda: "20c",
         createdAt: new Date(),
@@ -13263,7 +13263,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "13",
-        ceca: null,
+        ceca:  "",
         año: 2007,
         moneda: "20c",
         createdAt: new Date(),
@@ -13272,7 +13272,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "14",
-        ceca: null,
+        ceca:  "",
         año: 2008,
         moneda: "2€",
         createdAt: new Date(),
@@ -13281,7 +13281,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "14",
-        ceca: null,
+        ceca:  "",
         año: 2008,
         moneda: "1€",
         createdAt: new Date(),
@@ -13290,7 +13290,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "14",
-        ceca: null,
+        ceca:  "",
         año: 2008,
         moneda: "50c",
         createdAt: new Date(),
@@ -13299,7 +13299,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "14",
-        ceca: null,
+        ceca:  "",
         año: 2008,
         moneda: "20c",
         createdAt: new Date(),
@@ -13308,7 +13308,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "14",
-        ceca: null,
+        ceca:  "",
         año: 2008,
         moneda: "10c",
         createdAt: new Date(),
@@ -13317,7 +13317,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "14",
-        ceca: null,
+        ceca:  "",
         año: 2008,
         moneda: "5c",
         createdAt: new Date(),
@@ -13326,7 +13326,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "14",
-        ceca: null,
+        ceca:  "",
         año: 2013,
         moneda: "50c",
         createdAt: new Date(),
@@ -13335,7 +13335,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "15",
-        ceca: null,
+        ceca:  "",
         año: 2014,
         moneda: "1€",
         createdAt: new Date(),
@@ -13344,7 +13344,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "15",
-        ceca: null,
+        ceca:  "",
         año: 2016,
         moneda: "1€",
         createdAt: new Date(),
@@ -13353,7 +13353,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "15",
-        ceca: null,
+        ceca:  "",
         año: 2017,
         moneda: "2€",
         createdAt: new Date(),
@@ -13362,7 +13362,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "15",
-        ceca: null,
+        ceca:  "",
         año: 2017,
         moneda: "50c",
         createdAt: new Date(),
@@ -13371,7 +13371,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "15",
-        ceca: null,
+        ceca:  "",
         año: 2017,
         moneda: "20c",
         createdAt: new Date(),
@@ -13380,7 +13380,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "15",
-        ceca: null,
+        ceca:  "",
         año: 2017,
         moneda: "10c",
         createdAt: new Date(),
@@ -13389,7 +13389,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "15",
-        ceca: null,
+        ceca:  "",
         año: 2017,
         moneda: "5c",
         createdAt: new Date(),
@@ -13398,7 +13398,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "15",
-        ceca: null,
+        ceca:  "",
         año: 2017,
         moneda: "1c",
         createdAt: new Date(),
@@ -13407,7 +13407,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "15",
-        ceca: null,
+        ceca:  "",
         año: 2018,
         moneda: "2€",
         createdAt: new Date(),
@@ -13416,7 +13416,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "15",
-        ceca: null,
+        ceca:  "",
         año: 2018,
         moneda: "50c",
         createdAt: new Date(),
@@ -13425,7 +13425,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "16",
-        ceca: null,
+        ceca:  "",
         año: 2009,
         moneda: "2€",
         createdAt: new Date(),
@@ -13434,7 +13434,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "16",
-        ceca: null,
+        ceca:  "",
         año: 2009,
         moneda: "1€",
         createdAt: new Date(),
@@ -13443,7 +13443,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "16",
-        ceca: null,
+        ceca:  "",
         año: 2009,
         moneda: "50c",
         createdAt: new Date(),
@@ -13452,7 +13452,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "16",
-        ceca: null,
+        ceca:  "",
         año: 2011,
         moneda: "2€",
         createdAt: new Date(),
@@ -13461,7 +13461,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "17",
-        ceca: null,
+        ceca:  "",
         año: 2011,
         moneda: "20c",
         createdAt: new Date(),
@@ -13470,7 +13470,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "18",
-        ceca: null,
+        ceca:  "",
         año: 2014,
         moneda: "50c",
         createdAt: new Date(),
@@ -13479,7 +13479,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "19",
-        ceca: null,
+        ceca:  "",
         año: 2015,
         moneda: "2€",
         createdAt: new Date(),
@@ -13488,7 +13488,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "19",
-        ceca: null,
+        ceca:  "",
         año: 2015,
         moneda: "1€",
         createdAt: new Date(),
@@ -13497,7 +13497,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "19",
-        ceca: null,
+        ceca:  "",
         año: 2015,
         moneda: "20c",
         createdAt: new Date(),
@@ -13506,7 +13506,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "20",
-        ceca: null,
+        ceca:  "",
         año: 2008,
         moneda: "2€",
         createdAt: new Date(),
@@ -13515,7 +13515,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "20",
-        ceca: null,
+        ceca:  "",
         año: 2008,
         moneda: "1€",
         createdAt: new Date(),
@@ -13524,7 +13524,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "20",
-        ceca: null,
+        ceca:  "",
         año: 2008,
         moneda: "50c",
         createdAt: new Date(),
@@ -13533,7 +13533,7 @@ module.exports = {
       {
         coleccionistaId: 3,
         paisId: "20",
-        ceca: null,
+        ceca:  "",
         año: 2008,
         moneda: "20c",
         createdAt: new Date(),
@@ -13542,7 +13542,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 1999,
         moneda: "2€",
         createdAt: new Date(),
@@ -13551,7 +13551,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 1999,
         moneda: "1€",
         createdAt: new Date(),
@@ -13560,7 +13560,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 1999,
         moneda: "50c",
         createdAt: new Date(),
@@ -13569,7 +13569,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 1999,
         moneda: "20c",
         createdAt: new Date(),
@@ -13578,7 +13578,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 1999,
         moneda: "10c",
         createdAt: new Date(),
@@ -13587,7 +13587,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 1999,
         moneda: "5c",
         createdAt: new Date(),
@@ -13596,7 +13596,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 1999,
         moneda: "2c",
         createdAt: new Date(),
@@ -13605,7 +13605,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 1999,
         moneda: "1c",
         createdAt: new Date(),
@@ -13614,7 +13614,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2000,
         moneda: "2€",
         createdAt: new Date(),
@@ -13623,7 +13623,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2000,
         moneda: "1€",
         createdAt: new Date(),
@@ -13632,7 +13632,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2000,
         moneda: "50c",
         createdAt: new Date(),
@@ -13641,7 +13641,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2000,
         moneda: "20c",
         createdAt: new Date(),
@@ -13650,7 +13650,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2000,
         moneda: "10c",
         createdAt: new Date(),
@@ -13659,7 +13659,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2000,
         moneda: "5c",
         createdAt: new Date(),
@@ -13668,7 +13668,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2000,
         moneda: "2c",
         createdAt: new Date(),
@@ -13677,7 +13677,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2000,
         moneda: "1c",
         createdAt: new Date(),
@@ -13686,7 +13686,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2001,
         moneda: "2€",
         createdAt: new Date(),
@@ -13695,7 +13695,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2001,
         moneda: "1€",
         createdAt: new Date(),
@@ -13704,7 +13704,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2001,
         moneda: "50c",
         createdAt: new Date(),
@@ -13713,7 +13713,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2001,
         moneda: "20c",
         createdAt: new Date(),
@@ -13722,7 +13722,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2001,
         moneda: "10c",
         createdAt: new Date(),
@@ -13731,7 +13731,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2001,
         moneda: "5c",
         createdAt: new Date(),
@@ -13740,7 +13740,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2001,
         moneda: "2c",
         createdAt: new Date(),
@@ -13749,7 +13749,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2001,
         moneda: "1c",
         createdAt: new Date(),
@@ -13758,7 +13758,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "2€",
         createdAt: new Date(),
@@ -13767,7 +13767,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "1€",
         createdAt: new Date(),
@@ -13776,7 +13776,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "50c",
         createdAt: new Date(),
@@ -13785,7 +13785,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "20c",
         createdAt: new Date(),
@@ -13794,7 +13794,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "10c",
         createdAt: new Date(),
@@ -13803,7 +13803,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "1c",
         createdAt: new Date(),
@@ -13812,7 +13812,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "12€_1",
         createdAt: new Date(),
@@ -13821,7 +13821,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2003,
         moneda: "2€",
         createdAt: new Date(),
@@ -13830,7 +13830,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2003,
         moneda: "1€",
         createdAt: new Date(),
@@ -13839,7 +13839,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2003,
         moneda: "20c",
         createdAt: new Date(),
@@ -13848,7 +13848,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2003,
         moneda: "10c",
         createdAt: new Date(),
@@ -13857,7 +13857,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2003,
         moneda: "5c",
         createdAt: new Date(),
@@ -13866,7 +13866,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2003,
         moneda: "2c",
         createdAt: new Date(),
@@ -13875,7 +13875,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2003,
         moneda: "1c",
         createdAt: new Date(),
@@ -13884,7 +13884,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2003,
         moneda: "12€_1",
         createdAt: new Date(),
@@ -13893,7 +13893,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2004,
         moneda: "2€",
         createdAt: new Date(),
@@ -13902,7 +13902,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2004,
         moneda: "1€",
         createdAt: new Date(),
@@ -13911,7 +13911,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2004,
         moneda: "10c",
         createdAt: new Date(),
@@ -13920,7 +13920,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2004,
         moneda: "5c",
         createdAt: new Date(),
@@ -13929,7 +13929,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2004,
         moneda: "2c",
         createdAt: new Date(),
@@ -13938,7 +13938,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2004,
         moneda: "1c",
         createdAt: new Date(),
@@ -13947,7 +13947,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2004,
         moneda: "12€_1",
         createdAt: new Date(),
@@ -13956,7 +13956,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2004,
         moneda: "12€_2",
         createdAt: new Date(),
@@ -13965,7 +13965,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2005,
         moneda: "2€",
         createdAt: new Date(),
@@ -13974,7 +13974,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2005,
         moneda: "1€",
         createdAt: new Date(),
@@ -13983,7 +13983,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2005,
         moneda: "10c",
         createdAt: new Date(),
@@ -13992,7 +13992,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2005,
         moneda: "5c",
         createdAt: new Date(),
@@ -14001,7 +14001,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2005,
         moneda: "2c",
         createdAt: new Date(),
@@ -14010,7 +14010,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2005,
         moneda: "1c",
         createdAt: new Date(),
@@ -14019,7 +14019,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2005,
         moneda: "12€_1",
         createdAt: new Date(),
@@ -14028,7 +14028,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2005,
         moneda: "2€ Com1",
         createdAt: new Date(),
@@ -14037,7 +14037,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2006,
         moneda: "1€",
         createdAt: new Date(),
@@ -14046,7 +14046,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2006,
         moneda: "20c",
         createdAt: new Date(),
@@ -14055,7 +14055,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2006,
         moneda: "10c",
         createdAt: new Date(),
@@ -14064,7 +14064,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2006,
         moneda: "5c",
         createdAt: new Date(),
@@ -14073,7 +14073,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2006,
         moneda: "2c",
         createdAt: new Date(),
@@ -14082,7 +14082,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2006,
         moneda: "1c",
         createdAt: new Date(),
@@ -14091,7 +14091,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2007,
         moneda: "2€",
         createdAt: new Date(),
@@ -14100,7 +14100,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2007,
         moneda: "1€",
         createdAt: new Date(),
@@ -14109,7 +14109,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2007,
         moneda: "20c",
         createdAt: new Date(),
@@ -14118,7 +14118,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2007,
         moneda: "10c",
         createdAt: new Date(),
@@ -14127,7 +14127,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2007,
         moneda: "5c",
         createdAt: new Date(),
@@ -14136,7 +14136,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2007,
         moneda: "2c",
         createdAt: new Date(),
@@ -14145,7 +14145,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2007,
         moneda: "1c",
         createdAt: new Date(),
@@ -14154,7 +14154,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2007,
         moneda: "2€ Com1",
         createdAt: new Date(),
@@ -14163,7 +14163,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2008,
         moneda: "2€",
         createdAt: new Date(),
@@ -14172,7 +14172,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2008,
         moneda: "1€",
         createdAt: new Date(),
@@ -14181,7 +14181,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2008,
         moneda: "20c",
         createdAt: new Date(),
@@ -14190,7 +14190,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2008,
         moneda: "10c",
         createdAt: new Date(),
@@ -14199,7 +14199,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2008,
         moneda: "5c",
         createdAt: new Date(),
@@ -14208,7 +14208,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2008,
         moneda: "2c",
         createdAt: new Date(),
@@ -14217,7 +14217,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2008,
         moneda: "1c",
         createdAt: new Date(),
@@ -14226,7 +14226,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2008,
         moneda: "12€_1",
         createdAt: new Date(),
@@ -14235,7 +14235,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2009,
         moneda: "2€",
         createdAt: new Date(),
@@ -14244,7 +14244,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2009,
         moneda: "1€",
         createdAt: new Date(),
@@ -14253,7 +14253,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2009,
         moneda: "20c",
         createdAt: new Date(),
@@ -14262,7 +14262,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2009,
         moneda: "10c",
         createdAt: new Date(),
@@ -14271,7 +14271,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2009,
         moneda: "5c",
         createdAt: new Date(),
@@ -14280,7 +14280,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2009,
         moneda: "2c",
         createdAt: new Date(),
@@ -14289,7 +14289,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2009,
         moneda: "1c",
         createdAt: new Date(),
@@ -14298,7 +14298,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2009,
         moneda: "2€ Com1",
         createdAt: new Date(),
@@ -14307,7 +14307,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2010,
         moneda: "2€",
         createdAt: new Date(),
@@ -14316,7 +14316,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2010,
         moneda: "1€",
         createdAt: new Date(),
@@ -14325,7 +14325,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2010,
         moneda: "10c",
         createdAt: new Date(),
@@ -14334,7 +14334,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2010,
         moneda: "5c",
         createdAt: new Date(),
@@ -14343,7 +14343,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2010,
         moneda: "2c",
         createdAt: new Date(),
@@ -14352,7 +14352,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2010,
         moneda: "1c",
         createdAt: new Date(),
@@ -14361,7 +14361,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2010,
         moneda: "2€ Com1",
         createdAt: new Date(),
@@ -14370,7 +14370,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2011,
         moneda: "2€",
         createdAt: new Date(),
@@ -14379,7 +14379,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2011,
         moneda: "1€",
         createdAt: new Date(),
@@ -14388,7 +14388,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2011,
         moneda: "5c",
         createdAt: new Date(),
@@ -14397,7 +14397,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2011,
         moneda: "2c",
         createdAt: new Date(),
@@ -14406,7 +14406,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2011,
         moneda: "1c",
         createdAt: new Date(),
@@ -14415,7 +14415,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2011,
         moneda: "2€ Com1",
         createdAt: new Date(),
@@ -14424,7 +14424,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2012,
         moneda: "20c",
         createdAt: new Date(),
@@ -14433,7 +14433,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2012,
         moneda: "5c",
         createdAt: new Date(),
@@ -14442,7 +14442,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2012,
         moneda: "2c",
         createdAt: new Date(),
@@ -14451,7 +14451,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2012,
         moneda: "1c",
         createdAt: new Date(),
@@ -14460,7 +14460,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2012,
         moneda: "2€ Com1",
         createdAt: new Date(),
@@ -14469,7 +14469,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2012,
         moneda: "2€ Com2",
         createdAt: new Date(),
@@ -14478,7 +14478,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2013,
         moneda: "2c",
         createdAt: new Date(),
@@ -14487,7 +14487,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2013,
         moneda: "1c",
         createdAt: new Date(),
@@ -14496,7 +14496,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2013,
         moneda: "2€ Com1",
         createdAt: new Date(),
@@ -14505,7 +14505,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2014,
         moneda: "2€",
         createdAt: new Date(),
@@ -14514,7 +14514,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2014,
         moneda: "1€",
         createdAt: new Date(),
@@ -14523,7 +14523,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2014,
         moneda: "20c",
         createdAt: new Date(),
@@ -14532,7 +14532,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2014,
         moneda: "10c",
         createdAt: new Date(),
@@ -14541,7 +14541,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2014,
         moneda: "5c",
         createdAt: new Date(),
@@ -14550,7 +14550,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2014,
         moneda: "1c",
         createdAt: new Date(),
@@ -14559,7 +14559,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2014,
         moneda: "2€ Com1",
         createdAt: new Date(),
@@ -14568,7 +14568,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2014,
         moneda: "2€ Com2",
         createdAt: new Date(),
@@ -14577,7 +14577,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2015,
         moneda: "2€",
         createdAt: new Date(),
@@ -14586,7 +14586,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2015,
         moneda: "1€",
         createdAt: new Date(),
@@ -14595,7 +14595,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2015,
         moneda: "5c",
         createdAt: new Date(),
@@ -14604,7 +14604,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2015,
         moneda: "2c",
         createdAt: new Date(),
@@ -14613,7 +14613,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2015,
         moneda: "1c",
         createdAt: new Date(),
@@ -14622,7 +14622,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2015,
         moneda: "2€ Com1",
         createdAt: new Date(),
@@ -14631,7 +14631,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2015,
         moneda: "2€ Com2",
         createdAt: new Date(),
@@ -14640,7 +14640,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2016,
         moneda: "2€",
         createdAt: new Date(),
@@ -14649,7 +14649,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2016,
         moneda: "1€",
         createdAt: new Date(),
@@ -14658,7 +14658,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2016,
         moneda: "50c",
         createdAt: new Date(),
@@ -14667,7 +14667,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2016,
         moneda: "20c",
         createdAt: new Date(),
@@ -14676,7 +14676,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2016,
         moneda: "10c",
         createdAt: new Date(),
@@ -14685,7 +14685,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2016,
         moneda: "5c",
         createdAt: new Date(),
@@ -14694,7 +14694,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2016,
         moneda: "2c",
         createdAt: new Date(),
@@ -14703,7 +14703,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2016,
         moneda: "1c",
         createdAt: new Date(),
@@ -14712,7 +14712,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2016,
         moneda: "2€ Com1",
         createdAt: new Date(),
@@ -14721,7 +14721,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2017,
         moneda: "1€",
         createdAt: new Date(),
@@ -14730,7 +14730,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2017,
         moneda: "50c",
         createdAt: new Date(),
@@ -14739,7 +14739,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2017,
         moneda: "20c",
         createdAt: new Date(),
@@ -14748,7 +14748,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2017,
         moneda: "10c",
         createdAt: new Date(),
@@ -14757,7 +14757,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2017,
         moneda: "5c",
         createdAt: new Date(),
@@ -14766,7 +14766,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2017,
         moneda: "2c",
         createdAt: new Date(),
@@ -14775,7 +14775,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2017,
         moneda: "1c",
         createdAt: new Date(),
@@ -14784,7 +14784,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2018,
         moneda: "1€",
         createdAt: new Date(),
@@ -14793,7 +14793,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2018,
         moneda: "50c",
         createdAt: new Date(),
@@ -14802,7 +14802,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2018,
         moneda: "20c",
         createdAt: new Date(),
@@ -14811,7 +14811,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2018,
         moneda: "10c",
         createdAt: new Date(),
@@ -14820,7 +14820,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2018,
         moneda: "5c",
         createdAt: new Date(),
@@ -14829,7 +14829,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2018,
         moneda: "2c",
         createdAt: new Date(),
@@ -14838,7 +14838,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2018,
         moneda: "1c",
         createdAt: new Date(),
@@ -14847,7 +14847,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2019,
         moneda: "1€",
         createdAt: new Date(),
@@ -14856,7 +14856,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2019,
         moneda: "50c",
         createdAt: new Date(),
@@ -14865,7 +14865,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2019,
         moneda: "20c",
         createdAt: new Date(),
@@ -14874,7 +14874,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2019,
         moneda: "5c",
         createdAt: new Date(),
@@ -14883,7 +14883,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2019,
         moneda: "2c",
         createdAt: new Date(),
@@ -14892,7 +14892,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2019,
         moneda: "1c",
         createdAt: new Date(),
@@ -14901,7 +14901,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2020,
         moneda: "20c",
         createdAt: new Date(),
@@ -14910,7 +14910,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2020,
         moneda: "10c",
         createdAt: new Date(),
@@ -15585,7 +15585,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "3",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "2€",
         createdAt: new Date(),
@@ -15594,7 +15594,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "3",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "1€",
         createdAt: new Date(),
@@ -15603,7 +15603,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "3",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "50c",
         createdAt: new Date(),
@@ -15612,7 +15612,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "3",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "20c",
         createdAt: new Date(),
@@ -15621,7 +15621,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "3",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "10c",
         createdAt: new Date(),
@@ -15630,7 +15630,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "3",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "5c",
         createdAt: new Date(),
@@ -15639,7 +15639,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "3",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "2c",
         createdAt: new Date(),
@@ -15648,7 +15648,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "3",
-        ceca: null,
+        ceca:  "",
         año: 2003,
         moneda: "20c",
         createdAt: new Date(),
@@ -15657,7 +15657,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "3",
-        ceca: null,
+        ceca:  "",
         año: 2004,
         moneda: "20c",
         createdAt: new Date(),
@@ -15666,7 +15666,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "3",
-        ceca: null,
+        ceca:  "",
         año: 2005,
         moneda: "5c",
         createdAt: new Date(),
@@ -15675,7 +15675,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "3",
-        ceca: null,
+        ceca:  "",
         año: 2007,
         moneda: "1€",
         createdAt: new Date(),
@@ -15684,7 +15684,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "3",
-        ceca: null,
+        ceca:  "",
         año: 2007,
         moneda: "10c",
         createdAt: new Date(),
@@ -15693,7 +15693,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "3",
-        ceca: null,
+        ceca:  "",
         año: 2008,
         moneda: "1€",
         createdAt: new Date(),
@@ -15702,7 +15702,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "3",
-        ceca: null,
+        ceca:  "",
         año: 2008,
         moneda: "20c",
         createdAt: new Date(),
@@ -15711,7 +15711,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "3",
-        ceca: null,
+        ceca:  "",
         año: 2008,
         moneda: "5c",
         createdAt: new Date(),
@@ -15720,7 +15720,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "3",
-        ceca: null,
+        ceca:  "",
         año: 2009,
         moneda: "1€",
         createdAt: new Date(),
@@ -15729,7 +15729,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "3",
-        ceca: null,
+        ceca:  "",
         año: 2009,
         moneda: "50c",
         createdAt: new Date(),
@@ -15738,7 +15738,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "3",
-        ceca: null,
+        ceca:  "",
         año: 2009,
         moneda: "20c",
         createdAt: new Date(),
@@ -15747,7 +15747,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "3",
-        ceca: null,
+        ceca:  "",
         año: 2011,
         moneda: "2c",
         createdAt: new Date(),
@@ -15756,7 +15756,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "3",
-        ceca: null,
+        ceca:  "",
         año: 2012,
         moneda: "2€",
         createdAt: new Date(),
@@ -15765,7 +15765,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "3",
-        ceca: null,
+        ceca:  "",
         año: 2018,
         moneda: "2c",
         createdAt: new Date(),
@@ -15774,7 +15774,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "3",
-        ceca: null,
+        ceca:  "",
         año: 2018,
         moneda: "1c",
         createdAt: new Date(),
@@ -15783,7 +15783,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "4",
-        ceca: null,
+        ceca:  "",
         año: 1999,
         moneda: "1€",
         createdAt: new Date(),
@@ -15792,7 +15792,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "4",
-        ceca: null,
+        ceca:  "",
         año: 1999,
         moneda: "50c",
         createdAt: new Date(),
@@ -15801,7 +15801,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "4",
-        ceca: null,
+        ceca:  "",
         año: 1999,
         moneda: "10c",
         createdAt: new Date(),
@@ -15810,7 +15810,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "4",
-        ceca: null,
+        ceca:  "",
         año: 1999,
         moneda: "5c",
         createdAt: new Date(),
@@ -15819,7 +15819,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "4",
-        ceca: null,
+        ceca:  "",
         año: 1999,
         moneda: "1c",
         createdAt: new Date(),
@@ -15828,7 +15828,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "4",
-        ceca: null,
+        ceca:  "",
         año: 2000,
         moneda: "2€",
         createdAt: new Date(),
@@ -15837,7 +15837,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "4",
-        ceca: null,
+        ceca:  "",
         año: 2000,
         moneda: "20c",
         createdAt: new Date(),
@@ -15846,7 +15846,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "4",
-        ceca: null,
+        ceca:  "",
         año: 2000,
         moneda: "2c",
         createdAt: new Date(),
@@ -15855,7 +15855,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "4",
-        ceca: null,
+        ceca:  "",
         año: 2001,
         moneda: "10c",
         createdAt: new Date(),
@@ -15864,7 +15864,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "4",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "2€",
         createdAt: new Date(),
@@ -15873,7 +15873,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "4",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "1€",
         createdAt: new Date(),
@@ -15882,7 +15882,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "4",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "20c",
         createdAt: new Date(),
@@ -15891,7 +15891,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "4",
-        ceca: null,
+        ceca:  "",
         año: 2003,
         moneda: "2€",
         createdAt: new Date(),
@@ -15900,7 +15900,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "4",
-        ceca: null,
+        ceca:  "",
         año: 2003,
         moneda: "20c",
         createdAt: new Date(),
@@ -15909,7 +15909,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "4",
-        ceca: null,
+        ceca:  "",
         año: 2004,
         moneda: "2€",
         createdAt: new Date(),
@@ -15918,7 +15918,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "4",
-        ceca: null,
+        ceca:  "",
         año: 2004,
         moneda: "20c",
         createdAt: new Date(),
@@ -15927,7 +15927,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "4",
-        ceca: null,
+        ceca:  "",
         año: 2004,
         moneda: "5c",
         createdAt: new Date(),
@@ -15936,7 +15936,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "4",
-        ceca: null,
+        ceca:  "",
         año: 2004,
         moneda: "2c",
         createdAt: new Date(),
@@ -15945,7 +15945,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "4",
-        ceca: null,
+        ceca:  "",
         año: 2005,
         moneda: "2€",
         createdAt: new Date(),
@@ -15954,7 +15954,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "4",
-        ceca: null,
+        ceca:  "",
         año: 2006,
         moneda: "2€",
         createdAt: new Date(),
@@ -15963,7 +15963,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "4",
-        ceca: null,
+        ceca:  "",
         año: 2007,
         moneda: "2€",
         createdAt: new Date(),
@@ -15972,7 +15972,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "4",
-        ceca: null,
+        ceca:  "",
         año: 2007,
         moneda: "20c",
         createdAt: new Date(),
@@ -15981,7 +15981,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "4",
-        ceca: null,
+        ceca:  "",
         año: 2008,
         moneda: "2€",
         createdAt: new Date(),
@@ -15990,7 +15990,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "4",
-        ceca: null,
+        ceca:  "",
         año: 2008,
         moneda: "50c",
         createdAt: new Date(),
@@ -15999,7 +15999,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "4",
-        ceca: null,
+        ceca:  "",
         año: 2009,
         moneda: "2€",
         createdAt: new Date(),
@@ -16008,7 +16008,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "4",
-        ceca: null,
+        ceca:  "",
         año: 2009,
         moneda: "20c",
         createdAt: new Date(),
@@ -16017,7 +16017,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "4",
-        ceca: null,
+        ceca:  "",
         año: 2011,
         moneda: "2€",
         createdAt: new Date(),
@@ -16026,7 +16026,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "4",
-        ceca: null,
+        ceca:  "",
         año: 2012,
         moneda: "50c",
         createdAt: new Date(),
@@ -16035,7 +16035,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "5",
-        ceca: null,
+        ceca:  "",
         año: 1999,
         moneda: "2€",
         createdAt: new Date(),
@@ -16044,7 +16044,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "5",
-        ceca: null,
+        ceca:  "",
         año: 1999,
         moneda: "1€",
         createdAt: new Date(),
@@ -16053,7 +16053,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "5",
-        ceca: null,
+        ceca:  "",
         año: 1999,
         moneda: "50c",
         createdAt: new Date(),
@@ -16062,7 +16062,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "5",
-        ceca: null,
+        ceca:  "",
         año: 1999,
         moneda: "20c",
         createdAt: new Date(),
@@ -16071,7 +16071,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "5",
-        ceca: null,
+        ceca:  "",
         año: 1999,
         moneda: "10c",
         createdAt: new Date(),
@@ -16080,7 +16080,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "5",
-        ceca: null,
+        ceca:  "",
         año: 1999,
         moneda: "5c",
         createdAt: new Date(),
@@ -16089,7 +16089,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "5",
-        ceca: null,
+        ceca:  "",
         año: 1999,
         moneda: "1c",
         createdAt: new Date(),
@@ -16098,7 +16098,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "5",
-        ceca: null,
+        ceca:  "",
         año: 2000,
         moneda: "2€",
         createdAt: new Date(),
@@ -16107,7 +16107,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "5",
-        ceca: null,
+        ceca:  "",
         año: 2000,
         moneda: "1€",
         createdAt: new Date(),
@@ -16116,7 +16116,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "5",
-        ceca: null,
+        ceca:  "",
         año: 2000,
         moneda: "50c",
         createdAt: new Date(),
@@ -16125,7 +16125,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "5",
-        ceca: null,
+        ceca:  "",
         año: 2000,
         moneda: "10c",
         createdAt: new Date(),
@@ -16134,7 +16134,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "5",
-        ceca: null,
+        ceca:  "",
         año: 2000,
         moneda: "5c",
         createdAt: new Date(),
@@ -16143,7 +16143,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "5",
-        ceca: null,
+        ceca:  "",
         año: 2000,
         moneda: "2c",
         createdAt: new Date(),
@@ -16152,7 +16152,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "5",
-        ceca: null,
+        ceca:  "",
         año: 2001,
         moneda: "2€",
         createdAt: new Date(),
@@ -16161,7 +16161,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "5",
-        ceca: null,
+        ceca:  "",
         año: 2001,
         moneda: "1€",
         createdAt: new Date(),
@@ -16170,7 +16170,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "5",
-        ceca: null,
+        ceca:  "",
         año: 2001,
         moneda: "20c",
         createdAt: new Date(),
@@ -16179,7 +16179,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "5",
-        ceca: null,
+        ceca:  "",
         año: 2001,
         moneda: "5c",
         createdAt: new Date(),
@@ -16188,7 +16188,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "5",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "1€",
         createdAt: new Date(),
@@ -16197,7 +16197,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "5",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "20c",
         createdAt: new Date(),
@@ -16206,7 +16206,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "5",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "5c",
         createdAt: new Date(),
@@ -16215,7 +16215,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "5",
-        ceca: null,
+        ceca:  "",
         año: 2003,
         moneda: "2€",
         createdAt: new Date(),
@@ -16224,7 +16224,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "5",
-        ceca: null,
+        ceca:  "",
         año: 2004,
         moneda: "2€",
         createdAt: new Date(),
@@ -16233,7 +16233,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "5",
-        ceca: null,
+        ceca:  "",
         año: 2010,
         moneda: "20c",
         createdAt: new Date(),
@@ -16242,7 +16242,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 1999,
         moneda: "2€",
         createdAt: new Date(),
@@ -16251,7 +16251,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 1999,
         moneda: "1€",
         createdAt: new Date(),
@@ -16260,7 +16260,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 1999,
         moneda: "50c",
         createdAt: new Date(),
@@ -16269,7 +16269,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 1999,
         moneda: "20c",
         createdAt: new Date(),
@@ -16278,7 +16278,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 1999,
         moneda: "10c",
         createdAt: new Date(),
@@ -16287,7 +16287,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 1999,
         moneda: "5c",
         createdAt: new Date(),
@@ -16296,7 +16296,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 1999,
         moneda: "2c",
         createdAt: new Date(),
@@ -16305,7 +16305,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 1999,
         moneda: "1c",
         createdAt: new Date(),
@@ -16314,7 +16314,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2000,
         moneda: "2€",
         createdAt: new Date(),
@@ -16323,7 +16323,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2000,
         moneda: "1€",
         createdAt: new Date(),
@@ -16332,7 +16332,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2000,
         moneda: "50c",
         createdAt: new Date(),
@@ -16341,7 +16341,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2000,
         moneda: "20c",
         createdAt: new Date(),
@@ -16350,7 +16350,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2000,
         moneda: "10c",
         createdAt: new Date(),
@@ -16359,7 +16359,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2000,
         moneda: "5c",
         createdAt: new Date(),
@@ -16368,7 +16368,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2000,
         moneda: "2c",
         createdAt: new Date(),
@@ -16377,7 +16377,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2000,
         moneda: "1c",
         createdAt: new Date(),
@@ -16386,7 +16386,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2001,
         moneda: "2€",
         createdAt: new Date(),
@@ -16395,7 +16395,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2001,
         moneda: "1€",
         createdAt: new Date(),
@@ -16404,7 +16404,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2001,
         moneda: "50c",
         createdAt: new Date(),
@@ -16413,7 +16413,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2001,
         moneda: "20c",
         createdAt: new Date(),
@@ -16422,7 +16422,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2001,
         moneda: "10c",
         createdAt: new Date(),
@@ -16431,7 +16431,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2001,
         moneda: "5c",
         createdAt: new Date(),
@@ -16440,7 +16440,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "2€",
         createdAt: new Date(),
@@ -16449,7 +16449,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "50c",
         createdAt: new Date(),
@@ -16458,7 +16458,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "20c",
         createdAt: new Date(),
@@ -16467,7 +16467,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "10c",
         createdAt: new Date(),
@@ -16476,7 +16476,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2003,
         moneda: "10c",
         createdAt: new Date(),
@@ -16485,7 +16485,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2004,
         moneda: "2c",
         createdAt: new Date(),
@@ -16494,7 +16494,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2004,
         moneda: "1c",
         createdAt: new Date(),
@@ -16503,7 +16503,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2005,
         moneda: "10c",
         createdAt: new Date(),
@@ -16512,7 +16512,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2006,
         moneda: "5c",
         createdAt: new Date(),
@@ -16521,7 +16521,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2006,
         moneda: "1c",
         createdAt: new Date(),
@@ -16530,7 +16530,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2007,
         moneda: "20c",
         createdAt: new Date(),
@@ -16539,7 +16539,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2007,
         moneda: "10c",
         createdAt: new Date(),
@@ -16548,7 +16548,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2007,
         moneda: "5c",
         createdAt: new Date(),
@@ -16557,7 +16557,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2007,
         moneda: "1c",
         createdAt: new Date(),
@@ -16566,7 +16566,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2008,
         moneda: "20c",
         createdAt: new Date(),
@@ -16575,7 +16575,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2008,
         moneda: "10c",
         createdAt: new Date(),
@@ -16584,7 +16584,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2008,
         moneda: "5c",
         createdAt: new Date(),
@@ -16593,7 +16593,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2008,
         moneda: "2c",
         createdAt: new Date(),
@@ -16602,7 +16602,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2008,
         moneda: "1c",
         createdAt: new Date(),
@@ -16611,7 +16611,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2008,
         moneda: "2€ Com1",
         createdAt: new Date(),
@@ -16620,7 +16620,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2009,
         moneda: "20c",
         createdAt: new Date(),
@@ -16629,7 +16629,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2009,
         moneda: "10c",
         createdAt: new Date(),
@@ -16638,7 +16638,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2009,
         moneda: "5c",
         createdAt: new Date(),
@@ -16647,7 +16647,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2009,
         moneda: "1c",
         createdAt: new Date(),
@@ -16656,7 +16656,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2010,
         moneda: "20c",
         createdAt: new Date(),
@@ -16665,7 +16665,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2010,
         moneda: "10c",
         createdAt: new Date(),
@@ -16674,7 +16674,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2010,
         moneda: "5c",
         createdAt: new Date(),
@@ -16683,7 +16683,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2010,
         moneda: "2c",
         createdAt: new Date(),
@@ -16692,7 +16692,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2010,
         moneda: "2€ Com1",
         createdAt: new Date(),
@@ -16701,7 +16701,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2011,
         moneda: "2€",
         createdAt: new Date(),
@@ -16710,7 +16710,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2011,
         moneda: "10c",
         createdAt: new Date(),
@@ -16719,7 +16719,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2011,
         moneda: "5c",
         createdAt: new Date(),
@@ -16728,7 +16728,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2011,
         moneda: "1c",
         createdAt: new Date(),
@@ -16737,7 +16737,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2011,
         moneda: "2€ Com1",
         createdAt: new Date(),
@@ -16746,7 +16746,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2012,
         moneda: "2€",
         createdAt: new Date(),
@@ -16755,7 +16755,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2012,
         moneda: "10c",
         createdAt: new Date(),
@@ -16764,7 +16764,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2012,
         moneda: "2c",
         createdAt: new Date(),
@@ -16773,7 +16773,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2013,
         moneda: "20c",
         createdAt: new Date(),
@@ -16782,7 +16782,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2013,
         moneda: "10c",
         createdAt: new Date(),
@@ -16791,7 +16791,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2013,
         moneda: "1c",
         createdAt: new Date(),
@@ -16800,7 +16800,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2015,
         moneda: "2€",
         createdAt: new Date(),
@@ -16809,7 +16809,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2016,
         moneda: "2€",
         createdAt: new Date(),
@@ -16818,7 +16818,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2016,
         moneda: "10c",
         createdAt: new Date(),
@@ -16827,7 +16827,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2017,
         moneda: "2€",
         createdAt: new Date(),
@@ -16836,7 +16836,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "7",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "2€",
         createdAt: new Date(),
@@ -16845,7 +16845,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "7",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "1€",
         createdAt: new Date(),
@@ -16854,7 +16854,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "7",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "50c",
         createdAt: new Date(),
@@ -16863,7 +16863,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "7",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "20c",
         createdAt: new Date(),
@@ -16872,7 +16872,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "7",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "10c",
         createdAt: new Date(),
@@ -16881,7 +16881,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "7",
-        ceca: null,
+        ceca:  "",
         año: 2004,
         moneda: "2€",
         createdAt: new Date(),
@@ -16890,7 +16890,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "7",
-        ceca: null,
+        ceca:  "",
         año: 2007,
         moneda: "1€",
         createdAt: new Date(),
@@ -16899,7 +16899,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "8",
-        ceca: null,
+        ceca:  "",
         año: 1999,
         moneda: "1€",
         createdAt: new Date(),
@@ -16908,7 +16908,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "8",
-        ceca: null,
+        ceca:  "",
         año: 1999,
         moneda: "50c",
         createdAt: new Date(),
@@ -16917,7 +16917,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "8",
-        ceca: null,
+        ceca:  "",
         año: 1999,
         moneda: "20c",
         createdAt: new Date(),
@@ -16926,7 +16926,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "8",
-        ceca: null,
+        ceca:  "",
         año: 1999,
         moneda: "10c",
         createdAt: new Date(),
@@ -16935,7 +16935,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "8",
-        ceca: null,
+        ceca:  "",
         año: 1999,
         moneda: "5c",
         createdAt: new Date(),
@@ -16944,7 +16944,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "8",
-        ceca: null,
+        ceca:  "",
         año: 2000,
         moneda: "2€",
         createdAt: new Date(),
@@ -16953,7 +16953,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "8",
-        ceca: null,
+        ceca:  "",
         año: 2000,
         moneda: "1€",
         createdAt: new Date(),
@@ -16962,7 +16962,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "8",
-        ceca: null,
+        ceca:  "",
         año: 2000,
         moneda: "50c",
         createdAt: new Date(),
@@ -16971,7 +16971,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "8",
-        ceca: null,
+        ceca:  "",
         año: 2000,
         moneda: "20c",
         createdAt: new Date(),
@@ -16980,7 +16980,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "8",
-        ceca: null,
+        ceca:  "",
         año: 2000,
         moneda: "10c",
         createdAt: new Date(),
@@ -16989,7 +16989,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "8",
-        ceca: null,
+        ceca:  "",
         año: 2000,
         moneda: "1c",
         createdAt: new Date(),
@@ -16998,7 +16998,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "8",
-        ceca: null,
+        ceca:  "",
         año: 2001,
         moneda: "2€",
         createdAt: new Date(),
@@ -17007,7 +17007,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "8",
-        ceca: null,
+        ceca:  "",
         año: 2001,
         moneda: "1€",
         createdAt: new Date(),
@@ -17016,7 +17016,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "8",
-        ceca: null,
+        ceca:  "",
         año: 2001,
         moneda: "50c",
         createdAt: new Date(),
@@ -17025,7 +17025,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "8",
-        ceca: null,
+        ceca:  "",
         año: 2001,
         moneda: "20c",
         createdAt: new Date(),
@@ -17034,7 +17034,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "8",
-        ceca: null,
+        ceca:  "",
         año: 2001,
         moneda: "10c",
         createdAt: new Date(),
@@ -17043,7 +17043,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "8",
-        ceca: null,
+        ceca:  "",
         año: 2001,
         moneda: "5c",
         createdAt: new Date(),
@@ -17052,7 +17052,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "8",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "2€",
         createdAt: new Date(),
@@ -17061,7 +17061,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "8",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "1€",
         createdAt: new Date(),
@@ -17070,7 +17070,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "8",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "50c",
         createdAt: new Date(),
@@ -17079,7 +17079,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "8",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "20c",
         createdAt: new Date(),
@@ -17088,8 +17088,8 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "8",
-        ceca: null,
-        año: 2004,
+        ceca:  "",
+        año: 2003,
         moneda: "20c",
         createdAt: new Date(),
         updatedAt: new Date(),
@@ -17097,7 +17097,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "9",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "2€",
         createdAt: new Date(),
@@ -17106,7 +17106,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "9",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "1€",
         createdAt: new Date(),
@@ -17115,7 +17115,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "9",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "50c",
         createdAt: new Date(),
@@ -17124,7 +17124,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "9",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "20c",
         createdAt: new Date(),
@@ -17133,7 +17133,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "9",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "10c",
         createdAt: new Date(),
@@ -17142,7 +17142,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "9",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "5c",
         createdAt: new Date(),
@@ -17151,7 +17151,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "9",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "2c",
         createdAt: new Date(),
@@ -17160,7 +17160,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "9",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "1c",
         createdAt: new Date(),
@@ -17169,7 +17169,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "9",
-        ceca: null,
+        ceca:  "",
         año: 2003,
         moneda: "20c",
         createdAt: new Date(),
@@ -17178,7 +17178,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "9",
-        ceca: null,
+        ceca:  "",
         año: 2003,
         moneda: "10c",
         createdAt: new Date(),
@@ -17187,7 +17187,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "9",
-        ceca: null,
+        ceca:  "",
         año: 2003,
         moneda: "2c",
         createdAt: new Date(),
@@ -17196,7 +17196,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "9",
-        ceca: null,
+        ceca:  "",
         año: 2004,
         moneda: "20c",
         createdAt: new Date(),
@@ -17205,7 +17205,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "9",
-        ceca: null,
+        ceca:  "",
         año: 2005,
         moneda: "2€",
         createdAt: new Date(),
@@ -17214,7 +17214,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "9",
-        ceca: null,
+        ceca:  "",
         año: 2005,
         moneda: "50c",
         createdAt: new Date(),
@@ -17223,7 +17223,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "9",
-        ceca: null,
+        ceca:  "",
         año: 2005,
         moneda: "20c",
         createdAt: new Date(),
@@ -17232,7 +17232,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "9",
-        ceca: null,
+        ceca:  "",
         año: 2007,
         moneda: "2€",
         createdAt: new Date(),
@@ -17241,7 +17241,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "9",
-        ceca: null,
+        ceca:  "",
         año: 2007,
         moneda: "20c",
         createdAt: new Date(),
@@ -17250,7 +17250,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "9",
-        ceca: null,
+        ceca:  "",
         año: 2007,
         moneda: "10c",
         createdAt: new Date(),
@@ -17259,7 +17259,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "9",
-        ceca: null,
+        ceca:  "",
         año: 2008,
         moneda: "20c",
         createdAt: new Date(),
@@ -17268,7 +17268,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "10",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "2€",
         createdAt: new Date(),
@@ -17277,7 +17277,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "10",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "1€",
         createdAt: new Date(),
@@ -17286,7 +17286,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "10",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "50c",
         createdAt: new Date(),
@@ -17295,7 +17295,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "10",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "20c",
         createdAt: new Date(),
@@ -17304,7 +17304,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "10",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "10c",
         createdAt: new Date(),
@@ -17313,7 +17313,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "10",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "5c",
         createdAt: new Date(),
@@ -17322,7 +17322,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "10",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "2c",
         createdAt: new Date(),
@@ -17331,7 +17331,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "10",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "1c",
         createdAt: new Date(),
@@ -17340,7 +17340,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "10",
-        ceca: null,
+        ceca:  "",
         año: 2003,
         moneda: "2€",
         createdAt: new Date(),
@@ -17349,7 +17349,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "10",
-        ceca: null,
+        ceca:  "",
         año: 2003,
         moneda: "1€",
         createdAt: new Date(),
@@ -17358,7 +17358,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "10",
-        ceca: null,
+        ceca:  "",
         año: 2005,
         moneda: "2€",
         createdAt: new Date(),
@@ -17367,7 +17367,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "10",
-        ceca: null,
+        ceca:  "",
         año: 2005,
         moneda: "10c",
         createdAt: new Date(),
@@ -17376,7 +17376,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "10",
-        ceca: null,
+        ceca:  "",
         año: 2005,
         moneda: "5c",
         createdAt: new Date(),
@@ -17385,7 +17385,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "10",
-        ceca: null,
+        ceca:  "",
         año: 2006,
         moneda: "1€",
         createdAt: new Date(),
@@ -17394,7 +17394,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "10",
-        ceca: null,
+        ceca:  "",
         año: 2006,
         moneda: "10c",
         createdAt: new Date(),
@@ -17403,7 +17403,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "10",
-        ceca: null,
+        ceca:  "",
         año: 2006,
         moneda: "2c",
         createdAt: new Date(),
@@ -17412,7 +17412,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "10",
-        ceca: null,
+        ceca:  "",
         año: 2006,
         moneda: "2€ Com1",
         createdAt: new Date(),
@@ -17421,7 +17421,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "10",
-        ceca: null,
+        ceca:  "",
         año: 2007,
         moneda: "1€",
         createdAt: new Date(),
@@ -17430,7 +17430,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "10",
-        ceca: null,
+        ceca:  "",
         año: 2007,
         moneda: "10c",
         createdAt: new Date(),
@@ -17439,7 +17439,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "10",
-        ceca: null,
+        ceca:  "",
         año: 2007,
         moneda: "5c",
         createdAt: new Date(),
@@ -17448,7 +17448,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "10",
-        ceca: null,
+        ceca:  "",
         año: 2008,
         moneda: "1€",
         createdAt: new Date(),
@@ -17457,7 +17457,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "10",
-        ceca: null,
+        ceca:  "",
         año: 2008,
         moneda: "10c",
         createdAt: new Date(),
@@ -17466,7 +17466,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "10",
-        ceca: null,
+        ceca:  "",
         año: 2009,
         moneda: "1€",
         createdAt: new Date(),
@@ -17475,7 +17475,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "10",
-        ceca: null,
+        ceca:  "",
         año: 2009,
         moneda: "20c",
         createdAt: new Date(),
@@ -17484,7 +17484,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "10",
-        ceca: null,
+        ceca:  "",
         año: 2010,
         moneda: "2c",
         createdAt: new Date(),
@@ -17493,7 +17493,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "10",
-        ceca: null,
+        ceca:  "",
         año: 2011,
         moneda: "2€",
         createdAt: new Date(),
@@ -17502,7 +17502,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "10",
-        ceca: null,
+        ceca:  "",
         año: 2011,
         moneda: "10c",
         createdAt: new Date(),
@@ -17511,7 +17511,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "10",
-        ceca: null,
+        ceca:  "",
         año: 2011,
         moneda: "1c",
         createdAt: new Date(),
@@ -17520,7 +17520,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "10",
-        ceca: null,
+        ceca:  "",
         año: 2012,
         moneda: "5c",
         createdAt: new Date(),
@@ -17529,7 +17529,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "10",
-        ceca: null,
+        ceca:  "",
         año: 2013,
         moneda: "2€",
         createdAt: new Date(),
@@ -17538,7 +17538,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "10",
-        ceca: null,
+        ceca:  "",
         año: 2013,
         moneda: "5c",
         createdAt: new Date(),
@@ -17547,7 +17547,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "10",
-        ceca: null,
+        ceca:  "",
         año: 2013,
         moneda: "2c",
         createdAt: new Date(),
@@ -17556,7 +17556,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "10",
-        ceca: null,
+        ceca:  "",
         año: 2013,
         moneda: "1c",
         createdAt: new Date(),
@@ -17565,7 +17565,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "10",
-        ceca: null,
+        ceca:  "",
         año: 2014,
         moneda: "1c",
         createdAt: new Date(),
@@ -17574,7 +17574,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "10",
-        ceca: null,
+        ceca:  "",
         año: 2016,
         moneda: "2c",
         createdAt: new Date(),
@@ -17583,7 +17583,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "10",
-        ceca: null,
+        ceca:  "",
         año: 2017,
         moneda: "5c",
         createdAt: new Date(),
@@ -17592,7 +17592,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "10",
-        ceca: null,
+        ceca:  "",
         año: 2017,
         moneda: "2c",
         createdAt: new Date(),
@@ -17601,7 +17601,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "10",
-        ceca: null,
+        ceca:  "",
         año: 2017,
         moneda: "1c",
         createdAt: new Date(),
@@ -17610,7 +17610,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "10",
-        ceca: null,
+        ceca:  "",
         año: 2018,
         moneda: "5c",
         createdAt: new Date(),
@@ -17619,7 +17619,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "11",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "2€",
         createdAt: new Date(),
@@ -17628,7 +17628,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "11",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "1€",
         createdAt: new Date(),
@@ -17637,7 +17637,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "11",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "50c",
         createdAt: new Date(),
@@ -17646,7 +17646,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "11",
-        ceca: null,
+        ceca:  "",
         año: 2012,
         moneda: "50c",
         createdAt: new Date(),
@@ -17655,7 +17655,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "12",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "2€",
         createdAt: new Date(),
@@ -17664,7 +17664,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "12",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "1€",
         createdAt: new Date(),
@@ -17673,7 +17673,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "12",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "50c",
         createdAt: new Date(),
@@ -17682,7 +17682,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "12",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "20c",
         createdAt: new Date(),
@@ -17691,7 +17691,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "12",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "10c",
         createdAt: new Date(),
@@ -17700,7 +17700,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "12",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "5c",
         createdAt: new Date(),
@@ -17709,7 +17709,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "12",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "2c",
         createdAt: new Date(),
@@ -17718,7 +17718,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "12",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "1c",
         createdAt: new Date(),
@@ -17727,7 +17727,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "12",
-        ceca: null,
+        ceca:  "",
         año: 2003,
         moneda: "2€",
         createdAt: new Date(),
@@ -17736,7 +17736,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "12",
-        ceca: null,
+        ceca:  "",
         año: 2003,
         moneda: "1€",
         createdAt: new Date(),
@@ -17745,7 +17745,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "12",
-        ceca: null,
+        ceca:  "",
         año: 2004,
         moneda: "1€",
         createdAt: new Date(),
@@ -17754,7 +17754,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "12",
-        ceca: null,
+        ceca:  "",
         año: 2004,
         moneda: "5c",
         createdAt: new Date(),
@@ -17763,7 +17763,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "12",
-        ceca: null,
+        ceca:  "",
         año: 2005,
         moneda: "1€",
         createdAt: new Date(),
@@ -17772,7 +17772,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "12",
-        ceca: null,
+        ceca:  "",
         año: 2005,
         moneda: "20c",
         createdAt: new Date(),
@@ -17781,7 +17781,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "12",
-        ceca: null,
+        ceca:  "",
         año: 2005,
         moneda: "5c",
         createdAt: new Date(),
@@ -17790,7 +17790,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "12",
-        ceca: null,
+        ceca:  "",
         año: 2006,
         moneda: "1€",
         createdAt: new Date(),
@@ -17799,7 +17799,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "12",
-        ceca: null,
+        ceca:  "",
         año: 2006,
         moneda: "20c",
         createdAt: new Date(),
@@ -17808,7 +17808,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "12",
-        ceca: null,
+        ceca:  "",
         año: 2007,
         moneda: "1€",
         createdAt: new Date(),
@@ -17817,7 +17817,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "12",
-        ceca: null,
+        ceca:  "",
         año: 2007,
         moneda: "1c",
         createdAt: new Date(),
@@ -17826,7 +17826,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "12",
-        ceca: null,
+        ceca:  "",
         año: 2009,
         moneda: "1€",
         createdAt: new Date(),
@@ -17835,7 +17835,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "12",
-        ceca: null,
+        ceca:  "",
         año: 2009,
         moneda: "50c",
         createdAt: new Date(),
@@ -17844,7 +17844,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "12",
-        ceca: null,
+        ceca:  "",
         año: 2009,
         moneda: "20c",
         createdAt: new Date(),
@@ -17853,7 +17853,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "12",
-        ceca: null,
+        ceca:  "",
         año: 2009,
         moneda: "1c",
         createdAt: new Date(),
@@ -17862,7 +17862,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "12",
-        ceca: null,
+        ceca:  "",
         año: 2010,
         moneda: "1€",
         createdAt: new Date(),
@@ -17871,7 +17871,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "12",
-        ceca: null,
+        ceca:  "",
         año: 2010,
         moneda: "50c",
         createdAt: new Date(),
@@ -17880,7 +17880,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "12",
-        ceca: null,
+        ceca:  "",
         año: 2011,
         moneda: "5c",
         createdAt: new Date(),
@@ -17889,7 +17889,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "12",
-        ceca: null,
+        ceca:  "",
         año: 2011,
         moneda: "1c",
         createdAt: new Date(),
@@ -17898,7 +17898,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "12",
-        ceca: null,
+        ceca:  "",
         año: 2012,
         moneda: "2c",
         createdAt: new Date(),
@@ -17907,7 +17907,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "12",
-        ceca: null,
+        ceca:  "",
         año: 2014,
         moneda: "1€",
         createdAt: new Date(),
@@ -17916,7 +17916,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "12",
-        ceca: null,
+        ceca:  "",
         año: 2015,
         moneda: "50c",
         createdAt: new Date(),
@@ -17925,7 +17925,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "12",
-        ceca: null,
+        ceca:  "",
         año: 2015,
         moneda: "20c",
         createdAt: new Date(),
@@ -17934,7 +17934,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "12",
-        ceca: null,
+        ceca:  "",
         año: 2015,
         moneda: "1c",
         createdAt: new Date(),
@@ -17943,7 +17943,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "12",
-        ceca: null,
+        ceca:  "",
         año: 2016,
         moneda: "1€",
         createdAt: new Date(),
@@ -17952,7 +17952,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "12",
-        ceca: null,
+        ceca:  "",
         año: 2017,
         moneda: "1€",
         createdAt: new Date(),
@@ -17961,7 +17961,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "12",
-        ceca: null,
+        ceca:  "",
         año: 2017,
         moneda: "5c",
         createdAt: new Date(),
@@ -17970,7 +17970,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "12",
-        ceca: null,
+        ceca:  "",
         año: 2018,
         moneda: "1€",
         createdAt: new Date(),
@@ -17979,7 +17979,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "13",
-        ceca: null,
+        ceca:  "",
         año: 2007,
         moneda: "20c",
         createdAt: new Date(),
@@ -17988,7 +17988,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "14",
-        ceca: null,
+        ceca:  "",
         año: 2008,
         moneda: "2€",
         createdAt: new Date(),
@@ -17997,7 +17997,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "14",
-        ceca: null,
+        ceca:  "",
         año: 2008,
         moneda: "1€",
         createdAt: new Date(),
@@ -18006,7 +18006,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "14",
-        ceca: null,
+        ceca:  "",
         año: 2008,
         moneda: "50c",
         createdAt: new Date(),
@@ -18015,7 +18015,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "14",
-        ceca: null,
+        ceca:  "",
         año: 2008,
         moneda: "20c",
         createdAt: new Date(),
@@ -18024,7 +18024,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "14",
-        ceca: null,
+        ceca:  "",
         año: 2008,
         moneda: "10c",
         createdAt: new Date(),
@@ -18033,7 +18033,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "15",
-        ceca: null,
+        ceca:  "",
         año: 2016,
         moneda: "1€",
         createdAt: new Date(),
@@ -18042,7 +18042,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "15",
-        ceca: null,
+        ceca:  "",
         año: 2017,
         moneda: "2€",
         createdAt: new Date(),
@@ -18051,7 +18051,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "15",
-        ceca: null,
+        ceca:  "",
         año: 2017,
         moneda: "50c",
         createdAt: new Date(),
@@ -18060,7 +18060,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "15",
-        ceca: null,
+        ceca:  "",
         año: 2017,
         moneda: "20c",
         createdAt: new Date(),
@@ -18069,7 +18069,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "15",
-        ceca: null,
+        ceca:  "",
         año: 2017,
         moneda: "10c",
         createdAt: new Date(),
@@ -18078,7 +18078,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "15",
-        ceca: null,
+        ceca:  "",
         año: 2017,
         moneda: "5c",
         createdAt: new Date(),
@@ -18087,7 +18087,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "15",
-        ceca: null,
+        ceca:  "",
         año: 2018,
         moneda: "2€",
         createdAt: new Date(),
@@ -18096,7 +18096,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "15",
-        ceca: null,
+        ceca:  "",
         año: 2018,
         moneda: "50c",
         createdAt: new Date(),
@@ -18105,7 +18105,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "16",
-        ceca: null,
+        ceca:  "",
         año: 2009,
         moneda: "2€",
         createdAt: new Date(),
@@ -18114,7 +18114,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "19",
-        ceca: null,
+        ceca:  "",
         año: 2015,
         moneda: "20c",
         createdAt: new Date(),
@@ -18123,7 +18123,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "20",
-        ceca: null,
+        ceca:  "",
         año: 2008,
         moneda: "2€",
         createdAt: new Date(),
@@ -18132,7 +18132,7 @@ module.exports = {
       {
         coleccionistaId: 4,
         paisId: "20",
-        ceca: null,
+        ceca:  "",
         año: 2008,
         moneda: "1€",
         createdAt: new Date(),
@@ -18141,7 +18141,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 1999,
         moneda: "2€",
         createdAt: new Date(),
@@ -18150,7 +18150,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 1999,
         moneda: "1€",
         createdAt: new Date(),
@@ -18159,7 +18159,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 1999,
         moneda: "50c",
         createdAt: new Date(),
@@ -18168,7 +18168,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 1999,
         moneda: "20c",
         createdAt: new Date(),
@@ -18177,7 +18177,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 1999,
         moneda: "10c",
         createdAt: new Date(),
@@ -18186,7 +18186,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 1999,
         moneda: "5c",
         createdAt: new Date(),
@@ -18195,7 +18195,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 1999,
         moneda: "2c",
         createdAt: new Date(),
@@ -18204,7 +18204,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 1999,
         moneda: "1c",
         createdAt: new Date(),
@@ -18213,7 +18213,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2000,
         moneda: "2€",
         createdAt: new Date(),
@@ -18222,7 +18222,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2000,
         moneda: "1€",
         createdAt: new Date(),
@@ -18231,7 +18231,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2000,
         moneda: "50c",
         createdAt: new Date(),
@@ -18240,7 +18240,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2000,
         moneda: "20c",
         createdAt: new Date(),
@@ -18249,7 +18249,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2000,
         moneda: "10c",
         createdAt: new Date(),
@@ -18258,7 +18258,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2000,
         moneda: "5c",
         createdAt: new Date(),
@@ -18267,7 +18267,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2000,
         moneda: "2c",
         createdAt: new Date(),
@@ -18276,7 +18276,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2000,
         moneda: "1c",
         createdAt: new Date(),
@@ -18285,7 +18285,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2001,
         moneda: "2€",
         createdAt: new Date(),
@@ -18294,7 +18294,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2001,
         moneda: "1€",
         createdAt: new Date(),
@@ -18303,7 +18303,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2001,
         moneda: "50c",
         createdAt: new Date(),
@@ -18312,7 +18312,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2001,
         moneda: "20c",
         createdAt: new Date(),
@@ -18321,7 +18321,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2001,
         moneda: "10c",
         createdAt: new Date(),
@@ -18330,7 +18330,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2001,
         moneda: "5c",
         createdAt: new Date(),
@@ -18339,7 +18339,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2001,
         moneda: "2c",
         createdAt: new Date(),
@@ -18348,7 +18348,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2001,
         moneda: "1c",
         createdAt: new Date(),
@@ -18357,7 +18357,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "2€",
         createdAt: new Date(),
@@ -18366,7 +18366,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "1€",
         createdAt: new Date(),
@@ -18375,7 +18375,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "50c",
         createdAt: new Date(),
@@ -18384,7 +18384,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "20c",
         createdAt: new Date(),
@@ -18393,7 +18393,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "10c",
         createdAt: new Date(),
@@ -18402,7 +18402,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "1c",
         createdAt: new Date(),
@@ -18411,7 +18411,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "12€_1",
         createdAt: new Date(),
@@ -18420,7 +18420,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2003,
         moneda: "2€",
         createdAt: new Date(),
@@ -18429,7 +18429,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2003,
         moneda: "1€",
         createdAt: new Date(),
@@ -18438,7 +18438,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2003,
         moneda: "20c",
         createdAt: new Date(),
@@ -18447,7 +18447,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2003,
         moneda: "10c",
         createdAt: new Date(),
@@ -18456,7 +18456,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2003,
         moneda: "5c",
         createdAt: new Date(),
@@ -18465,7 +18465,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2003,
         moneda: "2c",
         createdAt: new Date(),
@@ -18474,7 +18474,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2003,
         moneda: "1c",
         createdAt: new Date(),
@@ -18483,7 +18483,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2003,
         moneda: "12€_1",
         createdAt: new Date(),
@@ -18492,7 +18492,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2004,
         moneda: "2€",
         createdAt: new Date(),
@@ -18501,7 +18501,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2004,
         moneda: "1€",
         createdAt: new Date(),
@@ -18510,7 +18510,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2004,
         moneda: "10c",
         createdAt: new Date(),
@@ -18519,7 +18519,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2004,
         moneda: "5c",
         createdAt: new Date(),
@@ -18528,7 +18528,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2004,
         moneda: "2c",
         createdAt: new Date(),
@@ -18537,7 +18537,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2004,
         moneda: "1c",
         createdAt: new Date(),
@@ -18546,7 +18546,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2004,
         moneda: "12€_1",
         createdAt: new Date(),
@@ -18555,7 +18555,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2004,
         moneda: "12€_2",
         createdAt: new Date(),
@@ -18564,7 +18564,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2005,
         moneda: "2€",
         createdAt: new Date(),
@@ -18573,7 +18573,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2005,
         moneda: "1€",
         createdAt: new Date(),
@@ -18582,7 +18582,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2005,
         moneda: "10c",
         createdAt: new Date(),
@@ -18591,7 +18591,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2005,
         moneda: "5c",
         createdAt: new Date(),
@@ -18600,7 +18600,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2005,
         moneda: "2c",
         createdAt: new Date(),
@@ -18609,7 +18609,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2005,
         moneda: "1c",
         createdAt: new Date(),
@@ -18618,7 +18618,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2005,
         moneda: "12€_1",
         createdAt: new Date(),
@@ -18627,7 +18627,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2005,
         moneda: "2€ Com1",
         createdAt: new Date(),
@@ -18636,7 +18636,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2006,
         moneda: "1€",
         createdAt: new Date(),
@@ -18645,7 +18645,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2006,
         moneda: "20c",
         createdAt: new Date(),
@@ -18654,7 +18654,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2006,
         moneda: "10c",
         createdAt: new Date(),
@@ -18663,7 +18663,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2006,
         moneda: "5c",
         createdAt: new Date(),
@@ -18672,7 +18672,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2006,
         moneda: "2c",
         createdAt: new Date(),
@@ -18681,7 +18681,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2006,
         moneda: "1c",
         createdAt: new Date(),
@@ -18690,7 +18690,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2007,
         moneda: "2€",
         createdAt: new Date(),
@@ -18699,7 +18699,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2007,
         moneda: "1€",
         createdAt: new Date(),
@@ -18708,7 +18708,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2007,
         moneda: "20c",
         createdAt: new Date(),
@@ -18717,7 +18717,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2007,
         moneda: "10c",
         createdAt: new Date(),
@@ -18726,7 +18726,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2007,
         moneda: "5c",
         createdAt: new Date(),
@@ -18735,7 +18735,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2007,
         moneda: "2c",
         createdAt: new Date(),
@@ -18744,7 +18744,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2007,
         moneda: "1c",
         createdAt: new Date(),
@@ -18753,7 +18753,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2007,
         moneda: "2€ Com1",
         createdAt: new Date(),
@@ -18762,7 +18762,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2008,
         moneda: "2€",
         createdAt: new Date(),
@@ -18771,7 +18771,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2008,
         moneda: "1€",
         createdAt: new Date(),
@@ -18780,7 +18780,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2008,
         moneda: "20c",
         createdAt: new Date(),
@@ -18789,7 +18789,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2008,
         moneda: "10c",
         createdAt: new Date(),
@@ -18798,7 +18798,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2008,
         moneda: "5c",
         createdAt: new Date(),
@@ -18807,7 +18807,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2008,
         moneda: "2c",
         createdAt: new Date(),
@@ -18816,7 +18816,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2008,
         moneda: "1c",
         createdAt: new Date(),
@@ -18825,7 +18825,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2008,
         moneda: "12€_1",
         createdAt: new Date(),
@@ -18834,7 +18834,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2009,
         moneda: "2€",
         createdAt: new Date(),
@@ -18843,7 +18843,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2009,
         moneda: "1€",
         createdAt: new Date(),
@@ -18852,7 +18852,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2009,
         moneda: "20c",
         createdAt: new Date(),
@@ -18861,7 +18861,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2009,
         moneda: "10c",
         createdAt: new Date(),
@@ -18870,7 +18870,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2009,
         moneda: "5c",
         createdAt: new Date(),
@@ -18879,7 +18879,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2009,
         moneda: "2c",
         createdAt: new Date(),
@@ -18888,7 +18888,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2009,
         moneda: "1c",
         createdAt: new Date(),
@@ -18897,7 +18897,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2009,
         moneda: "2€ Com1",
         createdAt: new Date(),
@@ -18906,7 +18906,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2010,
         moneda: "2€",
         createdAt: new Date(),
@@ -18915,7 +18915,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2010,
         moneda: "1€",
         createdAt: new Date(),
@@ -18924,7 +18924,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2010,
         moneda: "10c",
         createdAt: new Date(),
@@ -18933,7 +18933,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2010,
         moneda: "5c",
         createdAt: new Date(),
@@ -18942,7 +18942,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2010,
         moneda: "2c",
         createdAt: new Date(),
@@ -18951,7 +18951,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2010,
         moneda: "1c",
         createdAt: new Date(),
@@ -18960,7 +18960,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2010,
         moneda: "2€ Com1",
         createdAt: new Date(),
@@ -18969,7 +18969,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2011,
         moneda: "2€",
         createdAt: new Date(),
@@ -18978,7 +18978,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2011,
         moneda: "1€",
         createdAt: new Date(),
@@ -18987,7 +18987,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2011,
         moneda: "5c",
         createdAt: new Date(),
@@ -18996,7 +18996,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2011,
         moneda: "2c",
         createdAt: new Date(),
@@ -19005,7 +19005,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2011,
         moneda: "1c",
         createdAt: new Date(),
@@ -19014,7 +19014,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2011,
         moneda: "2€ Com1",
         createdAt: new Date(),
@@ -19023,7 +19023,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2012,
         moneda: "20c",
         createdAt: new Date(),
@@ -19032,7 +19032,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2012,
         moneda: "5c",
         createdAt: new Date(),
@@ -19041,7 +19041,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2012,
         moneda: "2c",
         createdAt: new Date(),
@@ -19050,7 +19050,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2012,
         moneda: "1c",
         createdAt: new Date(),
@@ -19059,7 +19059,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2012,
         moneda: "2€ Com1",
         createdAt: new Date(),
@@ -19068,7 +19068,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2012,
         moneda: "2€ Com2",
         createdAt: new Date(),
@@ -19077,7 +19077,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2013,
         moneda: "2c",
         createdAt: new Date(),
@@ -19086,7 +19086,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2013,
         moneda: "1c",
         createdAt: new Date(),
@@ -19095,7 +19095,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2013,
         moneda: "2€ Com1",
         createdAt: new Date(),
@@ -19104,7 +19104,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2014,
         moneda: "2€",
         createdAt: new Date(),
@@ -19113,7 +19113,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2014,
         moneda: "1€",
         createdAt: new Date(),
@@ -19122,7 +19122,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2014,
         moneda: "20c",
         createdAt: new Date(),
@@ -19131,7 +19131,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2014,
         moneda: "10c",
         createdAt: new Date(),
@@ -19140,7 +19140,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2014,
         moneda: "5c",
         createdAt: new Date(),
@@ -19149,7 +19149,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2014,
         moneda: "1c",
         createdAt: new Date(),
@@ -19158,7 +19158,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2014,
         moneda: "2€ Com1",
         createdAt: new Date(),
@@ -19167,7 +19167,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2014,
         moneda: "2€ Com2",
         createdAt: new Date(),
@@ -19176,7 +19176,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2015,
         moneda: "2€",
         createdAt: new Date(),
@@ -19185,7 +19185,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2015,
         moneda: "5c",
         createdAt: new Date(),
@@ -19194,7 +19194,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2015,
         moneda: "2c",
         createdAt: new Date(),
@@ -19203,7 +19203,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2015,
         moneda: "1c",
         createdAt: new Date(),
@@ -19212,7 +19212,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2015,
         moneda: "2€ Com1",
         createdAt: new Date(),
@@ -19221,7 +19221,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2015,
         moneda: "2€ Com2",
         createdAt: new Date(),
@@ -19230,7 +19230,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2016,
         moneda: "1€",
         createdAt: new Date(),
@@ -19239,7 +19239,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2016,
         moneda: "50c",
         createdAt: new Date(),
@@ -19248,7 +19248,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2016,
         moneda: "20c",
         createdAt: new Date(),
@@ -19257,7 +19257,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2016,
         moneda: "10c",
         createdAt: new Date(),
@@ -19266,7 +19266,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2016,
         moneda: "5c",
         createdAt: new Date(),
@@ -19275,7 +19275,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2016,
         moneda: "2c",
         createdAt: new Date(),
@@ -19284,7 +19284,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2016,
         moneda: "1c",
         createdAt: new Date(),
@@ -19293,7 +19293,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2016,
         moneda: "2€ Com1",
         createdAt: new Date(),
@@ -19302,7 +19302,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2017,
         moneda: "1€",
         createdAt: new Date(),
@@ -19311,7 +19311,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2017,
         moneda: "50c",
         createdAt: new Date(),
@@ -19320,7 +19320,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2017,
         moneda: "20c",
         createdAt: new Date(),
@@ -19329,7 +19329,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2017,
         moneda: "10c",
         createdAt: new Date(),
@@ -19338,7 +19338,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2017,
         moneda: "5c",
         createdAt: new Date(),
@@ -19347,7 +19347,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2017,
         moneda: "2c",
         createdAt: new Date(),
@@ -19356,7 +19356,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2017,
         moneda: "1c",
         createdAt: new Date(),
@@ -19365,7 +19365,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2018,
         moneda: "1€",
         createdAt: new Date(),
@@ -19374,7 +19374,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2018,
         moneda: "50c",
         createdAt: new Date(),
@@ -19383,7 +19383,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2018,
         moneda: "20c",
         createdAt: new Date(),
@@ -19392,7 +19392,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2018,
         moneda: "10c",
         createdAt: new Date(),
@@ -19401,7 +19401,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2018,
         moneda: "5c",
         createdAt: new Date(),
@@ -19410,7 +19410,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2018,
         moneda: "2c",
         createdAt: new Date(),
@@ -19419,7 +19419,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2018,
         moneda: "1c",
         createdAt: new Date(),
@@ -19428,7 +19428,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2019,
         moneda: "1€",
         createdAt: new Date(),
@@ -19437,7 +19437,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2019,
         moneda: "50c",
         createdAt: new Date(),
@@ -19446,7 +19446,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2019,
         moneda: "20c",
         createdAt: new Date(),
@@ -19455,7 +19455,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2019,
         moneda: "5c",
         createdAt: new Date(),
@@ -19464,7 +19464,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2019,
         moneda: "2c",
         createdAt: new Date(),
@@ -19473,7 +19473,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2019,
         moneda: "1c",
         createdAt: new Date(),
@@ -19482,7 +19482,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "1",
-        ceca: null,
+        ceca:  "",
         año: 2020,
         moneda: "10c",
         createdAt: new Date(),
@@ -20130,7 +20130,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "3",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "2€",
         createdAt: new Date(),
@@ -20139,7 +20139,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "3",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "1€",
         createdAt: new Date(),
@@ -20148,7 +20148,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "3",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "50c",
         createdAt: new Date(),
@@ -20157,7 +20157,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "3",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "20c",
         createdAt: new Date(),
@@ -20166,7 +20166,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "3",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "10c",
         createdAt: new Date(),
@@ -20175,7 +20175,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "3",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "5c",
         createdAt: new Date(),
@@ -20184,7 +20184,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "3",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "2c",
         createdAt: new Date(),
@@ -20193,7 +20193,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "3",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "1c",
         createdAt: new Date(),
@@ -20202,7 +20202,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "3",
-        ceca: null,
+        ceca:  "",
         año: 2003,
         moneda: "20c",
         createdAt: new Date(),
@@ -20211,7 +20211,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "3",
-        ceca: null,
+        ceca:  "",
         año: 2004,
         moneda: "20c",
         createdAt: new Date(),
@@ -20220,7 +20220,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "3",
-        ceca: null,
+        ceca:  "",
         año: 2007,
         moneda: "1€",
         createdAt: new Date(),
@@ -20229,7 +20229,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "3",
-        ceca: null,
+        ceca:  "",
         año: 2007,
         moneda: "10c",
         createdAt: new Date(),
@@ -20238,7 +20238,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "3",
-        ceca: null,
+        ceca:  "",
         año: 2008,
         moneda: "1€",
         createdAt: new Date(),
@@ -20247,7 +20247,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "3",
-        ceca: null,
+        ceca:  "",
         año: 2008,
         moneda: "5c",
         createdAt: new Date(),
@@ -20256,7 +20256,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "3",
-        ceca: null,
+        ceca:  "",
         año: 2009,
         moneda: "1€",
         createdAt: new Date(),
@@ -20265,7 +20265,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "3",
-        ceca: null,
+        ceca:  "",
         año: 2012,
         moneda: "2€",
         createdAt: new Date(),
@@ -20274,7 +20274,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "3",
-        ceca: null,
+        ceca:  "",
         año: 2015,
         moneda: "20c",
         createdAt: new Date(),
@@ -20283,7 +20283,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "3",
-        ceca: null,
+        ceca:  "",
         año: 2018,
         moneda: "2c",
         createdAt: new Date(),
@@ -20292,7 +20292,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "3",
-        ceca: null,
+        ceca:  "",
         año: 2018,
         moneda: "1c",
         createdAt: new Date(),
@@ -20301,7 +20301,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "4",
-        ceca: null,
+        ceca:  "",
         año: 1999,
         moneda: "1€",
         createdAt: new Date(),
@@ -20310,7 +20310,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "4",
-        ceca: null,
+        ceca:  "",
         año: 1999,
         moneda: "50c",
         createdAt: new Date(),
@@ -20319,7 +20319,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "4",
-        ceca: null,
+        ceca:  "",
         año: 1999,
         moneda: "10c",
         createdAt: new Date(),
@@ -20328,7 +20328,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "4",
-        ceca: null,
+        ceca:  "",
         año: 1999,
         moneda: "5c",
         createdAt: new Date(),
@@ -20337,7 +20337,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "4",
-        ceca: null,
+        ceca:  "",
         año: 1999,
         moneda: "1c",
         createdAt: new Date(),
@@ -20346,7 +20346,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "4",
-        ceca: null,
+        ceca:  "",
         año: 2000,
         moneda: "2€",
         createdAt: new Date(),
@@ -20355,7 +20355,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "4",
-        ceca: null,
+        ceca:  "",
         año: 2000,
         moneda: "20c",
         createdAt: new Date(),
@@ -20364,7 +20364,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "4",
-        ceca: null,
+        ceca:  "",
         año: 2000,
         moneda: "2c",
         createdAt: new Date(),
@@ -20373,7 +20373,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "4",
-        ceca: null,
+        ceca:  "",
         año: 2001,
         moneda: "10c",
         createdAt: new Date(),
@@ -20382,7 +20382,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "4",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "2€",
         createdAt: new Date(),
@@ -20391,7 +20391,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "4",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "1€",
         createdAt: new Date(),
@@ -20400,7 +20400,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "4",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "20c",
         createdAt: new Date(),
@@ -20409,7 +20409,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "4",
-        ceca: null,
+        ceca:  "",
         año: 2003,
         moneda: "2€",
         createdAt: new Date(),
@@ -20418,7 +20418,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "4",
-        ceca: null,
+        ceca:  "",
         año: 2003,
         moneda: "20c",
         createdAt: new Date(),
@@ -20427,7 +20427,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "4",
-        ceca: null,
+        ceca:  "",
         año: 2003,
         moneda: "2c",
         createdAt: new Date(),
@@ -20436,7 +20436,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "4",
-        ceca: null,
+        ceca:  "",
         año: 2004,
         moneda: "2€",
         createdAt: new Date(),
@@ -20445,7 +20445,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "4",
-        ceca: null,
+        ceca:  "",
         año: 2004,
         moneda: "50c",
         createdAt: new Date(),
@@ -20454,7 +20454,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "4",
-        ceca: null,
+        ceca:  "",
         año: 2004,
         moneda: "20c",
         createdAt: new Date(),
@@ -20463,7 +20463,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "4",
-        ceca: null,
+        ceca:  "",
         año: 2004,
         moneda: "5c",
         createdAt: new Date(),
@@ -20472,7 +20472,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "4",
-        ceca: null,
+        ceca:  "",
         año: 2005,
         moneda: "2€",
         createdAt: new Date(),
@@ -20481,7 +20481,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "4",
-        ceca: null,
+        ceca:  "",
         año: 2008,
         moneda: "2€",
         createdAt: new Date(),
@@ -20490,7 +20490,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "4",
-        ceca: null,
+        ceca:  "",
         año: 2008,
         moneda: "50c",
         createdAt: new Date(),
@@ -20499,7 +20499,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "4",
-        ceca: null,
+        ceca:  "",
         año: 2009,
         moneda: "2€",
         createdAt: new Date(),
@@ -20508,7 +20508,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "4",
-        ceca: null,
+        ceca:  "",
         año: 2011,
         moneda: "2€",
         createdAt: new Date(),
@@ -20517,7 +20517,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "4",
-        ceca: null,
+        ceca:  "",
         año: 2011,
         moneda: "20c",
         createdAt: new Date(),
@@ -20526,7 +20526,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "5",
-        ceca: null,
+        ceca:  "",
         año: 1999,
         moneda: "2€",
         createdAt: new Date(),
@@ -20535,7 +20535,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "5",
-        ceca: null,
+        ceca:  "",
         año: 1999,
         moneda: "1€",
         createdAt: new Date(),
@@ -20544,7 +20544,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "5",
-        ceca: null,
+        ceca:  "",
         año: 1999,
         moneda: "50c",
         createdAt: new Date(),
@@ -20553,7 +20553,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "5",
-        ceca: null,
+        ceca:  "",
         año: 1999,
         moneda: "20c",
         createdAt: new Date(),
@@ -20562,7 +20562,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "5",
-        ceca: null,
+        ceca:  "",
         año: 1999,
         moneda: "10c",
         createdAt: new Date(),
@@ -20571,7 +20571,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "5",
-        ceca: null,
+        ceca:  "",
         año: 1999,
         moneda: "5c",
         createdAt: new Date(),
@@ -20580,7 +20580,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "5",
-        ceca: null,
+        ceca:  "",
         año: 1999,
         moneda: "1c",
         createdAt: new Date(),
@@ -20589,7 +20589,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "5",
-        ceca: null,
+        ceca:  "",
         año: 2000,
         moneda: "2€",
         createdAt: new Date(),
@@ -20598,7 +20598,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "5",
-        ceca: null,
+        ceca:  "",
         año: 2000,
         moneda: "1€",
         createdAt: new Date(),
@@ -20607,7 +20607,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "5",
-        ceca: null,
+        ceca:  "",
         año: 2000,
         moneda: "50c",
         createdAt: new Date(),
@@ -20616,7 +20616,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "5",
-        ceca: null,
+        ceca:  "",
         año: 2000,
         moneda: "10c",
         createdAt: new Date(),
@@ -20625,7 +20625,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "5",
-        ceca: null,
+        ceca:  "",
         año: 2000,
         moneda: "5c",
         createdAt: new Date(),
@@ -20634,7 +20634,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "5",
-        ceca: null,
+        ceca:  "",
         año: 2000,
         moneda: "2c",
         createdAt: new Date(),
@@ -20643,7 +20643,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "5",
-        ceca: null,
+        ceca:  "",
         año: 2001,
         moneda: "2€",
         createdAt: new Date(),
@@ -20652,7 +20652,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "5",
-        ceca: null,
+        ceca:  "",
         año: 2001,
         moneda: "1€",
         createdAt: new Date(),
@@ -20661,7 +20661,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "5",
-        ceca: null,
+        ceca:  "",
         año: 2001,
         moneda: "20c",
         createdAt: new Date(),
@@ -20670,7 +20670,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "5",
-        ceca: null,
+        ceca:  "",
         año: 2001,
         moneda: "5c",
         createdAt: new Date(),
@@ -20679,7 +20679,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "5",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "1€",
         createdAt: new Date(),
@@ -20688,7 +20688,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "5",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "20c",
         createdAt: new Date(),
@@ -20697,7 +20697,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "5",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "5c",
         createdAt: new Date(),
@@ -20706,7 +20706,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "5",
-        ceca: null,
+        ceca:  "",
         año: 2003,
         moneda: "2€",
         createdAt: new Date(),
@@ -20715,7 +20715,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "5",
-        ceca: null,
+        ceca:  "",
         año: 2004,
         moneda: "2€",
         createdAt: new Date(),
@@ -20724,7 +20724,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 1999,
         moneda: "2€",
         createdAt: new Date(),
@@ -20733,7 +20733,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 1999,
         moneda: "1€",
         createdAt: new Date(),
@@ -20742,7 +20742,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 1999,
         moneda: "50c",
         createdAt: new Date(),
@@ -20751,7 +20751,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 1999,
         moneda: "20c",
         createdAt: new Date(),
@@ -20760,7 +20760,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 1999,
         moneda: "10c",
         createdAt: new Date(),
@@ -20769,7 +20769,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 1999,
         moneda: "5c",
         createdAt: new Date(),
@@ -20778,7 +20778,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 1999,
         moneda: "2c",
         createdAt: new Date(),
@@ -20787,7 +20787,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 1999,
         moneda: "1c",
         createdAt: new Date(),
@@ -20796,7 +20796,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2000,
         moneda: "2€",
         createdAt: new Date(),
@@ -20805,7 +20805,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2000,
         moneda: "1€",
         createdAt: new Date(),
@@ -20814,7 +20814,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2000,
         moneda: "50c",
         createdAt: new Date(),
@@ -20823,7 +20823,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2000,
         moneda: "20c",
         createdAt: new Date(),
@@ -20832,7 +20832,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2000,
         moneda: "10c",
         createdAt: new Date(),
@@ -20841,7 +20841,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2000,
         moneda: "5c",
         createdAt: new Date(),
@@ -20850,7 +20850,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2000,
         moneda: "2c",
         createdAt: new Date(),
@@ -20859,7 +20859,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2000,
         moneda: "1c",
         createdAt: new Date(),
@@ -20868,7 +20868,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2001,
         moneda: "2€",
         createdAt: new Date(),
@@ -20877,7 +20877,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2001,
         moneda: "1€",
         createdAt: new Date(),
@@ -20886,7 +20886,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2001,
         moneda: "50c",
         createdAt: new Date(),
@@ -20895,7 +20895,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2001,
         moneda: "20c",
         createdAt: new Date(),
@@ -20904,7 +20904,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2001,
         moneda: "10c",
         createdAt: new Date(),
@@ -20913,7 +20913,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2001,
         moneda: "5c",
         createdAt: new Date(),
@@ -20922,7 +20922,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "2€",
         createdAt: new Date(),
@@ -20931,7 +20931,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "50c",
         createdAt: new Date(),
@@ -20940,7 +20940,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "20c",
         createdAt: new Date(),
@@ -20949,7 +20949,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "10c",
         createdAt: new Date(),
@@ -20958,7 +20958,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2003,
         moneda: "10c",
         createdAt: new Date(),
@@ -20967,7 +20967,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2004,
         moneda: "2c",
         createdAt: new Date(),
@@ -20976,7 +20976,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2004,
         moneda: "1c",
         createdAt: new Date(),
@@ -20985,7 +20985,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2006,
         moneda: "5c",
         createdAt: new Date(),
@@ -20994,7 +20994,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2007,
         moneda: "20c",
         createdAt: new Date(),
@@ -21003,7 +21003,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2007,
         moneda: "10c",
         createdAt: new Date(),
@@ -21012,7 +21012,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2007,
         moneda: "1c",
         createdAt: new Date(),
@@ -21021,7 +21021,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2008,
         moneda: "10c",
         createdAt: new Date(),
@@ -21030,7 +21030,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2008,
         moneda: "5c",
         createdAt: new Date(),
@@ -21039,7 +21039,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2008,
         moneda: "2c",
         createdAt: new Date(),
@@ -21048,7 +21048,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2008,
         moneda: "1c",
         createdAt: new Date(),
@@ -21057,7 +21057,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2008,
         moneda: "2€ Com1",
         createdAt: new Date(),
@@ -21066,7 +21066,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2009,
         moneda: "20c",
         createdAt: new Date(),
@@ -21075,7 +21075,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2009,
         moneda: "10c",
         createdAt: new Date(),
@@ -21084,7 +21084,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2009,
         moneda: "5c",
         createdAt: new Date(),
@@ -21093,7 +21093,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2010,
         moneda: "20c",
         createdAt: new Date(),
@@ -21102,7 +21102,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2010,
         moneda: "10c",
         createdAt: new Date(),
@@ -21111,7 +21111,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2010,
         moneda: "5c",
         createdAt: new Date(),
@@ -21120,7 +21120,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2010,
         moneda: "2€ Com1",
         createdAt: new Date(),
@@ -21129,7 +21129,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2011,
         moneda: "2€",
         createdAt: new Date(),
@@ -21138,7 +21138,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2011,
         moneda: "5c",
         createdAt: new Date(),
@@ -21147,7 +21147,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2011,
         moneda: "2c",
         createdAt: new Date(),
@@ -21156,7 +21156,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2011,
         moneda: "2€ Com1",
         createdAt: new Date(),
@@ -21165,7 +21165,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2012,
         moneda: "2€",
         createdAt: new Date(),
@@ -21174,7 +21174,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2012,
         moneda: "10c",
         createdAt: new Date(),
@@ -21183,7 +21183,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2012,
         moneda: "5c",
         createdAt: new Date(),
@@ -21192,7 +21192,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2012,
         moneda: "2c",
         createdAt: new Date(),
@@ -21201,7 +21201,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2013,
         moneda: "20c",
         createdAt: new Date(),
@@ -21210,7 +21210,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2013,
         moneda: "10c",
         createdAt: new Date(),
@@ -21219,7 +21219,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2013,
         moneda: "1c",
         createdAt: new Date(),
@@ -21228,7 +21228,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2014,
         moneda: "2€",
         createdAt: new Date(),
@@ -21237,7 +21237,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2014,
         moneda: "1c",
         createdAt: new Date(),
@@ -21246,7 +21246,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2015,
         moneda: "10c",
         createdAt: new Date(),
@@ -21255,7 +21255,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2016,
         moneda: "2€",
         createdAt: new Date(),
@@ -21264,7 +21264,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2016,
         moneda: "10c",
         createdAt: new Date(),
@@ -21273,7 +21273,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "6",
-        ceca: null,
+        ceca:  "",
         año: 2017,
         moneda: "2€",
         createdAt: new Date(),
@@ -21282,7 +21282,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "7",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "2€",
         createdAt: new Date(),
@@ -21291,7 +21291,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "7",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "1€",
         createdAt: new Date(),
@@ -21300,7 +21300,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "7",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "50c",
         createdAt: new Date(),
@@ -21309,7 +21309,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "7",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "20c",
         createdAt: new Date(),
@@ -21318,7 +21318,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "7",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "10c",
         createdAt: new Date(),
@@ -21327,7 +21327,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "7",
-        ceca: null,
+        ceca:  "",
         año: 2007,
         moneda: "1€",
         createdAt: new Date(),
@@ -21336,7 +21336,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "8",
-        ceca: null,
+        ceca:  "",
         año: 1999,
         moneda: "2€",
         createdAt: new Date(),
@@ -21345,7 +21345,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "8",
-        ceca: null,
+        ceca:  "",
         año: 1999,
         moneda: "1€",
         createdAt: new Date(),
@@ -21354,7 +21354,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "8",
-        ceca: null,
+        ceca:  "",
         año: 1999,
         moneda: "50c",
         createdAt: new Date(),
@@ -21363,7 +21363,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "8",
-        ceca: null,
+        ceca:  "",
         año: 1999,
         moneda: "20c",
         createdAt: new Date(),
@@ -21372,7 +21372,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "8",
-        ceca: null,
+        ceca:  "",
         año: 1999,
         moneda: "10c",
         createdAt: new Date(),
@@ -21381,7 +21381,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "8",
-        ceca: null,
+        ceca:  "",
         año: 1999,
         moneda: "5c",
         createdAt: new Date(),
@@ -21390,7 +21390,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "8",
-        ceca: null,
+        ceca:  "",
         año: 1999,
         moneda: "2c",
         createdAt: new Date(),
@@ -21399,7 +21399,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "8",
-        ceca: null,
+        ceca:  "",
         año: 1999,
         moneda: "1c",
         createdAt: new Date(),
@@ -21408,7 +21408,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "8",
-        ceca: null,
+        ceca:  "",
         año: 2000,
         moneda: "2€",
         createdAt: new Date(),
@@ -21417,7 +21417,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "8",
-        ceca: null,
+        ceca:  "",
         año: 2000,
         moneda: "1€",
         createdAt: new Date(),
@@ -21426,7 +21426,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "8",
-        ceca: null,
+        ceca:  "",
         año: 2000,
         moneda: "50c",
         createdAt: new Date(),
@@ -21435,7 +21435,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "8",
-        ceca: null,
+        ceca:  "",
         año: 2000,
         moneda: "20c",
         createdAt: new Date(),
@@ -21444,7 +21444,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "8",
-        ceca: null,
+        ceca:  "",
         año: 2000,
         moneda: "10c",
         createdAt: new Date(),
@@ -21453,7 +21453,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "8",
-        ceca: null,
+        ceca:  "",
         año: 2000,
         moneda: "5c",
         createdAt: new Date(),
@@ -21462,7 +21462,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "8",
-        ceca: null,
+        ceca:  "",
         año: 2000,
         moneda: "1c",
         createdAt: new Date(),
@@ -21471,7 +21471,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "8",
-        ceca: null,
+        ceca:  "",
         año: 2001,
         moneda: "2€",
         createdAt: new Date(),
@@ -21480,7 +21480,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "8",
-        ceca: null,
+        ceca:  "",
         año: 2001,
         moneda: "1€",
         createdAt: new Date(),
@@ -21489,7 +21489,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "8",
-        ceca: null,
+        ceca:  "",
         año: 2001,
         moneda: "50c",
         createdAt: new Date(),
@@ -21498,7 +21498,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "8",
-        ceca: null,
+        ceca:  "",
         año: 2001,
         moneda: "20c",
         createdAt: new Date(),
@@ -21507,7 +21507,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "8",
-        ceca: null,
+        ceca:  "",
         año: 2001,
         moneda: "10c",
         createdAt: new Date(),
@@ -21516,7 +21516,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "8",
-        ceca: null,
+        ceca:  "",
         año: 2001,
         moneda: "5c",
         createdAt: new Date(),
@@ -21525,7 +21525,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "8",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "2€",
         createdAt: new Date(),
@@ -21534,7 +21534,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "8",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "1€",
         createdAt: new Date(),
@@ -21543,7 +21543,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "8",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "50c",
         createdAt: new Date(),
@@ -21552,7 +21552,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "8",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "20c",
         createdAt: new Date(),
@@ -21561,7 +21561,115 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "8",
-        ceca: null,
+        ceca:  "",
+        año: 2003,
+        moneda: "20c",
+        createdAt: new Date(),
+        updatedAt: new Date(),
+      },
+      {
+        coleccionistaId: 5,
+        paisId: "9",
+        ceca:  "",
+        año: 2002,
+        moneda: "2€",
+        createdAt: new Date(),
+        updatedAt: new Date(),
+      },
+      {
+        coleccionistaId: 5,
+        paisId: "9",
+        ceca:  "",
+        año: 2002,
+        moneda: "1€",
+        createdAt: new Date(),
+        updatedAt: new Date(),
+      },
+      {
+        coleccionistaId: 5,
+        paisId: "9",
+        ceca:  "",
+        año: 2002,
+        moneda: "50c",
+        createdAt: new Date(),
+        updatedAt: new Date(),
+      },
+      {
+        coleccionistaId: 5,
+        paisId: "9",
+        ceca:  "",
+        año: 2002,
+        moneda: "20c",
+        createdAt: new Date(),
+        updatedAt: new Date(),
+      },
+      {
+        coleccionistaId: 5,
+        paisId: "9",
+        ceca:  "",
+        año: 2002,
+        moneda: "10c",
+        createdAt: new Date(),
+        updatedAt: new Date(),
+      },
+      {
+        coleccionistaId: 5,
+        paisId: "9",
+        ceca:  "",
+        año: 2002,
+        moneda: "5c",
+        createdAt: new Date(),
+        updatedAt: new Date(),
+      },
+      {
+        coleccionistaId: 5,
+        paisId: "9",
+        ceca:  "",
+        año: 2002,
+        moneda: "2c",
+        createdAt: new Date(),
+        updatedAt: new Date(),
+      },
+      {
+        coleccionistaId: 5,
+        paisId: "9",
+        ceca:  "",
+        año: 2002,
+        moneda: "1c",
+        createdAt: new Date(),
+        updatedAt: new Date(),
+      },
+      {
+        coleccionistaId: 5,
+        paisId: "9",
+        ceca:  "",
+        año: 2003,
+        moneda: "20c",
+        createdAt: new Date(),
+        updatedAt: new Date(),
+      },
+      {
+        coleccionistaId: 5,
+        paisId: "9",
+        ceca:  "",
+        año: 2003,
+        moneda: "10c",
+        createdAt: new Date(),
+        updatedAt: new Date(),
+      },
+      {
+        coleccionistaId: 5,
+        paisId: "9",
+        ceca:  "",
+        año: 2003,
+        moneda: "2c",
+        createdAt: new Date(),
+        updatedAt: new Date(),
+      },
+      {
+        coleccionistaId: 5,
+        paisId: "9",
+        ceca:  "",
         año: 2004,
         moneda: "20c",
         createdAt: new Date(),
@@ -21570,115 +21678,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "9",
-        ceca: null,
-        año: 2002,
-        moneda: "2€",
-        createdAt: new Date(),
-        updatedAt: new Date(),
-      },
-      {
-        coleccionistaId: 5,
-        paisId: "9",
-        ceca: null,
-        año: 2002,
-        moneda: "1€",
-        createdAt: new Date(),
-        updatedAt: new Date(),
-      },
-      {
-        coleccionistaId: 5,
-        paisId: "9",
-        ceca: null,
-        año: 2002,
-        moneda: "50c",
-        createdAt: new Date(),
-        updatedAt: new Date(),
-      },
-      {
-        coleccionistaId: 5,
-        paisId: "9",
-        ceca: null,
-        año: 2002,
-        moneda: "20c",
-        createdAt: new Date(),
-        updatedAt: new Date(),
-      },
-      {
-        coleccionistaId: 5,
-        paisId: "9",
-        ceca: null,
-        año: 2002,
-        moneda: "10c",
-        createdAt: new Date(),
-        updatedAt: new Date(),
-      },
-      {
-        coleccionistaId: 5,
-        paisId: "9",
-        ceca: null,
-        año: 2002,
-        moneda: "5c",
-        createdAt: new Date(),
-        updatedAt: new Date(),
-      },
-      {
-        coleccionistaId: 5,
-        paisId: "9",
-        ceca: null,
-        año: 2002,
-        moneda: "2c",
-        createdAt: new Date(),
-        updatedAt: new Date(),
-      },
-      {
-        coleccionistaId: 5,
-        paisId: "9",
-        ceca: null,
-        año: 2002,
-        moneda: "1c",
-        createdAt: new Date(),
-        updatedAt: new Date(),
-      },
-      {
-        coleccionistaId: 5,
-        paisId: "9",
-        ceca: null,
-        año: 2003,
-        moneda: "20c",
-        createdAt: new Date(),
-        updatedAt: new Date(),
-      },
-      {
-        coleccionistaId: 5,
-        paisId: "9",
-        ceca: null,
-        año: 2003,
-        moneda: "10c",
-        createdAt: new Date(),
-        updatedAt: new Date(),
-      },
-      {
-        coleccionistaId: 5,
-        paisId: "9",
-        ceca: null,
-        año: 2003,
-        moneda: "2c",
-        createdAt: new Date(),
-        updatedAt: new Date(),
-      },
-      {
-        coleccionistaId: 5,
-        paisId: "9",
-        ceca: null,
-        año: 2004,
-        moneda: "20c",
-        createdAt: new Date(),
-        updatedAt: new Date(),
-      },
-      {
-        coleccionistaId: 5,
-        paisId: "9",
-        ceca: null,
+        ceca:  "",
         año: 2005,
         moneda: "2€",
         createdAt: new Date(),
@@ -21687,7 +21687,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "9",
-        ceca: null,
+        ceca:  "",
         año: 2005,
         moneda: "20c",
         createdAt: new Date(),
@@ -21696,7 +21696,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "9",
-        ceca: null,
+        ceca:  "",
         año: 2007,
         moneda: "2€",
         createdAt: new Date(),
@@ -21705,7 +21705,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "9",
-        ceca: null,
+        ceca:  "",
         año: 2007,
         moneda: "20c",
         createdAt: new Date(),
@@ -21714,7 +21714,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "9",
-        ceca: null,
+        ceca:  "",
         año: 2007,
         moneda: "10c",
         createdAt: new Date(),
@@ -21723,7 +21723,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "9",
-        ceca: null,
+        ceca:  "",
         año: 2008,
         moneda: "20c",
         createdAt: new Date(),
@@ -21732,7 +21732,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "10",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "2€",
         createdAt: new Date(),
@@ -21741,7 +21741,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "10",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "1€",
         createdAt: new Date(),
@@ -21750,7 +21750,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "10",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "50c",
         createdAt: new Date(),
@@ -21759,7 +21759,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "10",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "20c",
         createdAt: new Date(),
@@ -21768,7 +21768,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "10",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "10c",
         createdAt: new Date(),
@@ -21777,7 +21777,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "10",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "5c",
         createdAt: new Date(),
@@ -21786,7 +21786,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "10",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "2c",
         createdAt: new Date(),
@@ -21795,7 +21795,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "10",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "1c",
         createdAt: new Date(),
@@ -21804,7 +21804,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "10",
-        ceca: null,
+        ceca:  "",
         año: 2003,
         moneda: "2€",
         createdAt: new Date(),
@@ -21813,7 +21813,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "10",
-        ceca: null,
+        ceca:  "",
         año: 2003,
         moneda: "1€",
         createdAt: new Date(),
@@ -21822,7 +21822,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "10",
-        ceca: null,
+        ceca:  "",
         año: 2005,
         moneda: "2€",
         createdAt: new Date(),
@@ -21831,7 +21831,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "10",
-        ceca: null,
+        ceca:  "",
         año: 2005,
         moneda: "10c",
         createdAt: new Date(),
@@ -21840,7 +21840,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "10",
-        ceca: null,
+        ceca:  "",
         año: 2005,
         moneda: "5c",
         createdAt: new Date(),
@@ -21849,7 +21849,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "10",
-        ceca: null,
+        ceca:  "",
         año: 2006,
         moneda: "1€",
         createdAt: new Date(),
@@ -21858,7 +21858,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "10",
-        ceca: null,
+        ceca:  "",
         año: 2006,
         moneda: "10c",
         createdAt: new Date(),
@@ -21867,7 +21867,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "10",
-        ceca: null,
+        ceca:  "",
         año: 2006,
         moneda: "2€ Com1",
         createdAt: new Date(),
@@ -21876,7 +21876,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "10",
-        ceca: null,
+        ceca:  "",
         año: 2007,
         moneda: "1€",
         createdAt: new Date(),
@@ -21885,7 +21885,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "10",
-        ceca: null,
+        ceca:  "",
         año: 2007,
         moneda: "10c",
         createdAt: new Date(),
@@ -21894,7 +21894,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "10",
-        ceca: null,
+        ceca:  "",
         año: 2007,
         moneda: "5c",
         createdAt: new Date(),
@@ -21903,7 +21903,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "10",
-        ceca: null,
+        ceca:  "",
         año: 2008,
         moneda: "1€",
         createdAt: new Date(),
@@ -21912,7 +21912,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "10",
-        ceca: null,
+        ceca:  "",
         año: 2008,
         moneda: "10c",
         createdAt: new Date(),
@@ -21921,7 +21921,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "10",
-        ceca: null,
+        ceca:  "",
         año: 2009,
         moneda: "1€",
         createdAt: new Date(),
@@ -21930,7 +21930,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "10",
-        ceca: null,
+        ceca:  "",
         año: 2010,
         moneda: "20c",
         createdAt: new Date(),
@@ -21939,7 +21939,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "10",
-        ceca: null,
+        ceca:  "",
         año: 2011,
         moneda: "2€",
         createdAt: new Date(),
@@ -21948,7 +21948,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "10",
-        ceca: null,
+        ceca:  "",
         año: 2011,
         moneda: "10c",
         createdAt: new Date(),
@@ -21957,7 +21957,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "10",
-        ceca: null,
+        ceca:  "",
         año: 2011,
         moneda: "1c",
         createdAt: new Date(),
@@ -21966,7 +21966,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "10",
-        ceca: null,
+        ceca:  "",
         año: 2012,
         moneda: "5c",
         createdAt: new Date(),
@@ -21975,7 +21975,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "10",
-        ceca: null,
+        ceca:  "",
         año: 2013,
         moneda: "2c",
         createdAt: new Date(),
@@ -21984,7 +21984,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "10",
-        ceca: null,
+        ceca:  "",
         año: 2013,
         moneda: "1c",
         createdAt: new Date(),
@@ -21993,7 +21993,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "10",
-        ceca: null,
+        ceca:  "",
         año: 2014,
         moneda: "1c",
         createdAt: new Date(),
@@ -22002,7 +22002,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "10",
-        ceca: null,
+        ceca:  "",
         año: 2016,
         moneda: "2c",
         createdAt: new Date(),
@@ -22011,7 +22011,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "10",
-        ceca: null,
+        ceca:  "",
         año: 2017,
         moneda: "2c",
         createdAt: new Date(),
@@ -22020,7 +22020,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "10",
-        ceca: null,
+        ceca:  "",
         año: 2017,
         moneda: "1c",
         createdAt: new Date(),
@@ -22029,7 +22029,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "11",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "2€",
         createdAt: new Date(),
@@ -22038,7 +22038,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "11",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "1€",
         createdAt: new Date(),
@@ -22047,7 +22047,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "11",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "50c",
         createdAt: new Date(),
@@ -22056,7 +22056,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "11",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "20c",
         createdAt: new Date(),
@@ -22065,7 +22065,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "11",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "10c",
         createdAt: new Date(),
@@ -22074,7 +22074,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "11",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "5c",
         createdAt: new Date(),
@@ -22083,7 +22083,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "11",
-        ceca: null,
+        ceca:  "",
         año: 2013,
         moneda: "50c",
         createdAt: new Date(),
@@ -22092,7 +22092,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "12",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "2€",
         createdAt: new Date(),
@@ -22101,7 +22101,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "12",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "1€",
         createdAt: new Date(),
@@ -22110,7 +22110,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "12",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "50c",
         createdAt: new Date(),
@@ -22119,7 +22119,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "12",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "20c",
         createdAt: new Date(),
@@ -22128,7 +22128,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "12",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "10c",
         createdAt: new Date(),
@@ -22137,7 +22137,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "12",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "5c",
         createdAt: new Date(),
@@ -22146,7 +22146,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "12",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "2c",
         createdAt: new Date(),
@@ -22155,7 +22155,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "12",
-        ceca: null,
+        ceca:  "",
         año: 2002,
         moneda: "1c",
         createdAt: new Date(),
@@ -22164,7 +22164,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "12",
-        ceca: null,
+        ceca:  "",
         año: 2003,
         moneda: "1€",
         createdAt: new Date(),
@@ -22173,7 +22173,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "12",
-        ceca: null,
+        ceca:  "",
         año: 2004,
         moneda: "1€",
         createdAt: new Date(),
@@ -22182,7 +22182,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "12",
-        ceca: null,
+        ceca:  "",
         año: 2004,
         moneda: "5c",
         createdAt: new Date(),
@@ -22191,7 +22191,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "12",
-        ceca: null,
+        ceca:  "",
         año: 2005,
         moneda: "20c",
         createdAt: new Date(),
@@ -22200,7 +22200,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "12",
-        ceca: null,
+        ceca:  "",
         año: 2005,
         moneda: "5c",
         createdAt: new Date(),
@@ -22209,7 +22209,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "12",
-        ceca: null,
+        ceca:  "",
         año: 2005,
         moneda: "1c",
         createdAt: new Date(),
@@ -22218,7 +22218,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "12",
-        ceca: null,
+        ceca:  "",
         año: 2006,
         moneda: "1€",
         createdAt: new Date(),
@@ -22227,7 +22227,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "12",
-        ceca: null,
+        ceca:  "",
         año: 2006,
         moneda: "20c",
         createdAt: new Date(),
@@ -22236,7 +22236,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "12",
-        ceca: null,
+        ceca:  "",
         año: 2009,
         moneda: "1€",
         createdAt: new Date(),
@@ -22245,7 +22245,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "12",
-        ceca: null,
+        ceca:  "",
         año: 2009,
         moneda: "50c",
         createdAt: new Date(),
@@ -22254,7 +22254,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "12",
-        ceca: null,
+        ceca:  "",
         año: 2009,
         moneda: "20c",
         createdAt: new Date(),
@@ -22263,7 +22263,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "12",
-        ceca: null,
+        ceca:  "",
         año: 2010,
         moneda: "1€",
         createdAt: new Date(),
@@ -22272,7 +22272,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "12",
-        ceca: null,
+        ceca:  "",
         año: 2010,
         moneda: "50c",
         createdAt: new Date(),
@@ -22281,7 +22281,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "12",
-        ceca: null,
+        ceca:  "",
         año: 2010,
         moneda: "1c",
         createdAt: new Date(),
@@ -22290,7 +22290,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "12",
-        ceca: null,
+        ceca:  "",
         año: 2012,
         moneda: "1c",
         createdAt: new Date(),
@@ -22299,7 +22299,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "12",
-        ceca: null,
+        ceca:  "",
         año: 2014,
         moneda: "1€",
         createdAt: new Date(),
@@ -22308,7 +22308,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "12",
-        ceca: null,
+        ceca:  "",
         año: 2015,
         moneda: "1€",
         createdAt: new Date(),
@@ -22317,7 +22317,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "12",
-        ceca: null,
+        ceca:  "",
         año: 2015,
         moneda: "50c",
         createdAt: new Date(),
@@ -22326,7 +22326,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "12",
-        ceca: null,
+        ceca:  "",
         año: 2015,
         moneda: "2c",
         createdAt: new Date(),
@@ -22335,7 +22335,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "12",
-        ceca: null,
+        ceca:  "",
         año: 2016,
         moneda: "1€",
         createdAt: new Date(),
@@ -22344,7 +22344,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "12",
-        ceca: null,
+        ceca:  "",
         año: 2016,
         moneda: "5c",
         createdAt: new Date(),
@@ -22353,7 +22353,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "12",
-        ceca: null,
+        ceca:  "",
         año: 2016,
         moneda: "1c",
         createdAt: new Date(),
@@ -22362,7 +22362,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "12",
-        ceca: null,
+        ceca:  "",
         año: 2017,
         moneda: "1€",
         createdAt: new Date(),
@@ -22371,7 +22371,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "12",
-        ceca: null,
+        ceca:  "",
         año: 2018,
         moneda: "1€",
         createdAt: new Date(),
@@ -22380,7 +22380,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "12",
-        ceca: null,
+        ceca:  "",
         año: 2018,
         moneda: "5c",
         createdAt: new Date(),
@@ -22389,7 +22389,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "14",
-        ceca: null,
+        ceca:  "",
         año: 2008,
         moneda: "50c",
         createdAt: new Date(),
@@ -22398,7 +22398,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "14",
-        ceca: null,
+        ceca:  "",
         año: 2008,
         moneda: "10c",
         createdAt: new Date(),
@@ -22407,7 +22407,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "15",
-        ceca: null,
+        ceca:  "",
         año: 2016,
         moneda: "1€",
         createdAt: new Date(),
@@ -22416,7 +22416,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "15",
-        ceca: null,
+        ceca:  "",
         año: 2017,
         moneda: "2€",
         createdAt: new Date(),
@@ -22425,7 +22425,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "15",
-        ceca: null,
+        ceca:  "",
         año: 2017,
         moneda: "50c",
         createdAt: new Date(),
@@ -22434,7 +22434,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "15",
-        ceca: null,
+        ceca:  "",
         año: 2017,
         moneda: "20c",
         createdAt: new Date(),
@@ -22443,7 +22443,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "15",
-        ceca: null,
+        ceca:  "",
         año: 2017,
         moneda: "5c",
         createdAt: new Date(),
@@ -22452,7 +22452,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "15",
-        ceca: null,
+        ceca:  "",
         año: 2018,
         moneda: "2€",
         createdAt: new Date(),
@@ -22461,7 +22461,7 @@ module.exports = {
       {
         coleccionistaId: 5,
         paisId: "15",
-        ceca: null,
+        ceca:  "",
         año: 2018,
         moneda: "50c",
         createdAt: new Date(),
