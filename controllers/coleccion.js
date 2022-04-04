@@ -10,10 +10,23 @@ const res = require("express/lib/response");
 const { where } = require("sequelize");
 const { KeyObject } = require("crypto");
 
+const FICHERO_LOG = `./log/Fichero_log.txt`;
+
 //Promisificar writeFile
 function writeFileP(file, data) {
     return new Promise(
         (resolve, reject) => fs.writeFile(
+            file,
+            data,
+            (err) => err ? reject(err) : resolve()
+        )
+    )
+};
+
+//Promisificar appendFile
+function appendFileP(file, data) {
+    return new Promise(
+        (resolve, reject) => fs.appendFile(
             file,
             data,
             (err) => err ? reject(err) : resolve()
@@ -27,7 +40,12 @@ let cecas_alemania = ["A", "F", "G", "J", "D"];
 function tabla_coleccion(coleccion, pais, año_inicio) {
     //Crear tabla vacia
     let tabla = {};
-    const año_max = coleccion[0].año >= new Date().getFullYear() ?  coleccion[0].año : new Date().getFullYear();
+    if (coleccion.length === 0) {
+         año_max = new Date().getFullYear();
+    } else {
+         año_max = coleccion[0].año >= new Date().getFullYear() ?  coleccion[0].año : new Date().getFullYear();
+    }
+    
     for (let año = año_inicio; año <= año_max; año++) {
         if (pais === "Alemania") {
             cecas_alemania.forEach(ceca => {  
@@ -55,7 +73,7 @@ function tabla_coleccion(coleccion, pais, año_inicio) {
     return (tabla);
 };
 
-function construir_seeder(coleccion) {
+function fecha_hoy () {
     let fecha = new Date();
     let dia = fecha.getDate();
     dia = dia > 9 ? dia : '0' + dia;
@@ -68,10 +86,15 @@ function construir_seeder(coleccion) {
     minuto = minuto > 9 ? minuto :'0' + minuto;
     let segundo = fecha.getSeconds();
     segundo = segundo > 9 ? segundo :'0' + segundo;
-    let fecha_actualizacion = `${año}${mes}${dia}${hora}${minuto}${segundo}`
+    let fecha_continua = `${año}${mes}${dia}${hora}${minuto}${segundo}`;
+    let fecha_guiones = `${dia}-${mes}-${año} ${hora}:${minuto}:${segundo}`;
+    return([fecha_continua, fecha_guiones]);
+}
 
-    const NOMBRE_FICHERO = `./seeders/${fecha_actualizacion}-LlenadoTablaColeccion.js`;
-    const FECHA = `// Seeders creado en la fecha:  ${dia}-${mes}-${año} ${hora}:${minuto}:${segundo}\n`;
+function construir_seeder(coleccion) {
+    const [fecha_continua, fecha_guiones] = fecha_hoy();
+    const NOMBRE_FICHERO = `./seeders/${fecha_continua}-LlenadoTablaColeccion.js`;
+    const FECHA = `// Seeders creado en la fecha:  ${fecha_guiones}\n`;
     const CABECERA = `                  "use strict";
                     module.exports = {
                     up: (queryInterface, Sequelize) => {
@@ -404,7 +427,15 @@ exports.create = async (req, res, next) => {
 
                 const coleccion = await models.Coleccion.findAll(options);
                 const count = 0;
-                req.flash('success', 'Moneda creada correctamente.');        
+                req.flash('success', 'Moneda creada correctamente.');  
+                try {
+                    // Escribir en fichero de log
+                    const [fecha_continua, fecha_guiones] = fecha_hoy();
+                    const log = `CREAR: FECHA: ${fecha_guiones}, USUARIO: ${req.loginUser.displayName}, COLECCIONISTA: ${moneda.coleccionistaId}, PAIS: ${moneda.paisId}, AÑO: ${moneda.año}, MONEDA: ${moneda.moneda}, CECA: ${moneda.ceca}\n`;
+                    await appendFileP(FICHERO_LOG, log);
+                } catch (error) {
+                    req.flash('error', 'Error al escribir el log.');
+                }      
                 res.render('coleccion/show', {coleccion, tipo, mi_coleccion, count, valor});
 
             } else {
@@ -429,9 +460,7 @@ exports.create = async (req, res, next) => {
             } else {
                 req.flash('error', 'Error al crear una nueva moneda.');
                 next(error)
-            } 
-                    
-                    
+            }                        
         } 
             
     } else {
@@ -469,6 +498,37 @@ exports.destroy = async (req, res, next) => {
     try {
         await req.load.moneda.destroy();
         req.flash('success', 'Moneda borrada correctamente.');
+        //res.redirect('/coleccion');
+        //res.redirect('/goback')
+        try {
+            // Escribir en fichero de log
+            const [fecha_continua, fecha_guiones] = fecha_hoy();
+            const log = `BORRAR: FECHA: ${fecha_guiones}, USUARIO: ${req.loginUser.displayName}, COLECCIONISTA: ${moneda.coleccionistaId}, PAIS: ${moneda.paisId}, AÑO: ${moneda.año}, MONEDA: ${moneda.moneda}, CECA: ${moneda.ceca}\n`;
+            await appendFileP(FICHERO_LOG, log);
+        } catch (error) {
+            req.flash('error', 'Error al escribir el log.');
+        }
+    } catch (error) {
+        req.flash('error', 'Error al borrar la moneda.' + error.message); 
+        next(error); 
+    } finally {
+        res.redirect('/coleccion');
+    }
+};
+/*
+// DELETE /coleccion/:monedaId(\\d+)
+exports.destroy = async (req, res, next) => {
+
+    const {moneda} = req.load;
+
+    try {
+        await req.load.moneda.destroy();
+        // Escribir en fichero de log
+        const [fecha_continua, fecha_guiones] = fecha_hoy();
+        const log = `BORRAR: FECHA: ${fecha_guiones}, USUARIO: ${req.loginUser.displayName}, COLECCIONISTA: ${moneda.coleccionistaId}, PAIS: ${moneda.paisId}, AÑO: ${moneda.año}, MONEDA: ${moneda.moneda}, CECA: ${moneda.ceca}\n`;
+        await appendFileP(FICHERO_LOG, log);
+
+        req.flash('success', 'Moneda borrada correctamente.');
         res.redirect('/coleccion');
         //res.redirect('/goback')
     } catch (error) {
@@ -476,6 +536,8 @@ exports.destroy = async (req, res, next) => {
         next(error); 
     }
 };
+
+*/
 
 // GET /coleccion/seeders
 exports.seeders = async (req, res, next) => {
