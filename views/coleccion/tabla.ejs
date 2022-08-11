@@ -1,5 +1,6 @@
 <% let tipo_monedas = ["1c", "2c", "5c", "10c", "20c", "50c", "1€", "2€", "2€ Com1", "2€ Com2", "2€ Com3", "12€_1", "12€_2"]; %>
 <% let cecas_alemania = ["A", "F", "G", "J", "D"]; %>
+<% let año_aleman = 0; %>
 <h1>TABLA MONEDAS DE <%= pais %></h1> 
 <table id="tabla_monedas">
     <thead>
@@ -22,8 +23,7 @@
         </tr>
     </thead>
     <tbody>
-        <% for (const _año in tabla) { %>  
-                   
+        <% for (const _año in tabla) { %>                
             <% const año = parseInt(_año.match(/[0-9]+/)); %>
             <% if (pais === "España") { %>
                 <tr>
@@ -33,20 +33,23 @@
                     <% } %>
                 </tr>
             <% } else if (pais === "Alemania") { %>
-                <% cecas_alemania.forEach(ceca => { %>
-                    <tr>
-                        <% for (let i = 0; i < tipo_monedas.length-1; i++) {%>
-                            <% if (i === 0 && ceca === "A") { %>
-                                <th rowspan = "<%= cecas_alemania.length %>">  <%= año %> </th>
-                                <th><%= ceca %></th>
-                            <% } else if (i === 0 && ceca !== "A") { %>
-                                <th><%= ceca %></th>
-                            <% } else { %>
-                                <td><%= tabla["_"+año.toString()+ceca][i-1] %></td>
-                            <% } %>
-                        <% } %> 
-                    </tr>
-                <% }); %>
+                <% if (año !== año_aleman) { %>
+                    <% cecas_alemania.forEach(ceca => { %>
+                        <tr>
+                            <% for (let i = 0; i < tipo_monedas.length-1; i++) {%>
+                                <% if (i === 0 && ceca === "A") { %>
+                                    <th rowspan = "<%= cecas_alemania.length %>">  <%= año %> </th>
+                                    <th><%= ceca %></th>
+                                <% } else if (i === 0 && ceca !== "A") { %>
+                                    <th><%= ceca %></th>
+                                <% } else { %>
+                                    <td><%= tabla["_"+año.toString()+ceca][i-1] %></td>
+                                <% } %>
+                            <% } %> 
+                        </tr> 
+                    <% }); %>
+                    <% año_aleman = año; %>
+                <% } %>  
             <% } else { %>
                 <tr>
                     <th><%= año %></th>
@@ -54,7 +57,6 @@
                         <td><%= tabla["_"+año.toString()][i] %></td>
                     <% } %>
                 </tr>
-
             <% } %>
         <% } %>    
     </tbody>
