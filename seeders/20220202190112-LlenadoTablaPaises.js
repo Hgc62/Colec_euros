@@ -40,7 +40,7 @@ module.exports = {
       },
       {
         nombre: "Francia",
-        num_series: 2,
+        num_series: 3,
         año_inicio: 1999,
         createdAt: new Date(),
         updatedAt: new Date(),
