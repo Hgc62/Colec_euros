@@ -264,7 +264,9 @@ exports.formulario = async (req, res, next) => {
 exports.show = async (req, res, next) => {
     let options = {
         where: {},
-        include: []
+        include: [],
+        order: [[{ model: models.Usuario, as: 'coleccionista' }, 'nombre'], ['año'], [Sequelize.literal('CASE WHEN "moneda" = "1c" THEN 1 WHEN "moneda" = "2c" THEN 2 WHEN "moneda" = "5c" THEN 3 WHEN "moneda" = "10c" THEN 4 WHEN "moneda" = "20c" THEN 5 WHEN "moneda" = "50c" THEN 6 WHEN "moneda" = "1€" THEN 7 WHEN "moneda" = "2€" THEN 8 WHEN "moneda" = "2€ Com1" THEN 9 WHEN "moneda" = "2€ Com2" THEN 10 WHEN "moneda" = "2€ Com3" THEN 11 WHEN "moneda" = "12€_1" THEN 12 WHEN "moneda" = "12€_2" THEN 13 ELSE 14 END') ]]
+        //order: [Sequelize.literal('CASE WHEN "moneda" = "1c" THEN 1 WHEN "moneda" = "2c" THEN 2 WHEN "moneda" = "5c" THEN 3 WHEN "moneda" = "10c" THEN 4 WHEN "moneda" = "20c" THEN 5 WHEN "moneda" = "50c" THEN 6 WHEN "moneda" = "1€" THEN 7 WHEN "moneda" = "2€" THEN 8 WHEN "moneda" = "2€ Com1" THEN 9 WHEN "moneda" = "2€ Com2" THEN 10 WHEN "moneda" = "2€ Com3" THEN 11 WHEN "moneda" = "12€_1" THEN 12 WHEN "moneda" = "12€_2" THEN 13 ELSE 14 END') ]
     };
 
     const {query} = req;
