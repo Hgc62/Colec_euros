@@ -17,7 +17,7 @@
     "cookie-parser": "~1.4.4",
     "debug": "~2.6.9",
     "ejs": "~2.6.1",
-    "express": "~4.16.1",
+    "express": "^4.18.2",
     "express-flash": "0.0.2",
     "express-http-to-https": "^1.1.4",
     "express-partials": "^0.3.0",
@@ -25,12 +25,12 @@
     "http-errors": "~1.6.3",
     "method-override": "^3.0.0",
     "morgan": "~1.9.1",
-    "passport": "^0.5.2",
+    "passport": "^0.7.0",
     "passport-local": "^1.0.0",
-    "sequelize": "^6.15.0",
+    "sequelize": "^6.35.2",
     "sequelize-cli": "^6.4.1",
     "serve-favicon": "^2.5.0",
-    "sqlite3": "^4.1.1",
+    "sqlite3": "^4.2.0",
     "supervisor": "^0.12.0"
   }
 }
