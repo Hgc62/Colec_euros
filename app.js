@@ -15,13 +15,21 @@ var indexRouter = require('./routes/index');
 
 var app = express();
 
+// Habilitar trust proxy para Render
+app.enable('trust proxy');
+
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
 
+//Para Render
+if (process.env.RENDER !== 'true') {
+  app.use(redirectToHTTPS([/localhost:(\d{4})/], [], 301));
+}
+// La siguiente instrucción la quito para render
 //Redirect HTTP tp HTTPS
 // No redirige si el hostname es localhost:port (port=3000,5000)
-app.use(redirectToHTTPS([/localhost:(\d{4})/], [], 301));
+// app.use(redirectToHTTPS([/localhost:(\d{4})/], [], 301));
 
 app.use(partials());
 app.use(favicon(path.join(__dirname, 'public', 'favicon.ico')));
