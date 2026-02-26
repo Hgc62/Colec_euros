@@ -3,6 +3,7 @@ const Op = Sequelize.Op;
 const {models} = require("../models");
 const paginate = require('../helpers/paginate').paginate;
 const fs = require("fs");
+const path = require('path');
 
 //const attHelper = require("../helpers/attachments");
 const req = require("express/lib/request");
@@ -541,6 +542,29 @@ exports.destroy = async (req, res, next) => {
 
 */
 
+// Este seeders lo pongo para adaptar al funcionamiento de Render. 
+// Render no mantiene los ficheros creados y voy a hacer que una vez creado directamente lo descargo y ya lo guardo como quiera.
+
+exports.seeders = async (req, res, next) => {
+  try {
+    const coleccion = await models.Coleccion.findAll();
+
+    const [NOMBRE_FICHERO, buffer] = construir_seeder(coleccion);
+
+    const fileName = path.basename(NOMBRE_FICHERO);
+
+    res.setHeader('Content-Type', 'application/javascript; charset=utf-8');
+    res.setHeader('Content-Disposition', `attachment; filename="${fileName}"`);
+
+    return res.send(buffer);
+  } catch (error) {
+    next(error);
+  }
+};
+
+
+/*
+// Este lo cambio para poner uno que se adapte a render, ya que render no mantiene los ficheros creados.
 // GET /coleccion/seeders
 exports.seeders = async (req, res, next) => {
     try {
@@ -549,10 +573,12 @@ exports.seeders = async (req, res, next) => {
         await writeFileP(NOMBRE_FICHERO, buffer);
         req.flash('success', 'Seeders creado.');
         res.redirect('/');
+         // res.download(NOMBRE_FICHERO);
     } catch (error) {
         next(error);
     }
 };
+*/
 
 // GET coleccion/tabla
 exports.tabla =async (req, res, next) => {
