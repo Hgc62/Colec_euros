@@ -450,7 +450,8 @@ exports.authLinkedinCB = LinkedinStrategy && passport.authenticate(
     }
 );
 */
-
+/*
+// Cambio el destroy porquepassport necesita callback
 // DELETE /login   --  Close the session
 exports.destroy = (req, res, next) => {
 
@@ -459,4 +460,19 @@ exports.destroy = (req, res, next) => {
     req.logout();  // Passport logout
 
     res.redirect("/goback");
+};
+*/
+
+// DELETE /login   --  Close the session
+exports.destroy = (req, res, next) => {
+  req.logout(function (err) {
+    if (err) return next(err);
+
+    // opcional pero recomendable: destruir la sesión del servidor
+    req.session.destroy((err) => {
+      if (err) return next(err);
+      res.clearCookie('connect.sid'); // el nombre por defecto de express-session
+      return res.redirect('/');
+    });
+  });
 };
